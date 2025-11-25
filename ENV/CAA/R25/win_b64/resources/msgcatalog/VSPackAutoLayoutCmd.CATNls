@@ -1,0 +1,14 @@
+Error.Title = "Error";
+Warning.Title = "Warning";
+Tip.Title = "Tip";
+
+Message.ErrorFather = "Get root product failed";
+Message.ErrorTemplate = "Get pack info failed. Please check the template file";
+Message.ErrorCellInput = "Preview cell layout error. Please check the cell type.";
+Message.ErrorCalculate = "Performance data calculate error. Please check the cell type.";
+Message.ErrorCalculateCell = "The current number of cells used for calculation is greater than the maximum number of cells.";
+Message.ErrorCfg = "Get pack resource files failed.";
+
+Message.CreateBoard = "Whether to create pack covers?";
+Message.RemoveCellFileFailed = "Remove cell database file failed.";
+Message.ErrorCfgDataBase = "Get cell database file failed.";

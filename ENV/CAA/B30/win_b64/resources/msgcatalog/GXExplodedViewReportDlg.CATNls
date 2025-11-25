@@ -1,0 +1,16 @@
+Title = "Exploded View Report";
+
+FrmSelectRange.Title = "Select Range";
+FrmSelectRange.Current.Title = "Current Node";
+FrmSelectRange.CurrentAndChild.Title = "Current And Child Node";
+
+FrmPrdList.Title = "Produt List";
+
+MultiListMain.ColumnTitle0 = "NO.";
+MultiListMain.ColumnTitle1 = "Assembly";
+
+FrmPrdList.MultiListSet.MenuMultiList.ReframeOn.Title = "ReframeOn";
+FrmPrdList.MultiListSet.MenuMultiList.CenterGraph.Title = "CenterGraph";
+FrmPrdList.MultiListSet.MenuMultiList.Remove.Title = "Remove";
+
+SaveAs.Title = "Save Path";

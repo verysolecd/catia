@@ -1,0 +1,29 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+Title = "DMU Check";
+LabReplay.Title = "Replay ";
+LabMaxGap.Title = "Max gap ";
+LabMinValue.Title = "Required Min Value ";
+LabMaxValue.Title = "Required Max Value ";
+PBReport.Title = "Report";
+Msg.MainDailogOKTitle = "Run";
+Msg.MainDialogCancelTitle = "Close";
+
+DlgReOrder.Title = "Part Reordering";
+
+DlgReport.Title = "Report";
+DlgReport.LabProjectNum.Title = "Project Nanme : ";
+DlgReport.LabFileNum.Title = "Version : ";
+DlgReport.LabTemplateNum.Title = "Checker : ";
+DlgReport.LabSavePath.Title = "Save path : ";
+
+
+FrmSection.Title = "Section";
+FrmSection.CheckBtnSection.Title = "Section";
+FrmSection.FrmNormalConstraint.LabelNormalConstraint.Title = "Normal Constraint: ";
+FrmSection.FrmNormalConstraint.RadioBtnNormalX.Title = "X";
+FrmSection.FrmNormalConstraint.RadioBtnNormalY.Title = "Y";
+FrmSection.FrmNormalConstraint.RadioBtnNormalZ.Title = "Z";
+FrmSection.PushBtnGeometricalTarget.Title = "Geometrical Target";
+FrmSection.PushBtnInvertNormal.Title = "Invert Normal";
+FrmSection.PushBtnResetPosition.Title = "Reset Position";

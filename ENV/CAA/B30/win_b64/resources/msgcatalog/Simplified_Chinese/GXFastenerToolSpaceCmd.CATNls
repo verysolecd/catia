@@ -1,0 +1,37 @@
+SMCFastenerToolSpaceCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "通知";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.CreateProductFailed = "创建新装配失败!";
+Msg.PushSleeveBtnWarning = "请先识别紧固件!";
+Msg.AddPartError = "所选部件已存在!";
+Msg.LackSleeveDoc = "缺少套筒文件,请更新本地文档后重试!";
+Msg.CreateProgresstFailed = "创建进度条失败!";
+Msg.OpenExcel = "打开Excel失败";
+Msg.LackBody = "缺少Body,请检查零件!";
+Msg.NutError = "匹配失败!请检查零件类型!";
+Msg.BoltError = "匹配失败!请检查零件类型!";
+Msg.ScrewError = "匹配失败!请检查零件类型!";
+Msg.SelectScrewSleeve = "请手动选择套筒.";
+Msg.PartBodyError = "未找到此零件体的PartBody,请检查!";
+Msg.TypeError = "请先选择零件类型";
+Msg.TipEnvValue = "缺少VSKnowledgeDataPath环境变量配置";
+Msg.SleeveWarning = "缺失套筒本地文件，请检查";
+Msg.CheckError = "未找到本地数据表格!";
+Msg.QueryTip = "此零件为非标紧固件，请确认是否添加!";
+Msg.TipLackType = "请先选择类型!";
+Msg.MdfyExistTip = "请先关闭修改界面!";
+Msg.UserPrdNameWarning = "用户产品数据与结果数据不一致,请检查!";
+Msg.ErrorHelpBtn = "帮助文档获取失败!";
+Msg.TipSelectProcess = "请先选择工序.";
+Msg.TipNoCorrectElm = "所选对象已存在或是紧固件.";
+Msg.TipAddFastener = "请先加载紧固件和套筒数据.";
+
+
+Language.Nut = "螺母";
+Language.Bolt = "螺栓";
+Language.SixScrew = "内六角螺钉";
+Language.CircleScrew = "圆头螺钉";
+//Language.BackUp = "备用";

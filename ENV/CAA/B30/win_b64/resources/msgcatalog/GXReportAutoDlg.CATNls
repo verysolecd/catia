@@ -1,0 +1,25 @@
+Title = "BOM Report";
+
+GetPartInfoBtn.Title = "Get Part Information";
+ReportBtn.Title = "Export Report";
+
+
+MultiListMain.ColumnTitle0 = "No";
+MultiListMain.ColumnTitle1 = "Level";
+MultiListMain.ColumnTitle2 = "Material Code";
+MultiListMain.ColumnTitle3 = "3D Version Number";
+MultiListMain.ColumnTitle4 = "Material Grade";
+MultiListMain.ColumnTitle5 = "Material Thickness(mm)";
+MultiListMain.ColumnTitle6 = "Part Weight(KG)";
+MultiListMain.ColumnTitle7 = "The Quantity Of Parts In A Car";
+MultiListMain.ColumnTitle8 = "Part Name";
+MultiListMain.ColumnTitle9 = "Picture";
+MultiListMain.ColumnTitle10 = "Length(mm)";
+MultiListMain.ColumnTitle11 = "Width(mm)";
+MultiListMain.ColumnTitle12 = "High(mm)";
+MultiListMain.ColumnTitle13 = "Remarks";
+
+SaveAs.Title = "Save Path";
+
+PartMultiList.MenuMultiList.ReframeOn.Title = "ReframeOn";
+PartMultiList.MenuMultiList.CenterGraph.Title = "CenterGraph";

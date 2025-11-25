@@ -1,0 +1,19 @@
+GX2024ToolkitAssyHeader.FastenerToolSpace.Title    = "Fastener Tool Space" ;
+GX2024ToolkitAssyHeader.FastenerToolSpace.Help    = "Fastener Tool Space" ;
+GX2024ToolkitAssyHeader.FastenerToolSpace.ShortHelp    = "Fastener Tool Space" ;
+
+GX2024ToolkitAssyHeader.FastenerCheck.Title = "Fastener Check";
+GX2024ToolkitAssyHeader.FastenerCheck.ShortHelp = "Fastener Check";
+GX2024ToolkitAssyHeader.FastenerCheck.Help = "Fastener Check";
+
+GX2024ToolkitAssyHeader.HoodReportAuto.Title = "Automatic Creation Of BOM Table";
+GX2024ToolkitAssyHeader.HoodReportAuto.ShortHelp = "Automatic Creation Of BOM Table";
+GX2024ToolkitAssyHeader.HoodReportAuto.Help = "Automatic Creation Of BOM Table";
+
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.Title = "DMU Static Check";
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.ShortHelp = "DMU Static Check";
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.Help = "DMU Static Check";
+
+GX2024ToolkitAssyHeader.ExplodedViewReport.Title = "Exploded View Report";
+GX2024ToolkitAssyHeader.ExplodedViewReport.ShortHelp = "Exploded View Report";
+GX2024ToolkitAssyHeader.ExplodedViewReport.Help = "Exploded View Report";

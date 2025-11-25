@@ -1,0 +1,11 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "视图属性";
+FrameValue.Title = "值";
+FrameValue.CheckBtnHideText.Title = "隐藏文本";
+FrameValue.CheckBtnNagative.Title = "负值";
+FrameValue.CheckBtnNoUnit.Title = "隐藏单位";
+
+FrameDisplay.Title = "显示";
+FrameDisplay.LabelColor.Title = "颜色 ";

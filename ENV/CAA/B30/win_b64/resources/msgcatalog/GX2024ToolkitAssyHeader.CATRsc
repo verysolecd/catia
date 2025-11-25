@@ -1,0 +1,7 @@
+GX2024ToolkitAssyHeader.FastenerToolSpace.Icon.Normal = "I_ToolBox";
+GX2024ToolkitAssyHeader.FastenerToolSpace2.Icon.Normal = "I_GXVAssTool";
+GX2024ToolkitAssyHeader.FastenerToolSpacePowerTrain.Icon.Normal = "I_ToolPowerTrain";
+GX2024ToolkitAssyHeader.FastenerCheck.Icon.Normal = "I_VSFastenerCheck";
+GX2024ToolkitAssyHeader.HoodReportAuto.Icon.Normal = "GXHoodExportReport";
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.Icon.Normal = "I_VSChassisDMU2";
+GX2024ToolkitAssyHeader.ExplodedViewReport.Icon.Normal = "I_ExplodedViewReport";

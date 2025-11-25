@@ -1,0 +1,48 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+Title = "创建焊点";
+
+JointParts.Title = "搭接零件";
+
+JointParts.MultiList.ColumnTitle1 = "序号";
+JointParts.MultiList.ColumnTitle2 = "零件号";
+JointParts.MultiList.ColumnTitle3 = "版本";
+JointParts.MultiList.ColumnTitle4 = "中文描述";
+
+JointParts.MultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "视图居中";
+JointParts.MultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "结构树上居中";
+JointParts.MultiList.MultiListReferencePart.MultiListClearSelection.Title = "清空选择";
+
+
+Frame2.ReferencePoint.Title = "焊点参考             ";
+Frame2.ReferencePointSelectorList.ReferencePoint.ReferencePointReframeOn.Title = "视图居中";
+Frame2.ReferencePointSelectorList.ReferencePoint.ReferencePointCenterGraph.Title = "结构树上居中";
+Frame2.ReferencePointSelectorList.ReferencePoint.CreatePoint.Title = "创建焊点";
+Frame2.ReferencePointSelectorList.ReferencePoint.ClearSelection.Title = "清空选择";
+
+Frame2.ReferenceSurface.Title = "参考表面             ";
+Frame2.WeldingDirection.Title = "焊接方向             ";
+
+Frame2.Reverse.Title = "反转";
+
+BOK = "确认";
+BCancel = "取消";
+BPreview = "预览";
+
+
+// END WIZARD REPLACEMENT ZONE
+
+
+
+
+
+// END WIZARD REPLACEMENT ZONE
+
+
+// END WIZARD REPLACEMENT ZONE
+
+
+// END WIZARD REPLACEMENT ZONE
+
+
+// END WIZARD REPLACEMENT ZONE

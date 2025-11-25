@@ -1,0 +1,88 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Fastener Tool Space";
+IdentificationOF.Title = "Identification Of Fasteners";
+InstallTool.Title = "Load And Count Tool";
+InterferenceChecking.Title = "Installation Space Check";
+
+ShowCheckBtn.Title = "Show Single/All";
+InstallCheckBtn.Title = "Installing";
+PreCheckBtn.Title = "Prescrewing";
+FinalCheckBtn.Title = "Finalscrewing";
+
+SMCVAToolType.Type1 = "All Results";
+SMCVAToolType.Type2 = "Tools-Interference";
+SMCVAToolType.Type3 = "Tools-NonInterference";
+SMCVAToolType.Type4 = "No-Tools";
+
+MultiListSet.MenuSen.CenterGraph.Title = "Center Graph";
+MultiListSet.MenuSen.Reset.Title = "Reset";
+MultiListSet.MenuSen.HideResult.Title = "Change Display";
+MultiListSet.MenuSen.Remove.Title = "Remove";
+MultiListSet.MenuSen.ChangeToolType.Title = "ChangeToolType";
+MultiListSet.MenuSen.ChangeCombinationType.Title = "ChangeCombinationType";
+
+MultiListSetting.ColumnTitle0="No.";
+MultiListSetting.ColumnTitle1="PartNumber";
+MultiListSetting.ColumnTitle2="Type";
+MultiListSetting.ColumnTitle3="ProductCN";
+MultiListSetting.ColumnTitle4="(M)Nominal";
+MultiListSetting.ColumnTitle5="(S)SizePairing";
+MultiListSetting.ColumnTitle6="KCDS";
+MultiListSetting.ColumnTitle7="PotisionType";
+
+MultiListSetting.ColumnTitle_=" ";
+
+//MultiListSetting.ColumnTitleSH="ToolMatching";
+
+MultiListSetting.ColumnTitle8="CombineRule";
+MultiListSetting.ColumnTitle9="Tool";
+MultiListSetting.ColumnTitle10="Extension";
+MultiListSetting.ColumnTitle11="Sleeve";
+MultiListSetting.ColumnTitle12="Status";
+MultiListSetting.ColumnTitle13="Stage";
+
+Edit.Title="Edit";
+Edit.Fasteners.Title = "Fastener";
+Edit.InToolbar.Title = "Toolbar";
+
+Edit.Fasteners.FastPrt.LabPartNum.Title =  "PartNumber     ";
+Edit.Fasteners.FastET.LabType.Title =      "Type           ";
+Edit.Fasteners.FastETPN.LabPartName.Title ="ProductCN      ";
+Edit.Fasteners.FastETLD.LabDie.Title =     "NominalD       ";
+Edit.Fasteners.FastETLS.LabSize.Title =    "SizePairing    ";
+Edit.Fasteners.FastETLS2.LabSize2.Title =  "Distance       ";
+Edit.Fasteners.FastETP.LabFastETP.Title =  "Fastening Type ";
+Edit.Fasteners.FastETK.LabKType.Title =    "KCDS           ";
+
+MultiListSpecial.ColumnTitle0 = "FastenerNumber";
+MultiListSpecial.ColumnTitle1 = "InstallationT";
+
+ComboBox2.ClomnTitle1 = "No Type";
+ComboBox2.ClomnTitle0 = "All Fasteners";
+ComboBox2.ClomnTitle2 = "Nut";
+ComboBox2.ClomnTitle3 = "Bolt";
+ComboBox2.ClomnTitle4 = "Round Head Screw";
+ComboBox2.ClomnTitle5 = "Socket Hexagon Screw";
+
+VerMinRB.Title = "Minimum Longitudinal Length";
+VerMaxRB.Title = "Maximum Longitudinal Length";
+VerCusRB.Title = "Custom";
+Edit.InToolbar.LoadBtn.Title = "Refresh";
+Edit.InToolbar.Combination.LabCType.Title =  "Combination ";
+Edit.InToolbar.FilterFFC.FFCFilter.Title =   "FFC Filter  ";
+Edit.InToolbar.ToolFFC.FFCTool.Title =       "Tools       ";
+Edit.InToolbar.SpindleFFC.FFCSpindle.Title = "Spindle     ";
+Edit.InToolbar.SleeveFFC.SleeveFFCLab.Title ="Sleeve      ";
+Edit.InToolbar.TypeFrame.InstallRadioBtn.Title ="Install";
+Edit.InToolbar.TypeFrame.PreRadioBtn.Title ="Prescrew";
+Edit.InToolbar.TypeFrame.FinalRadioBtn.Title ="Finalscrew";
+
+Fasteners.DefaultNName = "Normal";
+Fasteners.DefaultSName = "Special";
+
+IFastFrm.IFastInformation.ShortHelp = "FastenerInformation";
+IFastFrm.IToolInformation.ShortHelp = "ToolInformation";
+IFastFrm.IInstallationResult.ShortHelp = "InstallationResult";
+IFastFrm.I_ALL.ShortHelp = "ALL";

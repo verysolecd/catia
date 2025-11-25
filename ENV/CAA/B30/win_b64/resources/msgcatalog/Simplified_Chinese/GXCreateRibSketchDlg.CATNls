@@ -1,0 +1,11 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+// END WIZARD REPLACEMENT ZONE
+Title="创建草图";
+MultiList1.Title1="序号";
+MultiList1.Title2="草图";
+MultiList1.Title3="值(mm)";
+
+MultiList1.Menu.MenuPushItem1.Title="应用值于所有";
+
+InnerRadiusLabel.Title="内侧圆角半径";

@@ -1,0 +1,69 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+Title = "Create Mutlipule Spot Weld";
+
+//  -------------------------------------------------------------------
+JointPartsFrame.Title = "Joint Parts";
+
+JointParts.MultiList.ColumnTitle1 = "No";
+JointParts.MultiList.ColumnTitle2 = "Partnumber";
+JointParts.MultiList.ColumnTitle3 = "Version";
+JointParts.MultiList.ColumnTitle4 = "Chinese Name";
+
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "Reframe On";
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "Center Graph";
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListClearSelection.Title = "Clear Selection";
+
+
+//  -------------------------------------------------------------------
+ReferenceCurveFrame.Title = "Reference Curve";
+
+ReferenceCurveFrame.ReferenceCurveLabel.Title = "Reference Curve             ";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveReframeOnPushItem.Title = "Reframe On";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveCenterGraphPushItem.Title = "Center Graph";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.CreateJoinPushItem.Title = "Create Join";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ClearSelectionPushItem.Title = "Clear Selection";
+
+ReferenceCurveFrame.OffsetDistanceCheckButton.Title = "Offset Distance             ";
+ReferenceCurveFrame.OffsetDistanceReversePushButton.Title = "Reverse";
+
+ReferenceCurveFrame.SupportSurfaceLabel.Title = "Support Surface             ";
+ReferenceCurveFrame.SupportSurfaceGroupPushButton.Title = "Group";
+
+ReferenceCurveFrame.StartingAndEndingPointLabel.Title = "Initial Point             ";
+ReferenceCurveFrame.EndPointPushButton.Title = "End Point";
+ReferenceCurveFrame.MidPointPushButton.Title = "Mid Point";
+
+//ReferenceCurveFrame.ReferenceCurveWeldDirectionLabel.Title = "Weld Direction             ";
+//ReferenceCurveFrame.ReferenceCurveWeldDirectionPushButton.Title = "Reverse";
+
+
+//  -------------------------------------------------------------------
+ParameterCheckButtonFrame.DisplayCheckButton.Title = "Display";
+
+
+//  -------------------------------------------------------------------
+ParameterFrame.Title = "Display Parameters";
+
+ParameterFrame.ParameterLable.Title = "Parameter                   ";
+
+ParameterFrame.ExampleLable.Title = "Example                     ";
+
+ParameterFrame.LengthLable.Title = "Length                      ";
+
+ParameterFrame.ParameterWeldDirectionLable.Title = "Weld Direction              ";
+ParameterFrame.ParameterWeldDirectionPushButton.Title = "Reverse";
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+SelectFacesDialog.Title = "Select faces";
+
+SelectFacesDialog.PushButtonFrame.RemovePushButton.Title = "Remove";
+SelectFacesDialog.PushButtonFrame.ReplacePushButton.Title = "Replace";

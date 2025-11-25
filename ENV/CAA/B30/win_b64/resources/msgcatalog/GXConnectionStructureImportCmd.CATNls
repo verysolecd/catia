@@ -1,0 +1,10 @@
+GXConnectionStructureImportCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Error.Title = "Error";
+Information.Title = "Tips";
+Warning.Title = "Warning";
+
+
+Message.MulListParametersEditable="This Parameter is not editable";
+Message.selectElements="Please select elements";
+Message.optionImformation="Please check the option 'options\Part Infrastructure\Display\Display In Geometry Area\Parameters of fearures and constraints'!";

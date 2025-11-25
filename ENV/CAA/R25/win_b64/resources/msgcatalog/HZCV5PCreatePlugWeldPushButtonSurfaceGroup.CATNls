@@ -1,0 +1,8 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+
+Title = "Select faces";
+
+PushButtonFrame.RemovePushButton.Title = "Remove";
+PushButtonFrame.ReplacePushButton.Title = "Replace";

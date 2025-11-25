@@ -1,0 +1,6 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<Root>
+<Part Path="\\10.2.65.38\catia_caa\Product\Configuration\Startmodel\part_template.CATPart"/>
+<Product Path="\\10.2.65.38\catia_caa\Product\Configuration\Startmodel\TEMPLATE_CATPRODUCT.CATProduct"/>
+<WeldSpot_Part Path="\\10.2.65.38\catia_caa\Product\Configuration\Startmodel\WeldSpot_Adhesive_Template.CATPart"/>
+</Root>

@@ -1,0 +1,5 @@
+GXConnectionStructureAddToPrtHdr.TrimmingUserManagement.Icon.Normal = "I_GXCLAdministratorManagement";
+GXConnectionStructureAddToPrtHdr.TrimmingLibraryManagement.Icon.Normal    = "I_GXCLStructureLibrary" ;
+GXConnectionStructureAddToPrtHdr.TrimmingImportTemplate.Icon.Normal    = "I_GXCLStructureInstantiate" ;
+GXConnectionStructureAddToPrtHdr.TrimmingEditTemplate.Icon.Normal    = "I_GXCLStructureEdit" ;
+GXConnectionStructureAddToPrtHdr.TrimmingDeleteTemplate.Icon.Normal    = "I_GXCLStructureDelete" ;

@@ -1,0 +1,14 @@
+GXMeasurePointCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.SelectNULL = "请选择某一行进行删除！";
+Msg.SelectEidtNULL = "请选择某一行进行编辑！";
+Msg.ActiveProductErrorSelect = "请在总成中定义焊点Part完成创建!";
+Msg.CreateProductFailed = "新建一个Product文档失败";
+Msg.ErrorFacemessage = "请选择面";
+Msg.ErrorPointmessage = "请选择点";
+Msg.ErrorNoHole = "没有在面上找到孔，请重新选择";

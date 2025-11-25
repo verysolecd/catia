@@ -1,0 +1,37 @@
+Message.GetRootPrdFailed = "无法获取根节点";
+Message.CreatePrdFailed = "无法创建检查节点";
+Message.CreatePrtFailed = "无法创建检查零件";
+Msg.FindFileError = "无法打开相关Excel";
+Msg.ExcelError = "存在同名且无法解析的Excel";
+Msg.Overwrite = "存在同名且无法覆盖的Excel";
+
+Message.GetClash = "工具发生干涉";
+
+Error.Title = "错误";
+
+OKPress.Warning = "继续执行检查合适空间?";
+
+//ToolstrType.NormalName = "普通";
+//ToolstrType.SpecialName = "特殊";
+
+Apply.Title = "帮助";
+OK.Title = "报告导出";
+Close.Title = "关闭";
+Apply1.Title = "预览";
+OK1.Title = "确定";
+Close1.Title = "取消";
+Msg.ErrorHelpBtn = "无法打开帮助文档路径文件夹";
+Msg.ErrorHelpBtn.Title = "错误";
+
+ProgressTaskUI.BtnFastenerAID = "加载紧固件";
+ProgressTaskUI.BtnToolLoad = "加载安装工具";
+ProgressTaskUI.Preview = "检查合适空间";
+
+NoNumber.Default = "*?*";
+Auto0.title = "最短";
+Auto1.title = "最长";
+Manual.title = "手动";
+NotMatching.title = "无推荐工具";
+Message.NoFastener = "无紧固件需加载工具";
+Message.NoFastenerLoadTool = "请先加载安装工具";
+Message.NoToolKCDS = "无推荐安装工具组合";

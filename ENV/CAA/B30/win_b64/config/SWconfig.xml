@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Root>
+    <!--焊点特征-->
+	<SpotWeld  Layer = "2">
+		<Type>Sphere</Type>
+		<!--直径-->
+		<Parameters>3</Parameters>
+	</SpotWeld>
+	<SpotWeld  Layer = "3">
+		<Type>Cylinder</Type>
+		<!--直径，高度-->
+		<Parameters>2,3</Parameters>
+	</SpotWeld>
+	<SpotWeld  Layer = "4">
+		<Type>Cone</Type>
+		<!--直径，高度，外角度-->
+		<Parameters>3,3,45</Parameters>
+	</SpotWeld>
+	<SpotWeld  Layer = "5">
+		<Type>Rectangle</Type>
+		<!--长度，宽度，高度-->
+		<Parameters>3,3,3</Parameters>
+		<!--法线Z向为高度，Global-全局轴系，NearestEdge-最近边线为X向-->
+		<DirectionType>Global</DirectionType>
+	</SpotWeld>
+	<!--焊缝特征-->
+	<WeldLine  ID = "CO2">
+		<Type>Circle</Type>
+		<!--直径-->
+		<Parameters>3</Parameters>
+	</WeldLine>
+	<WeldLine  ID = "PlugWeld">
+		<Type>Rectangle</Type>
+		<!--长度，宽度-->
+		<Parameters>3,3</Parameters>
+	</WeldLine>
+</Root>

@@ -1,0 +1,4 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPLMAssembleHeader.GXPLMPropertyUpdate.Icon.Normal    = "I_GXPLMPropertyUpdate" ;
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.Icon.Normal    = "I_GXPLMPropertyUpdateAll" ;

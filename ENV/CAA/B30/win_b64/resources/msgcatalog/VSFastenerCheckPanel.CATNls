@@ -1,0 +1,80 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+//lead
+Title = "Fastener Check";
+Auto.Title = " Auto ";
+Add.Title = " Add ";
+Edit.Title = " Edit";
+Remove.Title = " Remove ";
+Check.Title = " Check ";
+Excel.Title = " Export ";
+
+MultiList.Title.No = "No.";
+MultiList.Title.Bolt = "Bolt";
+MultiList.Title.Nut = "Nut";
+MultiList.Title.CoaxialityCheck = "Coaxiality check";
+MultiList.Title.HoleDiameterCheck = "Hole diameter check";
+MultiList.Title.InstallationCheck = "Installation check";
+MultiList.Title.ErrorMsg = "Error message";
+MultiList.Title.Proposal = "Proposal";
+MultiList.Title.Remarks = "Remarks";
+MultiList.Title.ClampedPart = "Clamped part";
+
+MultiList001.List.CenterGraph.Title = "Center graph";
+MultiList001.List.ReframeOn.Title = "Reframe On";
+MultiList001.List.ItemHideOrShow.Title = "Hide/Show unrelated parts";
+
+//Edit
+Edit.Title = "Fastener Edit";
+Edit.FrameBolt.Title = "Bolt";
+Edit.FrameBolt.PartNumber.Title = "Bolt: ";
+Edit.FrameBolt.pSelector001.Title = "No selection";
+Edit.FrameBolt.pSelector001.List.CenterGraph.Title = "Center graph";
+Edit.FrameBolt.pSelector001.List.ReframeOn.Title = "Reframe On";
+Edit.FrameBolt.pSelector001.List.ClearSelection.Title = "Clear Selection";
+Edit.FrameBolt.Specifications.Title = "Specification: ";
+Edit.FrameBolt.Pitch.Title = "Pitch(P): ";
+Edit.FrameBolt.PerformanceLevel.Title = "Performance level: ";
+Edit.FrameBolt.MinimumClampingThickness.Title = "Minimum clamped thickness(lg): ";
+Edit.FrameBolt.CheckBt.Title = "Hide unrelated elements";
+Edit.FrameBolt.GetPart.Title = "Get parts";
+
+Edit.FrameNutOrBaseBaterial.FrameNut.Title = "Nut/Base Plate";
+Edit.FrameNutOrBaseBaterial.FrameNut.PartNumber.Title = "Nut/Base Plate: ";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.Title = "No selection";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.CenterGraph.Title = "Center graph";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.ReframeOn.Title = "Reframe On";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.ClearSelection.Title = "Clear Selection";
+Edit.FrameNutOrBaseBaterial.FrameNut.Specifications.Title = "Specification: ";
+Edit.FrameNutOrBaseBaterial.FrameNut.Pitch.Title = "Pitch(P): ";
+Edit.FrameNutOrBaseBaterial.FrameNut.PerformanceLevel.Title = "Performance level: ";
+
+Edit.FrameClampedPart.Title = "Clamped parts";
+Edit.FrameClampedPart.MultiList.ContextualMenu.CenterGraph.Title = "Center graph";
+Edit.FrameClampedPart.MultiList.ContextualMenu.ReframeOn.Title = "Reframe On";
+Edit.FrameClampedPart.MultiList.ContextualMenu.Remove.Title = "Remove";
+
+Edit.FrameNutOrBaseBaterial.Frame004.Title = "Base baterial";
+Edit.FrameNutOrBaseBaterial.Frame004.BaseBaterial.Title = "Base baterial: ";
+Edit.FrameNutOrBaseBaterial.Frame004.BaseDiameter.Title = "Diameter: ";
+Edit.FrameNutOrBaseBaterial.Frame004.Baterial.Title = "Baterial type: ";
+Edit.FrameNutOrBaseBaterial.Frame004.ThreadDepth.Title = "Thread depth(H1): ";
+Edit.FrameNutOrBaseBaterial.Frame004.Pitch.Title = "Pitch(P):";
+Edit.FrameNutOrBaseBaterial.Frame004.Spinner001.Help = "Change value of parameter: Length required";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.CenterGraph.Title = "Center graph";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.ReframeOn.Title = "Reframe On";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.ClearSelection.Title = "Clear Selection";
+
+FastenerCheck.Dialog.Edit001 = "Unknown";
+
+ExportReport.Title = "Export Report";
+ExportReport.SelectFile.Title = "Select BOM:";
+ExportReport.Browse.Title = "Browse...";
+
+Add.PartNumber.Title = "Target Product: ";
+Add.pSelector001.MenuList1.PushItemCenterGraph.Title = "Center graph";
+Add.pSelector001.MenuList1.PushItemRefromOn.Title = "Reframe On";
+Add.Type.Title = "Type: ";
+Add.Specifications.Title = "Specification: ";
+Add.Pitch.Title = "Pitch(P): ";
+Add.PerformanceLevel.Title = "Performance level: ";

@@ -1,0 +1,12 @@
+VSChassisDMUStaticCheckCmd.initialState.Message="Click anywhere in the viewer to exit";
+Tip.Title = "提示";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.LicenseWarning = "未找到KIN模块许可，请勾选许可并重启Catia.";
+Msg.TipRunFirst = "请先点击Run按钮计算运动间隙.";
+Msg.TipEnv = "请设置环境变量，名称为 'VSVKnowledgeDataPath'.";
+Msg.ErrorRoot = "无法识别根节点下的零件,请检查.";
+Msg.ErrorMechanism = "未找到运动机构,请检查.";
+Msg.ErrorFindFile = "找不到文件: ";
+Msg.IsRecalculate = "是否重新计算?";

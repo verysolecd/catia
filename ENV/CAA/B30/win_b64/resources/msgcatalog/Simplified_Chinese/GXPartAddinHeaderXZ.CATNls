@@ -1,0 +1,13 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPartAddinHeaderXZ.CreateBasicSurface.Title		= "创建本体面";
+GXPartAddinHeaderXZ.CreateBasicSurface.ShortHelp		= "创建本体面";
+GXPartAddinHeaderXZ.CreateBasicSurface.LongHelp		= "创建本体面";
+
+GXPartAddinHeaderXZ.CreateRibSketch.Title		= "创建筋草图";
+GXPartAddinHeaderXZ.CreateRibSketch.ShortHelp		= "创建筋草图";
+GXPartAddinHeaderXZ.CreateRibSketch.LongHelp		= "创建筋草图";
+
+GXPartAddinHeaderXZ.CreateRibSurface.Title		= "创建凸出筋";
+GXPartAddinHeaderXZ.CreateRibSurface.ShortHelp		= "创建凸出筋";
+GXPartAddinHeaderXZ.CreateRibSurface.LongHelp		= "创建凸出筋";

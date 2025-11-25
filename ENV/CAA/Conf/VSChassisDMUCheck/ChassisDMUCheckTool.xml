@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Root>
+  <StaticMode IsAutoIdentify="FALSE"/>
+  <IdentifyMode Type="Part Number"/>
+  
+  <Item Name="Default#Default#Min" Value="2"/>
+  <Item Name="Default#Default#Max" Value="3"/>
+
+ 
+  
+  <Item Name="MaxGap" Value="30"/>
+  
+  <Item Name="后托架R#Min" />
+  <Item Name="后托架R#Max" />
+
+  <Item Name="右边框02#Min"  Value="5"/>
+  <Item Name="右边框02#Max"  Value="8"/>
+  
+  <Item Name="上盖板#Min"  Value="5"/>
+  <Item Name="上盖板#Max"  Value="8"/>
+  
+  <Item Name="LowerGuideRail#Min"  Value="3"/>
+  <Item Name="LowerGuideRail#Max"  Value="5"/>
+  
+  <Item Name="UpperGuideWheel#Min"  Value="3"/>
+  <Item Name="UpperGuideWheel#Max"  Value="5"/>
+  
+  <Item Name="MiddleGuideWheel1#Min"  Value="2"/>
+  <Item Name="MiddleGuideWheel1#Max"  Value="3"/>
+  
+  <Item Name="MiddleGuideWheel2#Min"  Value="2"/>
+  <Item Name="MiddleGuideWheel2#Max"  Value="3"/>
+  
+  <Item Name="MiddleGuideWheel3#Min"  Value="3"/>
+  <Item Name="MiddleGuideWheel3#Max"  Value="5"/>
+  
+  <Item Name="LowerGuideWheel1#Min"  Value="1.5"/>
+  <Item Name="LowerGuideWheel1#Max"  Value="2"/>
+  
+  <Item Name="LowerGuideWheel2#Min"  Value="7"/>
+  <Item Name="LowerGuideWheel2#Max"  Value="10"/>
+  
+  <Item Name="LowerGuideWheel2#Min"  Value="7"/>
+  <Item Name="LowerGuideWheel2#Max"  Value="10"/>
+  
+  <Item Name="左前滑柱总成#Min"  Value="7"/>
+  <Item Name="左前滑柱总成#Max"  Value="10"/>
+  
+  <Item Name="Stabilizer Bar Connecting Rod L#Min"  Value="7"/>
+  <Item Name="Stabilizer Bar Connecting Rod L#Max"  Value="10"/>
+  
+</Root>

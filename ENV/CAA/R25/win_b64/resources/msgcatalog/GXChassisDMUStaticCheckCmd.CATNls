@@ -1,0 +1,12 @@
+GXChassisDMUStaticCheckCmd.initialState.Message="Click anywhere in the viewer to exit";
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.LicenseWarning = "No KIN license,please check it and restart session to take settings into account.";
+Msg.TipRunFirst = "Please click run button first.";
+Msg.TipEnv = "Please set the environment 'VSKnowledgeDataPath'.";
+Msg.ErrorRoot = "The root product is null,please check.";
+Msg.ErrorMechanism = "Mechanism count is incorrect,please check.";
+Msg.ErrorFindFile = "Cannot find file: ";
+Msg.IsRecalculate = "Do you want to recalculate?";

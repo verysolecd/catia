@@ -1,0 +1,30 @@
+HZCV5PCreateMutlipuleSpotWeldCmd.initialState.Message="Click anywhere in the viewer to exit";
+Tip.Title = "建议";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.ErrorCheckButton = "请勾选复选框";
+Msg.ActiveProductErrorSelect = "请在总成中定义焊点Part完成创建";
+Msg.ErrorSelect = "请选择零件！";
+Msg.CurveParFailed = "偏移曲线无法偏移，请检查偏移方向";
+Msg.Errormessage = "信息选择不全，请再次选择";
+Msg.ErrorFaceDomains = "参考曲面未连续";
+Msg.ErrorCurveSame = "不可选择几何集下创建的曲线元素，请重新选择";
+Msg.ErrorFaceSame = "不可选择几何集下创建的曲面元素，请重新选择";
+Msg.PartOnemessage = "至少选择两个零件，请再次选择";
+Msg.ErrorPlugSame = "该曲线已经创建过焊缝，不可创建批量焊点，请重新选择";
+Msg.ErrorReverse = "请点击预览后再进行反转";
+Msg.CreateProjectError = "所选参考曲线无法投影到参考曲面上，请重新选择参考曲线或参考曲面";
+Msg.SelectNULL = "所选参考曲线或参考曲面为空，请重新选择";
+Msg.DeleteError = "请选择某一行进行删除";
+Msg.ReplaceError = "请选择某一行进行替换";
+Msg.FaceErrorSelect = "已经选择过该面，请重新选择";
+Msg.ErrorPointDistance = "参考曲线长度小于所需长度，请修改阵列参数或重新选择参考曲线";
+Msg.ErrorHaveSame = "该批量焊点处已存在焊点，请重新选择参考曲线或参考曲面";
+Msg.ErrorFaceMore = "最多可以选择五个面进行接合";
+Msg.ErrorFaceeGSM = "未选择面，无法接合，请先选择面";
+
+
+
+
+

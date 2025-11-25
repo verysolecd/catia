@@ -1,0 +1,11 @@
+Title = "线束包络";
+LabelElm.Title = "参考面 ";
+SelectorLinkElm.MenuList.PushItemCenterGraph.Title = "将树居中";
+SelectorLinkElm.MenuList.PushItemReframeOn.Title = "居中";
+LabelStartAngle.Title = "起始角度 ";
+FrameStartAngle.LabelTo.Title = "~";
+LabelEndAngle.Title = "终止角度 ";
+FrameEndAngle.LabelTo.Title = "~";
+CheckBtnCommonUpper.Title = "上公差 (+)";
+CheckBtnCommonLower.Title = "下公差 (-)";
+

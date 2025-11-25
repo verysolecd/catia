@@ -1,0 +1,20 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+Title = "Connect Structure Library";
+Tree.Title="Structure Tree";
+Tree.FraLibraryOperation.Upload.Title="Upload";
+Tree.FraLibraryOperation.Download.Title="Download";
+
+TContainer.TPConnection.Title="Overall View";
+
+
+TContainer.TPFastener.Title="Model Upload";
+TContainer.TPFastener.Parm.FrmClip.Title="Clip";
+TContainer.TPFastener.Parm.FrmClip.Upload.Title="Upload";
+TContainer.TPFastener.Parm.FrmStructure.Title="Structure";
+TContainer.TPFastener.Parm.FrmStructure.Upload.Title="Upload";
+TContainer.TPFastener.Parm.FrmStructure.Remove.Title="Remove";
+TContainer.TPFastener.Parm.FrmStructure.Edit.Title="Edit";
+TContainer.TPFastener.Parm.FrmStructure.ReverseClip.Title="Clip Reverse W";
+TContainer.TPFastener.Parm.FrmStructure.ReverseNut.Title="Clip Reverse U";
+TContainer.TPFastener.Parm.FrmParameter.Title="Parameter";

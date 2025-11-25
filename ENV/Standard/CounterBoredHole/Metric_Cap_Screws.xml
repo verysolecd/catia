@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<!-- -->
+<!-- ******************************************************************* -->
+<!-- *        Metric Cap Screws                                        * -->
+<!-- ******************************************************************* -->
+
+
+<std:node name="Metric-cap-screw" xmlns:std="http://www.dsweb.com/std">
+  <std:node name="Units">
+    <std:node name="Length">
+      <std:strval name="Length">mm</std:strval>
+    </std:node>
+    <std:node name="Angle">
+      <std:strval name="Angle">deg</std:strval>
+    </std:node>
+  </std:node>
+  
+  
+  <std:typedef name="CounterBoredHoleValues">
+    <std:strval name="Name">M1.6-Close</std:strval>
+    <std:floatval name="MainDiameter">1.8</std:floatval>
+    <std:floatval name="CounterBoredDiameter">3.5</std:floatval>
+    <std:floatval name="CounterBoredDepth">1.6</std:floatval>
+  </std:typedef>
+
+  <std:node name="CounterBoredHoleValues">
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M1.6-Close</std:strval>
+      <std:floatval name="MainDiameter">1.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">3.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">1.6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M1.6-Normal</std:strval>
+      <std:floatval name="MainDiameter">1.95</std:floatval>
+      <std:floatval name="CounterBoredDiameter">3.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">1.6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2-Close</std:strval>
+      <std:floatval name="MainDiameter">2.2</std:floatval>
+      <std:floatval name="CounterBoredDiameter">4.4</std:floatval>
+      <std:floatval name="CounterBoredDepth">2</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2-Normal</std:strval>
+      <std:floatval name="MainDiameter">2.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">4.4</std:floatval>
+      <std:floatval name="CounterBoredDepth">2</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2.5-Close</std:strval>
+      <std:floatval name="MainDiameter">2.7</std:floatval>
+      <std:floatval name="CounterBoredDiameter">5.4</std:floatval>
+      <std:floatval name="CounterBoredDepth">2.5</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2.5-Normal</std:strval>
+      <std:floatval name="MainDiameter">3</std:floatval>
+      <std:floatval name="CounterBoredDiameter">5.4</std:floatval>
+      <std:floatval name="CounterBoredDepth">2.5</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2.6-Close</std:strval>
+      <std:floatval name="MainDiameter">3</std:floatval>
+      <std:floatval name="CounterBoredDiameter">6</std:floatval>
+      <std:floatval name="CounterBoredDepth">2.6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M2.6-Normal</std:strval>
+      <std:floatval name="MainDiameter">3.2</std:floatval>
+      <std:floatval name="CounterBoredDiameter">6</std:floatval>
+      <std:floatval name="CounterBoredDepth">2.6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M3-Close</std:strval>
+      <std:floatval name="MainDiameter">3.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">6.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">3</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M3-Normal</std:strval>
+      <std:floatval name="MainDiameter">3.7</std:floatval>
+      <std:floatval name="CounterBoredDiameter">6.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">3</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M4-Close</std:strval>
+      <std:floatval name="MainDiameter">4.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">8.25</std:floatval>
+      <std:floatval name="CounterBoredDepth">4</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M4-Normal</std:strval>
+      <std:floatval name="MainDiameter">4.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">8.25</std:floatval>
+      <std:floatval name="CounterBoredDepth">4</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M5-Close</std:strval>
+      <std:floatval name="MainDiameter">5.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">9.75</std:floatval>
+      <std:floatval name="CounterBoredDepth">5</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M5-Normal</std:strval>
+      <std:floatval name="MainDiameter">5.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">9.75</std:floatval>
+      <std:floatval name="CounterBoredDepth">5</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M6-Close</std:strval>
+      <std:floatval name="MainDiameter">6.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">11.2</std:floatval>
+      <std:floatval name="CounterBoredDepth">6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M6-Normal</std:strval>
+      <std:floatval name="MainDiameter">6.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">11.2</std:floatval>
+      <std:floatval name="CounterBoredDepth">6</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M8-Close</std:strval>
+      <std:floatval name="MainDiameter">8.4</std:floatval>
+      <std:floatval name="CounterBoredDiameter">14.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">8</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M8-Normal</std:strval>
+      <std:floatval name="MainDiameter">8.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">14.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">8</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M10-Close</std:strval>
+      <std:floatval name="MainDiameter">10.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">17.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">10</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M10-Normal</std:strval>
+      <std:floatval name="MainDiameter">10.8</std:floatval>
+      <std:floatval name="CounterBoredDiameter">17.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">10</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M12-Close</std:strval>
+      <std:floatval name="MainDiameter">12.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">19.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">12</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M12-Normal</std:strval>
+      <std:floatval name="MainDiameter">13</std:floatval>
+      <std:floatval name="CounterBoredDiameter">19.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">12</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M14-Close</std:strval>
+      <std:floatval name="MainDiameter">14.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">22.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">14</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M14-Normal</std:strval>
+      <std:floatval name="MainDiameter">15</std:floatval>
+      <std:floatval name="CounterBoredDiameter">22.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">14</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M16-Close</std:strval>
+      <std:floatval name="MainDiameter">16.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">25.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">16</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M16-Normal</std:strval>
+      <std:floatval name="MainDiameter">17</std:floatval>
+      <std:floatval name="CounterBoredDiameter">25.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">16</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M18-Close</std:strval>
+      <std:floatval name="MainDiameter">18.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">28.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">18</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M18-Normal</std:strval>
+      <std:floatval name="MainDiameter">19</std:floatval>
+      <std:floatval name="CounterBoredDiameter">28.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">18</std:floatval>
+    </std:typeval>
+    
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M20-Close</std:strval>
+      <std:floatval name="MainDiameter">20.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">31.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">20</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M20-Normal</std:strval>
+      <std:floatval name="MainDiameter">21</std:floatval>
+      <std:floatval name="CounterBoredDiameter">31.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">20</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M24-Close</std:strval>
+      <std:floatval name="MainDiameter">24.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">37.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">24</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M24-Normal</std:strval>
+      <std:floatval name="MainDiameter">25</std:floatval>
+      <std:floatval name="CounterBoredDiameter">37.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">24</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M30-Close</std:strval>
+      <std:floatval name="MainDiameter">31</std:floatval>
+      <std:floatval name="CounterBoredDiameter">47.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">30</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M30-Normal</std:strval>
+      <std:floatval name="MainDiameter">31.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">47.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">30</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M36-Close</std:strval>
+      <std:floatval name="MainDiameter">37</std:floatval>
+      <std:floatval name="CounterBoredDiameter">56.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">36</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M36-Normal</std:strval>
+      <std:floatval name="MainDiameter">37.5</std:floatval>
+      <std:floatval name="CounterBoredDiameter">56.5</std:floatval>
+      <std:floatval name="CounterBoredDepth">36</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M42-Close</std:strval>
+      <std:floatval name="MainDiameter">43</std:floatval>
+      <std:floatval name="CounterBoredDiameter">66</std:floatval>
+      <std:floatval name="CounterBoredDepth">42</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M42-Normal</std:strval>
+      <std:floatval name="MainDiameter">44</std:floatval>
+      <std:floatval name="CounterBoredDiameter">66</std:floatval>
+      <std:floatval name="CounterBoredDepth">42</std:floatval>
+    </std:typeval>
+
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M48-Close</std:strval>
+      <std:floatval name="MainDiameter">49</std:floatval>
+      <std:floatval name="CounterBoredDiameter">75</std:floatval>
+      <std:floatval name="CounterBoredDepth">48</std:floatval>
+    </std:typeval>
+
+    <std:typeval name="CounterBoredHoleValues">
+      <std:strval name="Name">M48-Normal</std:strval>
+      <std:floatval name="MainDiameter">50</std:floatval>
+      <std:floatval name="CounterBoredDiameter">75</std:floatval>
+      <std:floatval name="CounterBoredDepth">48</std:floatval>
+    </std:typeval>
+  </std:node>
+</std:node>

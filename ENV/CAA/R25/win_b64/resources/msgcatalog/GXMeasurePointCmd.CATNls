@@ -1,0 +1,14 @@
+GXMeasurePointCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.SelectNULL = "Select a row to delete!";
+Msg.SelectEidtNULL = "Please select a line to edit";
+Msg.ActiveProductErrorSelect = "Define solder joint Part in assembly to complete creation!";
+Msg.CreateProductFailed = "Create Product Failed";
+Msg.ErrorFacemessage = " please select the face ";
+Msg.ErrorPointmessage = " please select the point ";
+Msg.ErrorNoHole = "No holes found on the surface, please select again";

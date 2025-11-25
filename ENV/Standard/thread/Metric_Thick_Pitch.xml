@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<!-- -->
+<!-- ******************************************************************* -->
+<!-- *        Standard Metric_Thick_Pitch                              * -->
+<!-- ******************************************************************* -->
+	  
+
+<std:node name="Thread_standard" xmlns:std="http://www.dsweb.com/std">
+
+	<std:node name="Key">
+		<std:strval name="Key">M</std:strval>
+		<std:strval name="KeyDrafting">NO_DESC_IN_DRAFTING</std:strval>
+	</std:node>
+  
+  <std:node name="Unit">
+    <std:strval name="Unit">mm</std:strval>
+  </std:node>
+  
+  <std:typedef name="Standard">
+    <std:floatval name="ThreadDiameter">0.0</std:floatval>
+    <std:floatval name="Pitch">1.0</std:floatval>
+    <std:floatval name="NominalDiameter">0.13</std:floatval>
+    <std:strval name="Description">M8</std:strval>
+  </std:typedef>
+
+  <std:node name="Values">
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">1.0</std:floatval>
+      <std:floatval name="Pitch">0.25</std:floatval>
+      <std:floatval name="NominalDiameter">0.729</std:floatval>
+      <std:strval name="Description">M1</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">1.2</std:floatval>
+      <std:floatval name="Pitch">0.25</std:floatval>
+      <std:floatval name="NominalDiameter">0.929</std:floatval>
+      <std:strval name="Description">M1.2</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">1.4</std:floatval>
+      <std:floatval name="Pitch">0.3</std:floatval>
+      <std:floatval name="NominalDiameter">1.075</std:floatval>
+      <std:strval name="Description">M1.4</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">1.6</std:floatval>
+      <std:floatval name="Pitch">0.35</std:floatval>
+      <std:floatval name="NominalDiameter">1.221</std:floatval>
+      <std:strval name="Description">M1.6</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">1.8</std:floatval>
+      <std:floatval name="Pitch">0.35</std:floatval>
+      <std:floatval name="NominalDiameter">1.421</std:floatval>
+      <std:strval name="Description">M1.8</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">2.0</std:floatval>
+      <std:floatval name="Pitch">0.4</std:floatval>
+      <std:floatval name="NominalDiameter">1.567</std:floatval>
+      <std:strval name="Description">M2</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">2.5</std:floatval>
+      <std:floatval name="Pitch">0.45</std:floatval>
+      <std:floatval name="NominalDiameter">2.013</std:floatval>
+      <std:strval name="Description">M2.5</std:strval>
+    </std:typeval>
+    
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">3.0</std:floatval>
+      <std:floatval name="Pitch">0.5</std:floatval>
+      <std:floatval name="NominalDiameter">2.459</std:floatval>
+      <std:strval name="Description">M3</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">3.5</std:floatval>
+      <std:floatval name="Pitch">0.6</std:floatval>
+      <std:floatval name="NominalDiameter">2.850</std:floatval>
+      <std:strval name="Description">M3.5</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">4.0</std:floatval>
+      <std:floatval name="Pitch">0.7</std:floatval>
+      <std:floatval name="NominalDiameter">3.242</std:floatval>
+      <std:strval name="Description">M4</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">5.0</std:floatval>
+      <std:floatval name="Pitch">0.8</std:floatval>
+      <std:floatval name="NominalDiameter">4.134</std:floatval>
+      <std:strval name="Description">M5</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">6.0</std:floatval>
+      <std:floatval name="Pitch">1.0</std:floatval>
+      <std:floatval name="NominalDiameter">4.917</std:floatval>
+      <std:strval name="Description">M6</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">7.0</std:floatval>
+      <std:floatval name="Pitch">1.0</std:floatval>
+      <std:floatval name="NominalDiameter">5.917</std:floatval>
+      <std:strval name="Description">M7</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">8.0</std:floatval>
+      <std:floatval name="Pitch">1.25</std:floatval>
+      <std:floatval name="NominalDiameter">6.647</std:floatval>
+      <std:strval name="Description">M8</std:strval>
+    </std:typeval>
+    
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">10.0</std:floatval>
+      <std:floatval name="Pitch">1.5</std:floatval>
+      <std:floatval name="NominalDiameter">8.376</std:floatval>
+      <std:strval name="Description">M10</std:strval>
+    </std:typeval>
+    
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">12.0</std:floatval>
+      <std:floatval name="Pitch">1.75</std:floatval>
+      <std:floatval name="NominalDiameter">10.106</std:floatval>
+      <std:strval name="Description">M12</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">14.0</std:floatval>
+      <std:floatval name="Pitch">2.0</std:floatval>
+      <std:floatval name="NominalDiameter">11.835</std:floatval>
+      <std:strval name="Description">M14</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">16.0</std:floatval>
+      <std:floatval name="Pitch">2</std:floatval>
+      <std:floatval name="NominalDiameter">13.835</std:floatval>
+      <std:strval name="Description">M16</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">18.0</std:floatval>
+      <std:floatval name="Pitch">2.5</std:floatval>
+      <std:floatval name="NominalDiameter">15.294</std:floatval>
+      <std:strval name="Description">M18</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">20.0</std:floatval>
+      <std:floatval name="Pitch">2.5</std:floatval>
+      <std:floatval name="NominalDiameter">17.294</std:floatval>
+      <std:strval name="Description">M20</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">22.0</std:floatval>
+      <std:floatval name="Pitch">2.5</std:floatval>
+      <std:floatval name="NominalDiameter">19.294</std:floatval>
+      <std:strval name="Description">M22</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">24.0</std:floatval>
+      <std:floatval name="Pitch">3.0</std:floatval>
+      <std:floatval name="NominalDiameter">20.752</std:floatval>
+      <std:strval name="Description">M24</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">27.0</std:floatval>
+      <std:floatval name="Pitch">3</std:floatval>
+      <std:floatval name="NominalDiameter">23.752</std:floatval>
+      <std:strval name="Description">M27</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">30.0</std:floatval>
+      <std:floatval name="Pitch">3.5</std:floatval>
+      <std:floatval name="NominalDiameter">26.211</std:floatval>
+      <std:strval name="Description">M30</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">33.0</std:floatval>
+      <std:floatval name="Pitch">3.5</std:floatval>
+      <std:floatval name="NominalDiameter">29.211</std:floatval>
+      <std:strval name="Description">M33</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">36.0</std:floatval>
+      <std:floatval name="Pitch">4</std:floatval>
+      <std:floatval name="NominalDiameter">31.670</std:floatval>
+      <std:strval name="Description">M36</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">39.0</std:floatval>
+      <std:floatval name="Pitch">4</std:floatval>
+      <std:floatval name="NominalDiameter">34.670</std:floatval>
+      <std:strval name="Description">M39</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">42.0</std:floatval>
+      <std:floatval name="Pitch">4.5</std:floatval>
+      <std:floatval name="NominalDiameter">37.129</std:floatval>
+      <std:strval name="Description">M42</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">45.0</std:floatval>
+      <std:floatval name="Pitch">4.5</std:floatval>
+      <std:floatval name="NominalDiameter">40.129</std:floatval>
+      <std:strval name="Description">M45</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">48.0</std:floatval>
+      <std:floatval name="Pitch">5</std:floatval>
+      <std:floatval name="NominalDiameter">42.587</std:floatval>
+      <std:strval name="Description">M48</std:strval>
+    </std:typeval>
+
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">52.0</std:floatval>
+      <std:floatval name="Pitch">5</std:floatval>
+      <std:floatval name="NominalDiameter">46.587</std:floatval>
+      <std:strval name="Description">M52</std:strval>
+    </std:typeval>
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">56.0</std:floatval>
+      <std:floatval name="Pitch">5.5</std:floatval>
+      <std:floatval name="NominalDiameter">50.046</std:floatval>
+      <std:strval name="Description">M56</std:strval>
+    </std:typeval>
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">60.0</std:floatval>
+      <std:floatval name="Pitch">5.5</std:floatval>
+      <std:floatval name="NominalDiameter">54.046</std:floatval>
+      <std:strval name="Description">M60</std:strval>
+    </std:typeval>
+    <std:typeval name="Standard">
+      <std:floatval name="ThreadDiameter">64.0</std:floatval>
+      <std:floatval name="Pitch">6</std:floatval>
+      <std:floatval name="NominalDiameter">57.505</std:floatval>
+      <std:strval name="Description">M64</std:strval>
+    </std:typeval>
+  </std:node>
+</std:node>

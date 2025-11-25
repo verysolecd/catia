@@ -1,0 +1,39 @@
+GXFastenerToolSpacePowerTrainCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Message.GetRootPrdFailed = "Failed To Get The Root Product";
+Message.CreatePrdFailed = "Failed To Create A Product";
+Message.CreatePrtFailed = "Failed To Create A Part";
+Msg.FindFileError = "Unable To Open The Related Excel";
+Msg.ExcelError = "SMCFastenerToolsSpace.xlsx cant Parse,Please Check KnowledgeDataPath";
+Msg.Overwrite = "There Is An Excel With The Same Name That Cannot Be Overwrited";
+Error.Title = "Error";
+
+Message.GetClash = "Tool interference";
+
+OKPress.Warning = "Check suitable space?";
+
+Apply.Title = "Help";
+OK.Title = "ExportReport";
+Close.Title = "Close";
+OK1.Title = "OK";
+Close1.Title = "Cancel";
+
+Msg.ErrorHelpBtn = "Cannot open the help document path folder.";
+Msg.ErrorHelpBtn.Title = "Error";
+
+ProgressTaskUI.BtnFastenerAID = "Fastener Loading";
+ProgressTaskUI.BtnToolLoad = "Tools Loading";
+ProgressTaskUI.Preview = "Check suitable space";
+
+NoNumber.Default = "*?*";
+Recurrent.Selection = "Recurrent Selection!";
+Warning.Title = "Warning";
+Selection.NoCATPart = "Selection Is No CATPart";
+Auto0.title = "Shortest";
+Auto1.title = "Longest";
+NotMatching.title = "No Recommendation";
+Manual.title = "Manual";
+Message.NoFastener = "No Fastener Detected.";
+Message.NoFastenerLoadTool = "Please Load Tools First.";
+Message.NoToolKCDS = "No Recommended tools can be use.";
+Msg.GetBoltMoPointAndAxisFailed = "Failed to get data,please check fastener model.";

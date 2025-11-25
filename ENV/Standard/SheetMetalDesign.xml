@@ -1,0 +1,35 @@
+<!-- -->
+<!-- ******************************************************************* -->
+<!-- *         START APPLICATION - SHEET METAL DESIGN         * -->
+<!-- ******************************************************************* -->
+
+<std:node name="SheetMetalDesign" xmlns:std="http://www.dsweb.com/std">
+
+  <!-- Enums definition...DO NOT MODIFY -->
+
+  <std:enumdef name="YesNo">
+
+    <std:strval>No</std:strval>
+    <std:strval>Yes</std:strval>
+
+  </std:enumdef>
+
+  <!-- Enums definition...END -->
+
+  <std:node name="UnfoldedCurves">
+    <std:node name="UserDefined">
+
+      <std:node name="SubType_1">
+        <std:node name="Name">
+          <std:strval></std:strval>
+        </std:node>
+      </std:node>
+
+    </std:node>
+  </std:node>
+</std:node>
+
+<!-- ******************************************************************* -->
+<!-- *         END   APPLICATION - CATStd SHEET METAL DESIGN         * -->
+<!-- ******************************************************************* -->
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->

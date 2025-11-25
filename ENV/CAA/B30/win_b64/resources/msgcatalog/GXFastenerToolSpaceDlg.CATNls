@@ -1,0 +1,73 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Fastener Tool Space";
+
+BtnHelp.Title = "Help";
+
+FrameMenu.Title = "Menu";
+FrameMenu.BtnIdentify.Title = "Fastener Identification";
+FrameMenu.BtnIdentify.ShortHelp = "Identify all fasteners in FastenerStatistics Excel";
+FrameMenu.BtnIdentify.LongHelp = "Identify all fasteners in FastenerStatistics Excel";
+FrameMenu.BtnLoad.Title = "Loading Tools";
+FrameMenu.BtnLoad.ShortHelp = "Load the Tool which matches the fastener";
+FrameMenu.BtnLoad.LongHelp = "Load the Tool which matches the fastener";
+FrameMenu.BtnCheck.Title = "Interference Checking";
+FrameMenu.BtnCheck.ShortHelp = "Check the interference between Tools and the whole Product";
+FrameMenu.BtnCheck.LongHelp = "Check the interference between Tools and the whole Product";
+FrameMenu.BtnSequence.Title = "Sequence Definition";
+FrameMenu.BtnSequence.ShortHelp = "Set sequence check procedures";
+FrameMenu.BtnSequence.LongHelp = "Set sequence check procedures";
+
+MultiListMain.ContextualMenu.PushItem1.Title = "ReframeOn";
+MultiListMain.ContextualMenu.PushItem2.Title = "Remove";
+MultiListMain.ContextualMenu.PushItem4.Title = "Clash Check";
+
+MultiListMain.ClomnTitle1 = "No";
+MultiListMain.ClomnTitle2 = "Part Number";
+MultiListMain.ClomnTitle3 = "Type";
+MultiListMain.ClomnTitle4 = "Part Name";
+MultiListMain.ClomnTitle5 = "M";
+MultiListMain.ClomnTitle6 = "S";
+MultiListMain.ClomnTitle7 = "Box Spanner";
+MultiListMain.ClomnTitle8 = "Status";
+MultiListMain.ClomnTitle9 = "Interence Checking";
+
+ComboBox2.ClomnTitle1 = "";
+ComboBox2.ClomnTitle2 = "Nut";
+ComboBox2.ClomnTitle3 = "Bolt";
+ComboBox2.ClomnTitle4 = "Round Head Screw";
+ComboBox2.ClomnTitle5 = "Socket Hexagon Screw";
+
+Modify.Title = "Modify";
+Modify.SelectorList1.ContextualMenu.PushItem3.Title = "ReframeOn";
+Modify.BtnBrowse.Title = "Browse";
+Modify.Update.Title = "Reset";
+Modify.Update.ShortHelp = "Reset to the initial value";
+Modify.Update.LongHelp = "Reset to the initial value";
+
+Modify.LabPartNum.Title = "Part Number";
+Modify.LabType.Title = "Type";
+Modify.LabPartName.Title = "Part Name";
+Modify.LabSleeveNum.Title = "Box Spanner";
+Modify.LabDiameter.Title = "M";
+Modify.LabSize.Title = "S";
+Modify.LabHeight.Title = "Tool Height";
+Modify.LabToolDia.Title = "Tool Diameter";
+
+Sequence.Title = "Sequence Definition";
+
+Sequence.BtnFrame.PushBtnNew.Title = "New process";
+Sequence.BtnFrame.PushBtnInsert.Title = "Insert";
+Sequence.BtnFrame.PushBtnDelete.Title = "Delete";
+Sequence.BtnFrame.PushBtnMoveUp.Title = "Move up";
+Sequence.BtnFrame.PushBtnMoveDown.Title = "Move down";
+
+Sequence.PartFrame.MultiListPart.ContextualMenu.PushItem1.Title = "Reframe on";
+Sequence.PartFrame.MultiListPart.ContextualMenu.PushItem2.Title = "Remove";
+
+MultiListProcess.ClomnTitle1 = "Process number";
+
+MultiListPart.ClomnTitle1 = "No";
+MultiListPart.ClomnTitle2 = "Part number";
+MultiListPart.ClomnTitle3 = "PC_WM_NAME";

@@ -1,0 +1,11 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Visual Properties";
+FrameValue.Title = "Value";
+FrameValue.CheckBtnHideText.Title = "Hide Text";
+FrameValue.CheckBtnNagative.Title = "Nagative";
+FrameValue.CheckBtnNoUnit.Title = "Hide Unit";
+
+FrameDisplay.Title = "Display";
+FrameDisplay.LabelColor.Title = "Color ";

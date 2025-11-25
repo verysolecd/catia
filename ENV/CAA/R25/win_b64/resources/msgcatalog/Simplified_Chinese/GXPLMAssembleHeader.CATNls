@@ -1,0 +1,9 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPLMAssembleHeader.GXPLMPropertyUpdate.Title		= "PLM属性同步";
+GXPLMAssembleHeader.GXPLMPropertyUpdate.ShortHelp		= "PLM属性同步";
+GXPLMAssembleHeader.GXPLMPropertyUpdate.LongHelp		= "PLM属性同步";
+
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.Title		= "PLM属性同步全部";
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.ShortHelp		= "PLM属性同步全部";
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.LongHelp		= "PLM属性同步全部";

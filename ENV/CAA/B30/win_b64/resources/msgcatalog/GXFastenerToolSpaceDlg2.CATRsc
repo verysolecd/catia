@@ -1,0 +1,7 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+IFastFrm.IFastInformation.Icon = "I_Fastener_Information";
+IFastFrm.IToolInformation.Icon = "I_Tool_Information";
+IFastFrm.IInstallationResult.Icon = "I_Installation_Result";
+IFastFrm.I_ALL.Icon = "I_ALL";

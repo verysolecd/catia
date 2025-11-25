@@ -1,0 +1,51 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+Title = "测点管理工具";
+
+//  -------------------------------------------------------------------
+
+MeasurePointTypeFrame.MeasurePointTypeLable.Title = "测点类型";
+
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle1 = "序号";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle2 = "测点名";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle3 = "坐标（X_Y_Z）";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle4 = "上公差";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle5 = "下公差";
+
+MeasurePointMessageFrame.MeasurePointAdd.Title ="添加";
+MeasurePointMessageFrame.MeasurePointRemove.Title ="移除";
+MeasurePointMessageFrame.MeasurePointEdit.Title ="编辑";
+MeasurePointMessageFrame.MeasurePointMoveUp.Title ="上移";
+MeasurePointMessageFrame.MeasurePointMoveDown.Title ="下移";
+
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+AddMeasurePointDialog.Title = "测点添加";
+
+AddMeasurePointDialog.PoinChooseFrame.Title = "点添加";
+
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddMeasurePointRadioButton.Title = "批量添加";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectSurfaceLabel.Title = "选择曲面";
+
+AddMeasurePointDialog.PoinChooseFrame.SingleAddMeasurePointRadioButton.Title = "单个添加";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectHoleLabel.Title = "选择孔";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectPointLabel.Title = "选择点";
+
+AddMeasurePointDialog.PoinChooseFrame.OffsetDistanceAddMeasurePointLabel.Title ="偏移距离";
+
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+EditPointDialog.Title = "点编辑";
+
+EditPointDialog.EditPointSelectHoleLabel.Title = "选择孔";
+EditPointDialog.EditPointSelectPointLabel.Title = "选择点";
+EditPointDialog.OffsetDistanceEditPointLabel.Title = "偏移距离";

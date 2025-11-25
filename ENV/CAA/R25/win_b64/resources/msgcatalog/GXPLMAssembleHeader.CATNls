@@ -1,0 +1,9 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPLMAssembleHeader.GXPLMPropertyUpdate.Title		= "PLM Property Update";
+GXPLMAssembleHeader.GXPLMPropertyUpdate.ShortHelp		= "PLM Property Update";
+GXPLMAssembleHeader.GXPLMPropertyUpdate.LongHelp		= "PLM Property Update";
+
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.Title		= "PLM Property Update All";
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.ShortHelp		= "PLM Property Update All";
+GXPLMAssembleHeader.GXPLMPropertyUpdateAll.LongHelp		= "PLM Property Update All";

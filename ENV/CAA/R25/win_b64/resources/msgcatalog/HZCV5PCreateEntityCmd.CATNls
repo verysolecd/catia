@@ -1,0 +1,10 @@
+HZCV5PCreateEntityCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+
+Msg.ActiveProductErrorSelect = "Please select the product !";
+Msg.ErrorNoWeld = "There are no materialized features, please do features first";

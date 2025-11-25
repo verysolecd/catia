@@ -1,0 +1,16 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<Root>
+    <!--通用属性,应用于全部零件、总成-->
+	<Normal>"图号"#"名称"#"材质"#"重量"#"物料编码"#"UPLOAD_SOFT_TYPE"#"专业类别</Normal>
+	<Value>"12"#"23"#"34"#"45"#"未定义"#"Com.ptcts.CATIACAD"#"_"</Value>
+	<!--各个专业部门使用的属性-->
+	<Item Name="结构">
+		<Properties>"属性1"#"属性2"#"属性3"#"属性4"</Properties>
+		<Value>"1"#"2"#"3"#"4"</Value>
+	</Item>
+	<Item Name="电气">
+		<Properties>"属性5"#"属性6"#"属性7"#"属性8"</Properties>
+		<Value>"5"#"6"#"7"#"8"</Value>
+	</Item>
+
+</Root>

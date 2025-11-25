@@ -1,0 +1,13 @@
+HZCV5PCreateSpotWeldCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "建议";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.ErrorSelect = "请选择零件！";
+Msg.ActiveProductErrorSelect = "请在总成中定义焊点Part完成创建!";
+Msg.Errormessage = "信息选择不全，请再次选择";
+Msg.ErrorPointSame = "不可选择几何集下创建的点元素，请再次选择";
+Msg.PartOnemessage = "至少选择两个零件，请再次选择";
+Msg.ErrorReverse = "请点击预览后再进行反转";
+Msg.ErrorHaveSame = "该焊点处已存在焊球，请重新选择参考点或参考曲面";

@@ -1,0 +1,13 @@
+PerformTask.Object.Title = "Progress";
+ProgressTask.Rotate.Title = "Rotating...( /P1/P2/P3 )";
+ProgressTask.Wrapping.Title = "Wrapping...( /P1/P2/P3 )";
+
+View.StartPoint = "Start Point";
+View.EndPoint = "End Point";
+
+Error.Title = "Error";
+Information.Title = "Tips";
+Warning.Title = "Warning";
+
+Message.SelectIllegal = "Please select a boundle segment face.";
+Message.ParameterError = "Parameters error.";

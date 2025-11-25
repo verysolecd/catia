@@ -1,0 +1,7 @@
+
+Tip.Title = "建议";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.ErrorSelect = "请选择零件！";
+Msg.ActiveProductErrorSelect = "请在总成中定义焊点Part完成创建!";

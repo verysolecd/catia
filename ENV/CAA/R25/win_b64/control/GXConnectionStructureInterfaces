@@ -1,0 +1,12 @@
+.\win_b64\code\productIC\GXConnectionStructureInterfacesIC.script
+.\win_b64\code\lib\GXConnectionStructureInterfacesUUID.lib
+.\win_b64\code\bin\GXConnectionStructureItf.pdb
+.\win_b64\code\dictionary\GXConnectionStructureInterfaces.dico
+.\win_b64\code\lib\GXConnectionStructureItf.lib
+.\win_b64\code\bin\GXConnectionStructureTypeLib.tlb
+.\win_b64\code\productIC\GXConnectionStructureInterfacesIC.xml
+.\win_b64\code\dictionary\GXConnectionStructureInterfaces.iid
+.\win_b64\code\lib\GXConnectionStructureItf.exp
+.\win_b64\code\productIC\GXConnectionStructureInterfacesIC.required
+.\win_b64\code\bin\GXConnectionStructureItf.dll
+.\win_b64\control\GXConnectionStructureInterfaces

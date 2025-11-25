@@ -1,0 +1,51 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+Title = "Measuring Point Management Tool";
+
+//  -------------------------------------------------------------------
+
+MeasurePointTypeFrame.MeasurePointTypeLable.Title = "Measure Point Type";
+
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle1 = "NO";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle2 = "Measure Point Name";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle3 = "Coord（X_Y_Z）";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle4 = "Upper Tolerance";
+MeasurePointMessageFrame.MeasurePointMultiList.ColumnTitle5 = "Lower Tolerance";
+
+MeasurePointMessageFrame.MeasurePointAdd.Title ="Add";
+MeasurePointMessageFrame.MeasurePointRemove.Title ="Remove";
+MeasurePointMessageFrame.MeasurePointEdit.Title ="Edit";
+MeasurePointMessageFrame.MeasurePointMoveUp.Title ="Up";
+MeasurePointMessageFrame.MeasurePointMoveDown.Title ="Down";
+
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+AddMeasurePointDialog.Title = "Measure Point Add";
+
+AddMeasurePointDialog.PoinChooseFrame.Title = "Point Add";
+
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddMeasurePointRadioButton.Title = "Mutlipule Add";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectSurfaceLabel.Title = "Select Face";
+
+AddMeasurePointDialog.PoinChooseFrame.SingleAddMeasurePointRadioButton.Title = "Single Add";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectHoleLabel.Title = "Select Hole";
+AddMeasurePointDialog.PoinChooseFrame.MutlipuleAddSelectPointLabel.Title = "Select Point";
+
+AddMeasurePointDialog.PoinChooseFrame.OffsetDistanceAddMeasurePointLabel.Title ="Offset Distance";
+
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+EditPointDialog.Title = "Point Edit";
+
+EditPointDialog.EditPointSelectHoleLabel.Title = "Select Hole";
+EditPointDialog.EditPointSelectPointLabel.Title = "Select Point";
+EditPointDialog.OffsetDistanceEditPointLabel.Title = "ffset Distance";

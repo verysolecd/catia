@@ -1,0 +1,65 @@
+VSFastenerCheckCmd.SelectObjectState.Message="选择对象";
+VSFastenerCheckCmd.SelectBoltState.Message="选择螺栓螺钉";
+VSFastenerCheckCmd.SelectNutState.Message="选择螺母";
+VSFastenerCheckCmd.SelectClampingHoopState.Message="选择被夹持件";
+VSFastenerCheckCmd.SelectBaseMaterialState.Message="选择基材";
+VSFastenerCheckCmd.SelectProductState.Message="选择零件";
+
+Warning.Title = "警告";
+Error.Title = "错误";
+Tip.Title = "提示";
+
+Msg.NoEnv = "请配置环境变量";
+
+Msg.NoSelection = "无选择";
+
+Msg.NotInFastenerLibrary = "紧固件不在库中";
+
+//FastenerCheck.CMD.String0005 = "已选择，请从新选择";
+Msg.MatchingSucceeded = "匹配零件成功";
+Msg.MatchingFailed = "匹配零件失败";
+Msg.LackClampedParts = "缺少被夹持件";
+Msg.GetFastenerSucceeded = "成功获取紧固件";
+Msg.NoFindFastener = "没有找到紧固件";
+Msg.FastenerCheckOver = "紧固件校核结束";
+FastenerCheck.CMD.String00101 = "存在没有校核的紧固件（数据不全）";
+FastenerCheck.CMD.String00102 = "紧固件校核的数据不全";
+Msg.Progress = "进度";
+Msg.FastenerChecking = "紧固件校核中...";
+Msg.AutoGetFastener = "紧固件自动获取中...";
+FastenerCheck.CMD.String0013 = "与列表中的螺栓螺钉或者螺母重复，请重新选择零件";
+FastenerCheck.CMD.String0014 = "选择的是螺母，请选择螺栓螺钉零件";
+FastenerCheck.CMD.String0015 = "选择的是螺栓螺钉，请选择螺母零件";
+FastenerCheck.CMD.String0016 = "选择的是螺栓螺钉或螺母，请重新选择零件";
+FastenerCheck.CMD.String0017 = "选择的零件与被夹持零件重复，请重新选择零件";
+FastenerCheck.CMD.String0018 = "选择的零件与基材重复，请重新选择零件";
+FastenerCheck.CMD.String0019 = "选择的零件不在catalog表中，请重新选择零件";
+
+FastenerCheck.CMD.String0020 = "请选择基材材料类型";
+FastenerCheck.CMD.String0021 = "请编辑基材螺纹深度值";
+FastenerCheck.CMD.String0022 = "请选择基材螺距";
+FastenerCheck.CMD.String0023 = "请选择被夹持件";
+
+Msg.ModifyFastener = "紧固件数据修改，将清除校核结果，是否继续？";
+Msg.NoInstallationHoleTable = "没有找到安装孔校核数据表，是否继续？";
+Msg.NoMaterialTable = "没有找到机体材料数据表，是否继续？";
+Msg.NoFastenerTable = "没有找到紧固件excel数据表，是否继续？";
+Msg.ModifyCheckData = "紧固件校核数据修改了，是否退出？";
+Msg.NoPitchTable = "没有找到基材螺距匹配表，是否继续？";
+Msg.NoPerformanceLevelTable = "没有找到性能等级校核表，是否继续？";
+
+FastenerCheck.CMD.String0101 = "找不到文件";
+FastenerCheck.CMD.String0102 = "导出报告成功";
+FastenerCheck.CMD.String0103 = "文件已存在，是否覆盖?";
+FastenerCheck.CMD.String0104 = "同名文件已打开，无法覆盖";
+FastenerCheck.CMD.String0105 = "导出报告成功，是否立即打开";
+FastenerCheck.CMD.FailedCopy = "报告模板复制失败";
+FastenerCheck.CMD.FailedExportReport = "导出报告失败";
+FastenerCheck.CMD.FailedExcelService = "创建Excel服务失败";
+FastenerCheck.CMD.FailedOpenExcel = "打开Excel失败";
+FastenerCheck.CMD.FailedAdd = "选中的零件在库中已存在";
+FastenerCheck.CMD.AddPrdMiss = "请选择要添加的零件";
+
+Msg.RemoveFastener = "删除紧固件，将删除紧固件校核数据，是否继续？";
+Msg.NoBOM = "没有选择BOM表，请选择BOM表";
+Msg.NoCheck = "存在紧固件没有校核";

@@ -1,0 +1,14 @@
+Error.Title = "错误";
+Warning.Title = "警告";
+Tip.Title = "提示";
+
+Message.ErrorFather = "获取根节点失败.";
+Message.ErrorTemplate = "获取电池包信息失败. 请检查模板文件.";
+Message.ErrorCellInput = "电芯排布错误. 请检查电芯类型.";
+Message.ErrorCalculate = "性能数据计算错误. 请检查电芯类型.";
+Message.ErrorCalculateCell = "当前用于计算的电芯数大于最大电芯数.";
+Message.ErrorCfg = "获取电池包资源文件失败.";
+
+Message.CreateBoard = "是否创建电池包盖板?";
+Message.RemoveCellFileFailed = "移除电芯数据库文件失败.";
+Message.ErrorCfgDataBase = "获取电芯数据库文件失败.";

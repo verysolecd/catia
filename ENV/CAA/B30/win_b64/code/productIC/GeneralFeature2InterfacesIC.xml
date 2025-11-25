@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+  <prerequisite access = "Protected" name = "System"/>
+  <prerequisite access = "Protected" name = "ObjectSpecsModeler"/>
+  <prerequisite access = "Protected" name = "ApplicationFrame"/>
+  <prerequisite access = "Protected" name = "InteractiveInterfaces"/>
+  <prerequisite access = "Protected" name = "Dialog"/>
+  <prerequisite access = "Protected" name = "DialogEngine"/>
+  <prerequisite access = "Protected" name = "Mathematics"/>
+  <prerequisite access = "Protected" name = "MechanicalModelerUI"/>
+  <prerequisite access = "Protected" name = "ObjectModelerNavigator"/>
+  <prerequisite access = "Protected" name = "Visualization"/>
+  <prerequisite access = "Protected" name = "ObjectModelerBase"/>
+  <prerequisite access = "Protected" name = "ObjectSpecsModeler"/>
+  <prerequisite access = "Protected" name = "ApplicationFrame"/>
+  <prerequisite access = "Protected" name = "GSMInterfaces"/>
+  <prerequisite access = "Protected" name = "MeasureGeometryInterfaces"/>
+  <prerequisite access = "Protected" name = "BasicTopologicalOpe"/>
+  <prerequisite access = "Protected" name = "MecModInterfaces"/>
+  <prerequisite access = "Protected" name = "ProductStructure"/>
+  <prerequisite access = "Protected" name = "KnowledgeInterfaces"/>
+  <prerequisite access = "Protected" name = "MechanicalModelerUI"/>
+  <prerequisite access = "Protected" name = "VisualizationBase"/>
+  <prerequisite access = "Protected" name = "GeneralFeatureInterfaces"/>
+</codeFramework>

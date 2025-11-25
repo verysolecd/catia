@@ -1,0 +1,69 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+Title = "批量创建焊点";
+
+//  -------------------------------------------------------------------
+JointPartsFrame.Title = "搭接零件";
+
+JointParts.MultiList.ColumnTitle1 = "序号";
+JointParts.MultiList.ColumnTitle2 = "零件号";
+JointParts.MultiList.ColumnTitle3 = "版本";
+JointParts.MultiList.ColumnTitle4 = "中文描述";
+
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "视图居中";
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "结构树上居中";
+JointPartsFrame.JointPartsMultiList.MultiListReferencePart.MultiListClearSelection.Title = "清空选择";
+
+
+//  -------------------------------------------------------------------
+ReferenceCurveFrame.Title = "参考曲线";
+
+ReferenceCurveFrame.ReferenceCurveLabel.Title = "参考曲线             ";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveReframeOnPushItem.Title = "视图居中";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveCenterGraphPushItem.Title = "结构树上居中";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.CreateJoinPushItem.Title = "创建接合";
+ReferenceCurveFrame.ReferenceCurveSelectorList.ReferenceCurve.ClearSelectionPushItem.Title = "清空选择";
+
+ReferenceCurveFrame.OffsetDistanceCheckButton.Title = "偏移距离              ";
+ReferenceCurveFrame.OffsetDistanceReversePushButton.Title = "反转";
+
+ReferenceCurveFrame.SupportSurfaceLabel.Title = "参考表面              ";
+ReferenceCurveFrame.SupportSurfaceGroupPushButton.Title = "多选";
+
+ReferenceCurveFrame.StartingAndEndingPointLabel.Title = "起始点              ";
+ReferenceCurveFrame.EndPointPushButton.Title = "端点";
+ReferenceCurveFrame.MidPointPushButton.Title = "中点";
+
+//ReferenceCurveFrame.ReferenceCurveWeldDirectionLabel.Title = "焊接方向              ";
+//ReferenceCurveFrame.ReferenceCurveWeldDirectionPushButton.Title = "反转";
+
+
+//  -------------------------------------------------------------------
+ParameterCheckButtonFrame.DisplayCheckButton.Title = "阵列";
+
+
+//  -------------------------------------------------------------------
+ParameterFrame.Title = "阵列参数";
+
+ParameterFrame.ParameterLable.Title = "参数                       ";
+
+ParameterFrame.ExampleLable.Title = "实例                         ";
+
+ParameterFrame.LengthLable.Title = "长度                          ";
+
+ParameterFrame.ParameterWeldDirectionLable.Title = "焊接方向                   ";
+ParameterFrame.ParameterWeldDirectionPushButton.Title = "反转";
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+SelectFacesDialog.Title = "多面选择";
+
+SelectFacesDialog.PushButtonFrame.RemovePushButton.Title = "删除";
+SelectFacesDialog.PushButtonFrame.ReplacePushButton.Title = "替换";

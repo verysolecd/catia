@@ -1,0 +1,18 @@
+Error.Title = "Error";
+Information.Title = "Tips";
+Warning.Title = "Warning";
+
+Message.NumInput = "Please enter the number";
+View.StartPoint = "Start Point";
+View.EndPoint = "End Point";
+
+Msg.ElmSelectAddFail1 = "Addition failed: The current selected face has been added.";
+Msg.ElmSelectAddFail2 = "Addition failed: Please select a boundle segment face.";
+Msg.ElmSelectRemoveFail1 = "Remove failed: The current selected face is not added.";
+Msg.ElmSelectRemoveFail2 = "Remove failed: Please select a boundle segment face.";
+
+Msg.ElmSelectAddSuccess = "Add Successful.";
+Msg.ElmSelectRemoveSuccess = "Remove Successful.";
+Msg.InputPowerCopyError = "import power copy failed.";
+
+PerformTask.Object.Title = "Progress";

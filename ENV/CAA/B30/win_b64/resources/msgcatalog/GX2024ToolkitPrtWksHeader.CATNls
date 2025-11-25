@@ -1,0 +1,7 @@
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace.Title    = "Fastener Tool Space" ;
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace.Help    = "Fastener Tool Space" ;
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace.ShortHelp    = "Fastener Tool Space" ;
+
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace2.Title = "Fastener Space Analysis";
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace2.ShortHelp = "Fastener Space Analysis";
+SMCFastenerToolSpaceHeader.SMCFastenerToolSpace2.Help = "Fastener Space Analysis";

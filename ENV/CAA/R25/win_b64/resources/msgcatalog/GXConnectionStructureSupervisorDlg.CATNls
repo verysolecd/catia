@@ -1,0 +1,12 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title="Super Administrator";
+pFrame.Title="Supervisor";
+pFrame.PBModify.Title="Modify";
+pFrame.LabPassWord.Title="Password";
+
+SettingDlg.Title="Setting Password";
+SettingDlg.LabOld.Title="Old PassWord";
+SettingDlg.LabNew.Title="New PassWord";
+SettingDlg.LabAgain.Title="Again New PassWord";

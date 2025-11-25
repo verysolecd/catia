@@ -1,0 +1,15 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Connect Structure Edit";
+
+Information.Title="Information";
+Information.LabConnectionType.Title="Connection Type";
+Information.LabUseClip.Title="Using Clip";
+Information.LabDoghouse.Title="Doghouse Type";
+InstallElement.Title="Install Options";
+Parameter.Title="Parameters";
+
+PBDelete.Title="Delete";
+PBRotation.Title="Rotation";
+PBReverse.Title="Connect Reverse";

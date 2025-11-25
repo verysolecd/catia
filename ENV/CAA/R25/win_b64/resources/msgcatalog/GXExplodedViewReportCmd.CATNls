@@ -1,0 +1,40 @@
+GXExplodedViewReportCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Export.Title = "Export";
+Close.Title = "Close";
+
+Name = "√˚≥∆";
+MaterialCode = "ŒÔ¡œ±‡¬Î";
+
+Error.Title = "Error";
+Warning.Title = "Warning";
+
+Msg.NoEvnPath = "Please configure environment variables: ";
+Msg.NoFindFile = "Configuration file not found: ";
+Msg.FileError = "Configuration file missing data: ";
+
+Msg.Progress = "Progress";
+
+SelfMade.Text = "Home-made";
+Outsourcing.Text = "Outsourcing";
+
+NoSelectPrd.Mess = "Please select the assembly to export on the structure tree";
+
+PPTFileIsExist.Mess = "This *** file already exists, do you need to overwrite it?";
+
+ExportCompleted.Mess = "Export Completed";
+ExportCompleted.Title = "Tip";
+
+ProgressTaskUI.Mess = "Exporting Report";
+ProgressTaskUI.CommentRuntime = "Progress loading...";
+
+RemoveFileFailed.Mess = "The file is occupied and cannot be overwritten. Please close the document and try again";
+CopyFileError.Mess = "Failed to copy the template file";
+
+PPTTemplateFileError.Mess = "PPT template file error,please check";
+
+SaveAsPathError.Mess = "Cannot overwrite template file";
+
+NoFindRootNode.Mess = "There is no root node in the current list, Do you need to export the summary table";
+
+SelectProduct.Title = "Select a assembly";

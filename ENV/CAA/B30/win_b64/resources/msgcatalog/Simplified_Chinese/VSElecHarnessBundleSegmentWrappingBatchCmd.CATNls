@@ -1,0 +1,16 @@
+Error.Title = "错误";
+Information.Title = "警告";
+Warning.Title = "提示";
+
+Message.NumInput = "请输入数字";
+View.StartPoint = "起始点";
+View.EndPoint = "中止点";
+
+Msg.ElmSelectAddFail1 = "添加失败：当前选中面已被添加.";
+Msg.ElmSelectAddFail2 = "添加失败：请选择线束面.";
+Msg.ElmSelectRemoveFail1 = "移除失败：当前选中面未被添加.";
+Msg.ElmSelectRemoveFail2 = "移除失败：请选择线束面.";
+Msg.InputPowerCopyError = "Powercopy导入失败.";
+
+Msg.ElmSelectAddSuccess = "添加成功.";
+Msg.ElmSelectRemoveSuccess = "移除成功.";

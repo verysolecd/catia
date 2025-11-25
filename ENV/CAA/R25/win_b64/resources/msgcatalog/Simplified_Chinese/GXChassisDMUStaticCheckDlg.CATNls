@@ -1,0 +1,29 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+Title = "间隙静态校核";
+LabReplay.Title = "重放 ";
+LabMaxGap.Title = "最大间隙 ";
+LabMinValue.Title = "当前零件最小间隙 ";
+LabMaxValue.Title = "当前零件最大间隙 ";
+PBReport.Title = "报告";
+Msg.MainDailogOKTitle = "运行";
+Msg.MainDialogCancelTitle = "关闭";
+
+DlgReOrder.Title = "零件重新排序";
+
+DlgReport.Title = "报告";
+DlgReport.LabProjectNum.Title = "项目代号 : ";
+DlgReport.LabFileNum.Title = "版本号 : ";
+DlgReport.LabTemplateNum.Title = "校核人 : ";
+DlgReport.LabSavePath.Title = "保存路径 : ";
+
+
+FrmSection.Title = "切割";
+FrmSection.CheckBtnSection.Title = "切割";
+FrmSection.FrmNormalConstraint.LabelNormalConstraint.Title = "法线约束: ";
+FrmSection.FrmNormalConstraint.RadioBtnNormalX.Title = "X";
+FrmSection.FrmNormalConstraint.RadioBtnNormalY.Title = "Y";
+FrmSection.FrmNormalConstraint.RadioBtnNormalZ.Title = "Z";
+FrmSection.PushBtnGeometricalTarget.Title = "几何目标";
+FrmSection.PushBtnInvertNormal.Title = "反转法向";
+FrmSection.PushBtnResetPosition.Title = "重置位置";

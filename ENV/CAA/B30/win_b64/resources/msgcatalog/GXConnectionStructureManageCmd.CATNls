@@ -1,0 +1,11 @@
+GXConnectionStructureManageCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Error.Title = "Error";
+Information.Title = "Tips";
+Warning.Title = "Warning";
+
+Message.MulListSelEdit="Please select a structure to edit";
+Message.MulListSelRemove="Please select a structure to remove";
+Message.SelectNodeNull="Please select a tree node";
+Message.ClipNull="Please upload clip first";
+Message.optionImformation="Please check the option 'options\Part Infrastructure\Display\Display In Geometry Area\Parameters of fearures and constraints'!";

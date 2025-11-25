@@ -1,0 +1,26 @@
+Title = "BOM导出";
+
+GetPartInfoBtn.Title = "获取零件信息";
+ReportBtn.Title = "导出报告";
+
+
+MultiListMain.ColumnTitle0 = "序号";
+MultiListMain.ColumnTitle1 = "层级";
+MultiListMain.ColumnTitle2 = "物料编码";
+MultiListMain.ColumnTitle3 = "3D版本号";
+MultiListMain.ColumnTitle4 = "材料牌号";
+MultiListMain.ColumnTitle5 = "料厚(mm)";
+MultiListMain.ColumnTitle6 = "零件重量(KG)";
+MultiListMain.ColumnTitle7 = "单车零件数量";
+MultiListMain.ColumnTitle8 = "零件名称";
+MultiListMain.ColumnTitle9 = "图片";
+MultiListMain.ColumnTitle10 = "长(mm)";
+MultiListMain.ColumnTitle11 = "宽(mm)";
+MultiListMain.ColumnTitle12 = "高(mm)";
+MultiListMain.ColumnTitle13 = "备注";
+
+SaveAs.Title = "保存路径";
+
+PartMultiList.MenuMultiList.ReframeOn.Title = "居中";
+PartMultiList.MenuMultiList.CenterGraph.Title = "将图居中";
+

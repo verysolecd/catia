@@ -1,0 +1,81 @@
+
+//lead
+Title = "紧固件校核";
+Auto.Title = "自动获取";
+//Auto.Help = "“自动获取”属性，属于“布尔”类型。";
+//Auto.LongHelp = "LongHelp";
+Add.Title = " 添加 ";
+Edit.Title = " 编辑 ";
+Remove.Title = " 移除 ";
+Check.Title = " 校核 ";
+Excel.Title = " 导出 ";
+
+MultiList.Title.No = "序号";
+MultiList.Title.Bolt = "螺栓螺钉";
+MultiList.Title.Nut = "螺母/底板";
+MultiList.Title.CoaxialityCheck = "同轴度校核";
+MultiList.Title.HoleDiameterCheck = "孔径校核";
+MultiList.Title.InstallationCheck = "安装校核";
+MultiList.Title.ErrorMsg = "错误信息";
+MultiList.Title.Proposal = "建议措施";
+MultiList.Title.Remarks = "备注";
+MultiList.Title.ClampedPart = "被夹持件";
+
+MultiList001.List.CenterGraph.Title = "将图居中";
+MultiList001.List.ReframeOn.Title = "居中";
+MultiList001.List.ItemHideOrShow.Title = "隐藏/显示无关零件";
+
+//Edit
+Edit.Title = "紧固件编辑";
+Edit.FrameBolt.Title = "螺栓螺钉";
+Edit.FrameBolt.PartNumber.Title = "螺栓螺钉：";
+Edit.FrameBolt.pSelector001.Title = "无选择";
+Edit.FrameBolt.pSelector001.List.CenterGraph.Title = "将图居中";
+Edit.FrameBolt.pSelector001.List.ReframeOn.Title = "居中";
+Edit.FrameBolt.pSelector001.List.ClearSelection.Title = "清除选择";
+Edit.FrameBolt.Specifications.Title = "规格：";
+Edit.FrameBolt.Pitch.Title = "螺距(P)：";
+Edit.FrameBolt.PerformanceLevel.Title = "性能等级：";
+Edit.FrameBolt.MinimumClampingThickness.Title = "最小夹紧厚度(lg)：";
+Edit.FrameBolt.CheckBt.Title = "隐藏无关元素";
+Edit.FrameBolt.GetPart.Title = "获取零件";
+
+Edit.FrameNutOrBaseBaterial.FrameNut.Title = "螺母/底板";
+Edit.FrameNutOrBaseBaterial.FrameNut.PartNumber.Title = "螺母/底板：";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.Title = "无选择";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.CenterGraph.Title = "将图居中";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.ReframeOn.Title = "居中";
+Edit.FrameNutOrBaseBaterial.FrameNut.pSelector001.List.ClearSelection.Title = "清除选择";
+Edit.FrameNutOrBaseBaterial.FrameNut.Specifications.Title = "规格：";
+Edit.FrameNutOrBaseBaterial.FrameNut.Pitch.Title = "螺距(P)：";
+Edit.FrameNutOrBaseBaterial.FrameNut.PerformanceLevel.Title = "性能等级：";
+
+Edit.FrameClampedPart.Title = "被夹持件";
+Edit.FrameClampedPart.MultiList.ContextualMenu.CenterGraph.Title = "将图居中";
+Edit.FrameClampedPart.MultiList.ContextualMenu.ReframeOn.Title = "居中";
+Edit.FrameClampedPart.MultiList.ContextualMenu.Remove.Title = "移除";
+
+Edit.FrameNutOrBaseBaterial.Frame004.Title = "基材";
+Edit.FrameNutOrBaseBaterial.Frame004.BaseBaterial.Title = "基材：";
+Edit.FrameNutOrBaseBaterial.Frame004.BaseDiameter.Title = "孔径：";
+Edit.FrameNutOrBaseBaterial.Frame004.Baterial.Title = "材料类型：";
+Edit.FrameNutOrBaseBaterial.Frame004.ThreadDepth.Title = "螺纹深度(H1)：";
+Edit.FrameNutOrBaseBaterial.Frame004.Spinner001.Help = "更改参数值：需要长度";
+Edit.FrameNutOrBaseBaterial.Frame004.Pitch.Title = "螺距(P)：";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.CenterGraph.Title = "将图居中";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.ReframeOn.Title = "居中";
+Edit.FrameNutOrBaseBaterial.Frame004.pSelector001.List.ClearSelection.Title = "清除选择";
+
+FastenerCheck.Dialog.Edit001 = "未知";
+
+ExportReport.Title = "导出报告";
+ExportReport.SelectFile.Title = "选择BOM表：";
+ExportReport.Browse.Title = "浏览...";
+
+Add.PartNumber.Title = "目标零件: ";
+Add.pSelector001.MenuList1.PushItemCenterGraph.Title = "将图居中";
+Add.pSelector001.MenuList1.PushItemRefromOn.Title = "居中";
+Add.Type.Title = "种类: ";
+Add.Specifications.Title = "规格: ";
+Add.Pitch.Title = "螺距(P): ";
+Add.PerformanceLevel.Title = "性能等级: ";

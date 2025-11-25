@@ -1,0 +1,5 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXHeader.Save.Icon.Normal = "I_DynamicLOD";
+GXHeader.Edit.Icon.Normal = "I_Properties";
+GXHeader.Sort.Icon.Normal = "I_TeamPDMInsertDocument";

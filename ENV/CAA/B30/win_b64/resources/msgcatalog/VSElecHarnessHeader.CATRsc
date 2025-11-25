@@ -1,0 +1,15 @@
+
+
+VSElecHarnessHeader.VSElecHarnessICD.Icon.Normal = "I_VSEICD";
+VSElecHarnessHeader.VSElecHarnessBundleSegmentWrapping.Icon.Normal = "I_VSEWarpping";
+VSElbAssemblyHeader.VSElecHarnessBundleSegmentWrappingBatch.Icon.Normal = "I_VSEWarpping";
+
+VSElecHarnessHeader.VSEProtectionCreation.Icon.Normal = "I_VSProtect";
+VSElecHarnessHeader.VSEProtectionCheck.Icon.Normal = "I_VSProtectCheck";
+VSElecHarnessHeader.VSEBundleSegmentCheck.Icon.Normal = "I_VSBundleSegmentCheck";
+VSElecHarnessHeader.HarnessToolingBoard.Icon.Normal = "I_VSHarnessToolingBoard";
+VSElecHarnessHeader.VSHarnessConnectivityCheck.Icon.Normal = "I_HarnessConnectivityCheck";
+
+VSElecHarnessHeader.ElecConnectorEnvelope.Icon.Normal = "I_ElecConnectorEnvelope";
+VSElecHarnessHeader.ElecHarnessBranchEnvelope.Icon.Normal = "I_ElecHarnessBranchEnvelope";
+VSElecHarnessHeader.HarnessConfigDismant.Icon.Normal = "I_WireConfigDismant";

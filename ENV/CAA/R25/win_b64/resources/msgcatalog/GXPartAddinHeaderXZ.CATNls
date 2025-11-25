@@ -1,0 +1,13 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPartAddinHeaderXZ.CreateBasicSurface.Title		= "Create Basic Surface";
+GXPartAddinHeaderXZ.CreateBasicSurface.ShortHelp		= "Create Basic Surface";
+GXPartAddinHeaderXZ.CreateBasicSurface.LongHelp		= "Create Basic Surface";
+
+GXPartAddinHeaderXZ.CreateRibSketch.Title		= "Create Rib Sketch";
+GXPartAddinHeaderXZ.CreateRibSketch.ShortHelp		= "Create Rib Sketch";
+GXPartAddinHeaderXZ.CreateRibSketch.LongHelp		= "Create Rib Sketch";
+
+GXPartAddinHeaderXZ.CreateRibSurface.Title		= "Create Rib Surface";
+GXPartAddinHeaderXZ.CreateRibSurface.ShortHelp		= "Create Rib Surface";
+GXPartAddinHeaderXZ.CreateRibSurface.LongHelp		= "Create Rib Surface";

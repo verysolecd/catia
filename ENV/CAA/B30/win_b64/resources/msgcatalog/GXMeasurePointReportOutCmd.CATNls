@@ -1,0 +1,7 @@
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.ErrorSelect = "Please Select a part";
+Msg.ActiveProductErrorSelect = "Define solder joint Part in assembly to complete creation!";

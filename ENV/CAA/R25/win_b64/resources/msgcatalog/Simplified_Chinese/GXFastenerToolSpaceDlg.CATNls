@@ -1,0 +1,73 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "紧固件工具空间检查";
+
+BtnHelp.Title = "帮助";
+
+FrameMenu.Title = "Menu";
+FrameMenu.BtnIdentify.Title = "识别紧固件";
+FrameMenu.BtnIdentify.ShortHelp = "根据紧固件统计表自动识别装配中所有的紧固件";
+FrameMenu.BtnIdentify.LongHelp = "根据紧固件统计表自动识别装配中所有的紧固件";
+FrameMenu.BtnLoad.Title = "加载套筒";
+FrameMenu.BtnLoad.ShortHelp = "加载与紧固件相匹配的套筒";
+FrameMenu.BtnLoad.LongHelp = "加载与紧固件相匹配的套筒";
+FrameMenu.BtnCheck.Title = "干涉检查";
+FrameMenu.BtnCheck.ShortHelp = "检查套筒与整个装配之间是否干涉";
+FrameMenu.BtnCheck.LongHelp = "检查套筒与整个装配之间是否干涉";
+FrameMenu.BtnSequence.Title = "工况定义";
+FrameMenu.BtnSequence.ShortHelp = "设置工况检查步骤";
+FrameMenu.BtnSequence.LongHelp = "设置工况检查步骤";
+
+MultiListMain.ContextualMenu.PushItem1.Title = "居中";
+MultiListMain.ContextualMenu.PushItem2.Title = "移除";
+MultiListMain.ContextualMenu.PushItem4.Title = "干涉检查";
+
+MultiListMain.ClomnTitle1 = "序号";
+MultiListMain.ClomnTitle2 = "零件号";
+MultiListMain.ClomnTitle3 = "类型";
+MultiListMain.ClomnTitle4 = "零件名";
+MultiListMain.ClomnTitle5 = "螺纹规格";
+MultiListMain.ClomnTitle6 = "对边尺寸";
+MultiListMain.ClomnTitle7 = "套筒总成号";
+MultiListMain.ClomnTitle8 = "状态";
+MultiListMain.ClomnTitle9 = "是否干涉";
+
+ComboBox2.ClomnTitle1 = "";
+ComboBox2.ClomnTitle2 = "螺母";
+ComboBox2.ClomnTitle3 = "螺栓";
+ComboBox2.ClomnTitle4 = "圆头螺钉";
+ComboBox2.ClomnTitle5 = "内六角螺钉";
+
+Modify.Title = "修改界面";
+Modify.SelectorList1.ContextualMenu.PushItem3.Title = "居中";
+Modify.BtnBrowse.Title = "浏览";
+Modify.Update.Title = "重置";
+Modify.Update.ShortHelp = "恢复到初始值";
+Modify.Update.LongHelp = "恢复到初始值";
+
+Modify.LabPartNum.Title = "紧固件号";
+Modify.LabType.Title = "类型";
+Modify.LabPartName.Title = "紧固件名";
+Modify.LabSleeveNum.Title = "套筒号";
+Modify.LabDiameter.Title = "常规尺寸";
+Modify.LabSize.Title = "对边尺寸";
+Modify.LabHeight.Title = "工具高度";
+Modify.LabToolDia.Title = "工具直径";
+
+Sequence.Title = "工况定义";
+
+Sequence.BtnFrame.PushBtnNew.Title = "新建工况";
+Sequence.BtnFrame.PushBtnInsert.Title = "插入";
+Sequence.BtnFrame.PushBtnDelete.Title = "移除";
+Sequence.BtnFrame.PushBtnMoveUp.Title = "上移";
+Sequence.BtnFrame.PushBtnMoveDown.Title = "下移";
+
+Sequence.PartFrame.MultiListPart.ContextualMenu.PushItem1.Title = "居中";
+Sequence.PartFrame.MultiListPart.ContextualMenu.PushItem2.Title = "移除";
+
+MultiListProcess.ClomnTitle1 = "工序名称";
+
+MultiListPart.ClomnTitle1 = "序号";
+MultiListPart.ClomnTitle2 = "零件号";
+MultiListPart.ClomnTitle3 = "物料编码";

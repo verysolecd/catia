@@ -1,0 +1,3 @@
+DlgCellLayout.FrameCellLayout.Frame2.IconBoxCellType.CellTypeBtnNew.Icon = "I_TableAdd";
+DlgCellLayout.FrameCellLayout.Frame2.IconBoxCellType.CellTypeBtnDelete.Icon = "I_TableDel";
+DlgCellLayout.FrameCellLayout.Frame2.IconBoxCellType.CellTypeBtnEdit.Icon = "I_GXCLStructureEdit";

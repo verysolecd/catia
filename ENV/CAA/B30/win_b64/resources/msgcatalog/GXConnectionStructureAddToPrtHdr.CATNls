@@ -1,0 +1,20 @@
+
+GXConnectionStructureAddToPrtHdr.TrimmingUserManagement.Title    = "Authority Management" ;
+GXConnectionStructureAddToPrtHdr.TrimmingUserManagement.Help    = "Authority Management" ;
+GXConnectionStructureAddToPrtHdr.TrimmingUserManagement.ShortHelp    = "Authority Management" ;
+
+GXConnectionStructureAddToPrtHdr.TrimmingLibraryManagement.Title    = "Library Maintenance" ;
+GXConnectionStructureAddToPrtHdr.TrimmingLibraryManagement.Help    = "Library Maintenance" ;
+GXConnectionStructureAddToPrtHdr.TrimmingLibraryManagement.ShortHelp    = "Library Maintenance" ;
+
+GXConnectionStructureAddToPrtHdr.TrimmingImportTemplate.Title    = "Instantiate Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingImportTemplate.Help    = "Instantiate Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingImportTemplate.ShortHelp    = "Instantiate Feature" ;
+
+GXConnectionStructureAddToPrtHdr.TrimmingEditTemplate.Title    = "Edit Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingEditTemplate.Help    = "Edit Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingEditTemplate.ShortHelp    = "Edit Feature" ;
+
+GXConnectionStructureAddToPrtHdr.TrimmingDeleteTemplate.Title    = "Delete Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingDeleteTemplate.Help    = "Delete Feature" ;
+GXConnectionStructureAddToPrtHdr.TrimmingDeleteTemplate.ShortHelp    = "Delete Feature" ;

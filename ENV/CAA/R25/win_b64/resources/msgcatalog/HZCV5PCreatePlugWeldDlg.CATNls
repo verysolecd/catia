@@ -1,0 +1,58 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+
+
+Title = "Create Plug Weld";
+
+
+//  -------------------------------------------------------------------
+
+WeldTypeFrame.WeldTypeLable.Title = "Weld Type             ";
+
+//  -------------------------------------------------------------------
+
+JointPartsFrame.Title = "Joint Parts";
+
+JointParts.MultiList.ColumnTitle1 = "No";
+JointParts.MultiList.ColumnTitle2 = "Partnumber";
+JointParts.MultiList.ColumnTitle3 = "Version";
+JointParts.MultiList.ColumnTitle4 = "Chinese Name";
+
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "Reframe On";
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "Center Graph";
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListClearSelection.Title = "Clear Selection";
+
+
+//  -------------------------------------------------------------------
+
+Frame2.ReferenceCurve.Title = "Reference Curve             ";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveReframeOn.Title = "Reframe On";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveCenterGraph.Title = "Center Graph";
+//Frame2.ReferenceCurveSelectorList.ReferenceCurve.CreateCurve.Title = "Create Curve";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.CreateJoin.Title = "Create Join";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ClearSelection.Title = "Clear Selection";
+
+Frame2.OffsetDistanceCheckButton.Title = "Offset Distance             ";
+Frame2.OffsetDistanceReverse.Title = "Reverse";
+
+Frame2.SupportSurface.Title = "Support Surface             ";
+Frame2.SupportSurfaceGroup.Title = "Group";
+
+//  -------------------------------------------------------------------
+
+WeldingDirectionFrame.Title = "Welding Direction";
+
+WeldingDirectionFrame.StartingPointLabel.Title = "Starting Point       ";
+WeldingDirectionFrame.DestinationLabel.Title = "Destination";
+
+WeldingDirectionFrame.ArrowsLabel.Title = "   ->   ";
+WeldingDirectionFrame.WeldDirectionReversePushButton.Title = "Reverse";
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+SelectFacesDialog.Title = "Select faces";
+
+SelectFacesDialog.PushButtonFrame.RemovePushButton.Title = "Remove";
+SelectFacesDialog.PushButtonFrame.ReplacePushButton.Title = "Replace";

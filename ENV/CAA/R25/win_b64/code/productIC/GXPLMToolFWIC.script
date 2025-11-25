@@ -1,0 +1,15 @@
+<I.C SCRIPT>  WINNT 1
+M8 1 "" ""
+M1 1 System
+M1 1 ApplicationFrame
+M1 1 DialogEngine
+M1 1 CATAssemblyInterfaces
+M1 1 Dialog
+M1 1 ProductStructure
+M1 1 KnowledgeInterfaces
+M1 1 XMLParser
+M1 1 ObjectSpecsLegacy
+M1 2 ObjectModelerBase,2
+M1 2 MechanicalModelerUI,2
+M1 2 MecModInterfaces,2
+EOF

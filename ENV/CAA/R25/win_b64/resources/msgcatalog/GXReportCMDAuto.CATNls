@@ -1,0 +1,33 @@
+GXReportCMDAuto.initialState.Message="Click anywhere in the viewer to exit";
+GXReportCMDAuto.Plan.Title = "Progress";
+
+GXReportCMDAuto.HoodDate.Title = "Analyzing the parts...(";
+
+GXReportCMDAuto.ShowMessageBox.Notify = "Notify";
+
+GXReportCMDAuto.ShowMessageBox.Notify.2 = "File save succeeded. Open file or not?";
+
+GXReportCMDAuto.ExportDate.Title = "Product Structure Export...(";
+
+Name = "√˚≥∆";
+MaterialCode = "ŒÔ¡œ±‡¬Î";
+
+Error.Title = "Error";
+Warning.Title = "Warning";
+
+Msg.NoEvnPath = "Please configure environment variables: ";
+Msg.NoFindFile = "Configuration file not found: ";
+Msg.FileError = "Configuration file missing data: ";
+
+PPTFileIsExist.Mess = "This *** file already exists, do you need to overwrite it?";
+
+ExportCompleted.Mess = "Export Completed";
+ExportCompleted.Title = "Tip";
+
+ProgressTaskUI.Mess = "Obtaining Part Information";
+ProgressTaskUI.CommentRuntime = "Progress loading...";
+
+RemoveFileFailed.Mess = "The file is occupied and cannot be overwritten. Please close the document and try again";
+CopyFileError.Mess = "Failed to copy the template file";
+
+SaveAsPathError.Mess = "Cannot overwrite template file";

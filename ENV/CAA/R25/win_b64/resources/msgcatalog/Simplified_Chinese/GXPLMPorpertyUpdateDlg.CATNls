@@ -1,0 +1,3 @@
+Title = "PLM属性同步";
+Label1.Title = "物料编码";
+PushButton1.Title = "属性同步";

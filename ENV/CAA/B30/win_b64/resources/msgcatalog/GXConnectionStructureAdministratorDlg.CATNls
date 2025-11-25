@@ -1,0 +1,11 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Super Administrator";
+pFrame1.Title="Administrator List";
+pFrame1.SelAdminList.Title="AdministratorList";
+pFrame1.PBAdd.Title="Add Administrator";
+pFrame1.PBDelete.Title="Delete Administrator";
+
+AddAdminDlg.Title="Add Administrator";
+AddAdminDlg.pLabel.Title="Enter an Administrator's name:";

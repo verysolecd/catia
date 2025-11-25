@@ -1,0 +1,10 @@
+LayoutType.Type1 = "口";
+LayoutType.Type2 = "日";
+LayoutType.Type3 = "田";
+LayoutType.Type4 = "目";
+LayoutType.Type5 = "口口";
+LayoutType.Type6 = "罒";
+
+CellType.Type1 = "长方体";
+CellType.Type2 = "刀片类";
+CellType.Type3 = "圆柱体";

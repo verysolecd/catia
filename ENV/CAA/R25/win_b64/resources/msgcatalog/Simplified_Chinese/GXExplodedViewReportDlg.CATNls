@@ -1,0 +1,22 @@
+Title = "爆炸图导出";
+
+FrmSelectRange.Title = "选择范围";
+FrmSelectRange.Current.Title = "当前选择节点";
+FrmSelectRange.CurrentAndChild.Title = "当前选择节点及子节点";
+
+FrmPartType.Title = "零件类型";
+FrmPartType.SelfMade.Title = "自制";
+FrmPartType.Outsourcing.Title = "外协";
+FrmPartType.Label001.Title = "            ";
+FrmPartType.Label002.Title = "                        ";
+
+FrmPrdList.Title = "总成列表";
+
+MultiListMain.ColumnTitle0 = "序号";
+MultiListMain.ColumnTitle1 = "总成";
+
+FrmPrdList.MultiListSet.MenuMultiList.ReframeOn.Title = "居中";
+FrmPrdList.MultiListSet.MenuMultiList.CenterGraph.Title = "将图居中";
+FrmPrdList.MultiListSet.MenuMultiList.Remove.Title = "移除";
+
+SaveAs.Title = "保存路径";

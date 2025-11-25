@@ -1,0 +1,21 @@
+HZCV5PCreatePlugWeldCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "建议";
+Warning.Title = "警告";
+Error.Title = "错误";
+
+Msg.ErrorSelect = "请选择零件！";
+Msg.SelectNULL = "参考曲线或参考表面为空！";
+Msg.FaceErrorSelect = "所选面已经存在。请重新选择 ！";
+Msg.DeleteError = "请选择要删除的面 ！";
+Msg.ReplaceError = "请选择要替换的面 ！" ;
+Msg.JoinError = "选择的面无法进行接合 ！";
+Msg.CreateProjectError = "所选线不可投影到面上，请重新选择线或面 ！";
+Msg.ActiveProductErrorSelect = "请在总成中定义焊点Part完成创建!";
+Msg.CurveParFailed = "偏移曲线无法偏移，请检查偏移方向";
+Msg.Errormessage = "信息选择不全，请再次选择";
+Msg.ErrorCurveDomains = "参考曲线未连续";
+Msg.ErrorFaceDomains = "参考曲面未连续";
+Msg.ErrorCurveSame = "不可选择几何集下创建的曲线元素，请重新选择";
+Msg.ErrorFaceSame = "不可选择几何集下创建的曲面元素，请重新选择";
+Msg.ErrorNoWeld = "没有可实体化特征，请先做特征";

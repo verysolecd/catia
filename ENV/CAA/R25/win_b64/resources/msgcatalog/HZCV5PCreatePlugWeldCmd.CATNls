@@ -1,0 +1,25 @@
+HZCV5PCreatePlugWeldCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.ErrorSelect = "Please select part!";
+Msg.SelectNULL = "The ReferenceCurve or SupportSurface is NULL_var!";
+Msg.FaceErrorSelect = "The face already have,please select again !";
+Msg.DeleteError = "Please select the faces to delete!";
+Msg.ReplaceError = "Please select the surface to replace!";
+Msg.JoinError = "The selected faces cannot be joined !";
+Msg.CreateProjectError = "The selected line cannot be projected onto the surface. Please re-select the curve or face  !";
+Msg.ActiveProductErrorSelect = "Please select the product !";
+Msg.CurveParFailed = "The offset curve cannot be offset. Please check the offset direction";
+Msg.Errormessage = "Incomplete information selection, please select again";
+Msg.ErrorCurveDomains = "The reference curve is not continuous";
+Msg.ErrorFaceDomains = "The reference face is not continuous";
+Msg.ErrorCurveSame = "Curve point elements created under the geometry set cannot be selected, please select it again";
+Msg.ErrorFaceSame = "Face point elements created under the geometry set cannot be selected, please select it again";
+Msg.ErrorPlugSame = "Batch solder joints have been created for this curve, weld cannot be created, please select again";
+Msg.ErrorPlugWeldSame = "There is a weld in the same position, please select it again";
+Msg.ErrorFaceMore = "A maximum of five faces can be selected for joint";
+Msg.ErrorFaceeGSM = "Unselected face cannot be joined. please select face first";
+

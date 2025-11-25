@@ -1,0 +1,35 @@
+GXFastenerToolSpaceCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.CreateProductFailed = "Failed to create product document.";
+Msg.PushSleeveBtnWarning = "No Fastener data!";
+Msg.AddPartError = "Part has been added";
+Msg.LackSleeveDoc = "Not Find Local Box Spanner Document.";
+Msg.CreateProgresstFailed = "Failed to create progress";
+Msg.OpenExcel = "Failed to open Excel";
+Msg.LackBody = "Please Check PartBody!";
+Msg.NutError = "Ilegal Operation! Check the Fastener Type!(Nut)";
+Msg.BoltError = "Ilegal Operation! Check the Fastener Type!(Bolt)";
+Msg.ScrewError = "Ilegal Operation! Check the Fastener Type!(Screw)";
+Msg.SelectScrewSleeve = "Please manually select the box spanner.";
+Msg.PartBodyError = "Error : Failed to get this Fastener's Part Body.Please check!";
+Msg.TypeError = "Tip : Please select Type";
+Msg.TipEnvValue = "Tip : Lack Environment Variables - VSKnowledgeDataPath";
+Msg.SleeveWarning = "Warning : Failed to find Box Spanner Doc of this Fastener.";
+Msg.CheckError = "Error : Failed to find local file.";
+Msg.QueryTip = "The selected part may be not a fastener.Do you want to continue?";
+Msg.TipLackType = "Please select Fastener Type!";
+Msg.MdfyExistTip = "Please close the subinterface first!";
+Msg.UserPrdNameWarning = "Current product data is inconsistent with the result data, please reload the tool to check!";
+Msg.ErrorHelpBtn = "Failed to access the VSFastenerHelpDocument,please check!";
+Msg.TipSelectProcess = "Please select a process first.";
+Msg.TipNoCorrectElm = "The selected object already exists or is a fastener.";
+Msg.TipAddFastener = "Please load fastener data.";
+
+Language.Nut = "Nut";
+Language.Bolt = "Bolt";
+Language.SixScrew = "Socket Hexagon Screw";
+Language.CircleScrew = "Round Head Screw";

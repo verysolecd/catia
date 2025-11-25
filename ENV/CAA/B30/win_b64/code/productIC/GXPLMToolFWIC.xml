@@ -1,0 +1,15 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+  <prerequisite name = "System"/>
+  <prerequisite name = "ApplicationFrame"/>
+  <prerequisite name = "DialogEngine"/>
+  <prerequisite name = "CATAssemblyInterfaces"/>
+  <prerequisite name = "Dialog"/>
+  <prerequisite name = "ProductStructure"/>
+  <prerequisite name = "KnowledgeInterfaces"/>
+  <prerequisite name = "XMLParser"/>
+  <prerequisite name = "ObjectSpecsLegacy"/>
+  <prerequisite access = "Protected" name = "ObjectModelerBase"/>
+  <prerequisite access = "Protected" name = "MechanicalModelerUI"/>
+  <prerequisite access = "Protected" name = "MecModInterfaces"/>
+</codeFramework>

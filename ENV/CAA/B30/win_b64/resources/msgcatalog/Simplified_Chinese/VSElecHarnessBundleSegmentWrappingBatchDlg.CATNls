@@ -1,0 +1,28 @@
+Title = "线束包络创建";
+OK.Title = "运行";
+CANCEL.Title = "关闭";
+
+FrameHarnessPrd.LabelHarnessPrd.Title = "线束零件";
+FrameHarnessPrd.SelectorListHarnessPrd.MenuList1.PushItemCenterGraph.Title = "将树居中";
+FrameHarnessPrd.SelectorListHarnessPrd.MenuList1.PushItemRefromOn.Title = "居中";
+FrameHarnessPrd.PushButtonAdd.Title = "添加";
+FrameHarnessPrd.PushButtonRemove.Title = "移除";
+
+MultiListMain.ColumnTitle1 = "序号";
+MultiListMain.ColumnTitle2 = "束段名称";
+MultiListMain.ColumnTitle3 = "起始角度";
+MultiListMain.ColumnTitle4 = "终止角度";
+MultiListMain.ColumnTitle5 = "上公差(+)";
+MultiListMain.ColumnTitle6 = "下公差(-)";
+
+FrameMultilist.MultiListMain.MenuList1.PushItemCenterGraph.Title = "将树居中";
+FrameMultilist.MultiListMain.MenuList1.PushItemRefromOn.Title = "居中";
+
+DlgAdd.Title = "线束添加";
+DlgAdd.LabelSurfaceAdd.Title = "束段名称";
+DlgAdd.SelectorListSurfaceAdd.MenuList1.PushItemCenterGraph.Title = "将树居中";
+DlgAdd.SelectorListSurfaceAdd.MenuList1.PushItemRefromOn.Title = "居中";
+DlgAdd.LabelStartAngle.Title = "起始角度";
+DlgAdd.LabelEndAngle.Title = "终止角度";
+DlgAdd.LabelCmUp.Title = "上公差(+)";
+DlgAdd.LabelCmLw.Title = "下公差(-)";

@@ -1,0 +1,41 @@
+SMCFastenerToolSpaceCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Export.Title = "导出";
+Close.Title = "关闭";
+
+Name = "名称";
+MaterialCode = "物料编码";
+
+Error.Title = "错误";
+Warning.Title = "警告";
+
+
+Msg.NoEvnPath = "请配置环境变量：";
+Msg.NoFindFile = "配置文件没有找到：";
+Msg.FileError = "配置文件数据缺失：";
+
+Msg.Progress = "进度";
+
+SelfMade.Text = "自制";
+Outsourcing.Text = "外协";
+
+NoSelectPrd.Mess = "请在结构树上选择要导出的总成";
+
+PPTFileIsExist.Mess = "此项 *** 文件已经存在,需要覆盖它吗?";
+
+ExportCompleted.Mess = "导出完成";
+ExportCompleted.Title = "提示";
+
+ProgressTaskUI.Mess = "正在导出报告";
+ProgressTaskUI.CommentRuntime = "进度加载中...";
+
+RemoveFileFailed.Mess = "文件被占用，无法覆盖，请关闭该文档后重试";
+CopyFileError.Mess = "复制模板文件失败.";
+
+PPTTemplateFileError.Mess = "PPT模板文件错误，请检查";
+
+SaveAsPathError.Mess = "不能覆盖模板文件";
+
+NoFindRootNode.Mess = "当前列表里没有根节点,是否需要导出汇总表";
+
+SelectProduct.Title = "选择一个总成";

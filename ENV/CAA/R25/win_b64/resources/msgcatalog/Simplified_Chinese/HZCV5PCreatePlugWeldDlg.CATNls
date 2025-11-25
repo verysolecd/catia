@@ -1,0 +1,63 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+Title = "创建焊缝";
+
+//  -------------------------------------------------------------------
+
+WeldTypeFrame.WeldTypeLable.Title = "焊缝类型             ";
+
+//  -------------------------------------------------------------------
+
+JointPartsFrame.Title = "搭接零件";
+
+JointParts.MultiList.ColumnTitle1 = "序号";
+JointParts.MultiList.ColumnTitle2 = "零件号";
+JointParts.MultiList.ColumnTitle3 = "版本";
+JointParts.MultiList.ColumnTitle4 = "中文描述";
+
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "视图居中";
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "结构树上居中";
+JointPartsFrame.MultiList.MultiListReferencePart.MultiListClearSelection.Title = "清空选择";
+
+
+//  -------------------------------------------------------------------
+
+Frame2.ReferenceCurve.Title = "参考曲线              ";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveReframeOn.Title = "视图居中";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ReferenceCurveCenterGraph.Title = "结构树上居中";
+//Frame2.ReferenceCurveSelectorList.ReferenceCurve.CreateCurve.Title = "创建曲线";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.CreateJoin.Title = "创建接合";
+Frame2.ReferenceCurveSelectorList.ReferenceCurve.ClearSelection.Title = "清空选择";
+
+
+Frame2.OffsetDistanceCheckButton.Title = "偏移距离             ";
+Frame2.OffsetDistanceReverse.Title = "反转";
+
+Frame2.SupportSurface.Title = "参考表面             ";
+Frame2.SupportSurfaceGroup.Title = "多选";
+
+//  -------------------------------------------------------------------
+
+WeldingDirectionFrame.Title = "焊接方向";
+
+WeldingDirectionFrame.StartingPointLabel.Title = "起点       ";
+WeldingDirectionFrame.DestinationLabel.Title = "终点";
+
+WeldingDirectionFrame.ArrowsLabel.Title = "   ->   ";
+WeldingDirectionFrame.WeldDirectionReversePushButton.Title = "反转";
+
+
+
+
+//  -------------------------------------------------------------------
+//  -------------------------------------------------------------------
+
+SelectFacesDialog.Title = "多面选择";
+
+SelectFacesDialog.PushButtonFrame.RemovePushButton.Title = "删除";
+SelectFacesDialog.PushButtonFrame.ReplacePushButton.Title = "替换";
+
+
+BOK = "确认";
+BCancel = "取消";
+BPreview = "预览";

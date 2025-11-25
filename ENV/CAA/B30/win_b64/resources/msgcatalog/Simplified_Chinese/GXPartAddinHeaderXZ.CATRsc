@@ -1,0 +1,5 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXPartAddinHeaderXZ.CreateBasicSurface.Icon.Normal    = "I_CreateBasicSurface" ;
+GXPartAddinHeaderXZ.CreateRibSketch.Icon.Normal    = "I_CreateRibSketch" ;
+GXPartAddinHeaderXZ.CreateRibSurface.Icon.Normal    = "I_CreateRibSurface" ;

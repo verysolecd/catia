@@ -1,0 +1,94 @@
+Title = "紧固件工具空间";
+IdentificationOF.Title = "  紧固件识别  ";
+InstallTool.Title = "  加载安装工具  ";
+InterferenceChecking.Title = "  安装空间校核  ";
+
+ShowCheckBtn.Title = "显示单个/全部";
+InstallCheckBtn.Title = "安装";
+PreCheckBtn.Title = "预拧";
+FinalCheckBtn.Title = "终拧";
+
+SMCVAToolType.Type1 = "所有紧固件";
+SMCVAToolType.Type2 = "工具干涉";
+SMCVAToolType.Type3 = "工具不干涉";
+SMCVAToolType.Type4 = "无工具";
+
+//MultiListSet.MenuSen.InFType.Title = "安装工具类型";
+
+//Special.MultiListSet.MenuSen.Normal.Title = "普通工具";
+//Special.MultiListSet.MenuSen.Special.Title = "特殊工具";
+
+MultiListSet.MenuSen.CenterGraph.Title = "将图居中";
+MultiListSet.MenuSen.Reset.Title = "重置";
+MultiListSet.MenuSen.HideResult.Title = "改变结果展示";
+
+MultiListSet.MenuSen.Remove.Title = "删除";
+
+MultiListSet.MenuSen.ChangeToolType.Title = "改变安装点类型";
+MultiListSet.MenuSen.ChangeCombinationType.Title = "改变组合方式";
+
+MultiListSetting.ColumnTitle0="编号";
+MultiListSetting.ColumnTitle1="零件号";
+MultiListSetting.ColumnTitle2="类型";
+MultiListSetting.ColumnTitle3="中文名称";
+MultiListSetting.ColumnTitle4="公称直径";
+MultiListSetting.ColumnTitle5="对边尺寸";
+
+MultiListSetting.ColumnTitle6="KCDS";
+MultiListSetting.ColumnTitle7="紧固点类型";
+
+MultiListSetting.ColumnTitle_=" ";
+
+//MultiListSetting.ColumnTitleSH="工具匹配";
+
+MultiListSetting.ColumnTitle8="组合选项";
+MultiListSetting.ColumnTitle9="安装工具";
+MultiListSetting.ColumnTitle10="接杆";
+MultiListSetting.ColumnTitle11="套筒";
+MultiListSetting.ColumnTitle12="状态";
+MultiListSetting.ColumnTitle13="安装阶段";
+
+Edit.Title = "编辑";
+Edit.Fasteners.Title = "紧固件";
+Edit.InToolbar.Title = "安装工具栏";
+
+Edit.Fasteners.FastPrt.LabPartNum.Title =   "零件号     ";
+Edit.Fasteners.FastET.LabType.Title =       "类型       ";
+Edit.Fasteners.FastETPN.LabPartName.Title = "中文名称   ";
+Edit.Fasteners.FastETLD.LabDie.Title =      "公称直径   ";
+Edit.Fasteners.FastETLS.LabSize.Title =     "对边尺寸   ";
+Edit.Fasteners.FastETLS2.LabSize2.Title =   "纵深距离   ";
+Edit.Fasteners.FastETP.LabFastETP.Title =   "紧固点类型 ";
+Edit.Fasteners.FastETK.LabKType.Title =     "KCDS要求   ";
+
+MultiListSpecial.ColumnTitle0 = "紧固件号";
+MultiListSpecial.ColumnTitle1 = "安装工具类型";
+
+ComboBox2.ClomnTitle1 = "无类型";
+ComboBox2.ClomnTitle0 = "所有紧固件";
+ComboBox2.ClomnTitle2 = "螺母";
+ComboBox2.ClomnTitle3 = "螺栓";
+ComboBox2.ClomnTitle4 = "圆头螺钉";
+ComboBox2.ClomnTitle5 = "内六角螺钉";
+
+VerMinRB.Title = "纵向长度最短";
+VerMaxRB.Title = "纵向长度最长";
+VerCusRB.Title = "自定义";
+
+Edit.InToolbar.Combination.LabCType.Title =   "组合选项  ";
+Edit.InToolbar.FilterFFC.FFCFilter.Title =    "FFC 过滤  ";
+Edit.InToolbar.ToolFFC.FFCTool.Title =        "安装工具  ";
+Edit.InToolbar.SpindleFFC.FFCSpindle.Title =  "接杆      ";
+Edit.InToolbar.SleeveFFC.SleeveFFCLab.Title = "套筒      ";
+Edit.InToolbar.LoadBtn.Title = "刷新";
+Edit.InToolbar.TypeFrame.InstallRadioBtn.Title ="安装";
+Edit.InToolbar.TypeFrame.PreRadioBtn.Title ="预拧";
+Edit.InToolbar.TypeFrame.FinalRadioBtn.Title ="终拧";
+
+Fasteners.DefaultNName = "普通";
+Fasteners.DefaultSName = "特殊";
+
+IFastFrm.IFastInformation.ShortHelp = "紧固件信息";
+IFastFrm.IToolInformation.ShortHelp = "工具信息";
+IFastFrm.IInstallationResult.ShortHelp = "安装结果";
+IFastFrm.I_ALL.ShortHelp = "取消筛选";

@@ -1,0 +1,67 @@
+VSFastenerCheckCmd.SelectObjectState.Message="Select object";
+VSFastenerCheckCmd.SelectBoltState.Message="Select bolt part";
+VSFastenerCheckCmd.SelectNutState.Message="Select nut part";
+VSFastenerCheckCmd.SelectClampingHoopState.Message="Select Clamping_Hoop part";
+VSFastenerCheckCmd.SelectBaseMaterialState.Message="Select base material";
+VSFastenerCheckCmd.SelectProductState.Message="Select Product";
+
+Warning.Title = "Warning";
+Error.Title = "Error";
+Tip.Title = "Tip";
+
+Msg.NoEnv = "请配置环境变量";
+
+Msg.NoSelection = "No selection";
+
+Msg.NotInFastenerLibrary = "Fasteners are not in the library";
+
+//FastenerCheck.CMD.String0005 = "Selected, please select again";
+Msg.MatchingSucceeded = "Matching succeeded";
+Msg.MatchingFailed = "Matching failed";
+Msg.LackClampedParts = "Lack of clamped parts";
+Msg.GetFastenerSucceeded = "Successful acquisition of fasteners";
+Msg.NoFindFastener = "No fasteners found";
+Msg.FastenerCheckOver = "Fastener check over";
+FastenerCheck.CMD.String00101 = "There are fasteners that have not been checked(incomplete data)";
+FastenerCheck.CMD.String00102 = "Data of fastener checking is incomplete";
+Msg.Progress = "Progress";
+Msg.FastenerChecking = "Fastener checking...";
+Msg.AutoGetFastener = "Fastener automatic acquisition...";
+FastenerCheck.CMD.String0013 = "Repeat with the bolt or nut in the list, please reselect the part";
+FastenerCheck.CMD.String0014 = "The choice is nut, please choose bolt part";
+FastenerCheck.CMD.String0015 = "The choice is bolt, please choose nut part";
+FastenerCheck.CMD.String0016 = "The choice is bolt or nut, please reselect the part";
+FastenerCheck.CMD.String0017 = "The selected part is duplicate to the clamped part, please reselect the part";
+FastenerCheck.CMD.String0018 = "The selected part is repeated with the base material, please reselect the part";
+FastenerCheck.CMD.String0019 = "The selected part is not in the catalog table, please reselect the part";
+
+FastenerCheck.CMD.String0020 = "Please select the type of base material";
+FastenerCheck.CMD.String0021 = "Please edit the base material thread depth value";
+FastenerCheck.CMD.String0022 = "Please select the pitch of the base material";
+FastenerCheck.CMD.String0023 = "Please select the clamped part";
+
+Msg.ModifyFastener = "Fastener data modification will clear the check result.\nDo you want to continue?";
+Msg.NoInstallationHoleTable = "No installation hole check data table found.\nDo you want to continue?";
+Msg.NoMaterialTable = "No body material data table found. \nDo you want to continue?";
+Msg.NoFastenerTable = "No fastener excel data table found. \nDo you want to continue?";
+Msg.ModifyCheckData = "Fastener check data has been modified. \nDo you want to exit?";
+Msg.NoPitchTable = "No pitch table found. \nDo you want to continue?";
+Msg.NoPerformanceLevelTable = "No performance level check table found. \nDo you want to continue?";
+
+FastenerCheck.CMD.String0101 = "can not find file";
+FastenerCheck.CMD.String0102 = "Export report succeeded";
+FastenerCheck.CMD.String0103 = "File already exists, overwrite?";
+FastenerCheck.CMD.String0104 = "A file with the same name is already open and cannot be overwritten";
+FastenerCheck.CMD.String0105 = "Export report succeeded,open or not";
+FastenerCheck.CMD.FailedCopy = "Report template replication failed";
+FastenerCheck.CMD.FailedExportReport = "Export report failed";
+FastenerCheck.CMD.FailedExcelService = "Create Excel Service Failed";
+FastenerCheck.CMD.FailedOpenExcel = "Failed to open Excel";
+FastenerCheck.CMD.FailedAdd = "The selected part already exists in the library";
+FastenerCheck.CMD.AddPrdMiss = "Please Select part to add";
+
+Msg.RemoveFastener = "Deleting fasteners will delete fastener check data. Do you want to continue?";
+Msg.NoBOM = "No BOM is selected, please select BOM";
+Msg.NoCheck = "There are fasteners that have not been checked";
+
+//FastenerCheck.CMD.ErrorB0 = "安装孔直径过小";

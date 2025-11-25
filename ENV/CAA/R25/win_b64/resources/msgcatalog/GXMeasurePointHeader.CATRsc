@@ -1,0 +1,6 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+GXMeasurePointHeader.MeasurePoint.Icon.Normal = "I_MeasurePoint";
+GXMeasurePointHeader.SortPoint.Icon.Normal = "I_SortPoint";
+GXMeasurePointHeader.PointOutReport.Icon.Normal = "I_MeasurePointImport";
+GXMeasurePointHeader.PointInReport.Icon.Normal = "I_MeasurePointExport";

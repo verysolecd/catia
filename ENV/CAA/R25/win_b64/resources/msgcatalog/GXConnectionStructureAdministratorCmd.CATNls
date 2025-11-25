@@ -1,0 +1,13 @@
+RPTSmartCAEAdministratorCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Error.Title = "Error";
+Information.Title = "Tips";
+Warning.Title = "Warning";
+
+Message.NoSupervisorFile = "No super administrator.";
+Message.PasswordError = "Password error.";
+Message.OldPasserwordError = "The old password is incorrect.";
+Message.NoMatchTwoPasserwords = "Two passwords do not match.";
+Message.NameEmpty = "The administrator name cannot be empty.";
+Message.CannotDelete = "Cannot delete the current administrator.";
+Message.NoTemplateDirectory = "No template library environment variables 'SmartCAETemplatePath'.";

@@ -1,0 +1,7 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+Title = "Clip Upload";
+LabClipType.Title="Clip Type";
+LabInstallPlane.Title="Install Plane";
+LabInstallDirection.Title="Install Direction";
+LabReferenceDirection.Title="Reference Direction";

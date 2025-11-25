@@ -1,0 +1,11 @@
+Title = "Bundle Segment Wrapping";
+LabelElm.Title = "Reference Face ";
+SelectorLinkElm.MenuList.PushItemCenterGraph.Title = "Center Graph";
+SelectorLinkElm.MenuList.PushItemReframeOn.Title = "Reframe On";
+LabelStartAngle.Title = "Start Angle ";
+FrameStartAngle.LabelTo.Title = "~";
+LabelEndAngle.Title = "End Angle";
+FrameEndAngle.LabelTo.Title = "~";
+CheckBtnCommonUpper.Title = "Tolerances (+)";
+CheckBtnCommonLower.Title = "Tolerances (-)";
+

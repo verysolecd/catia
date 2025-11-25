@@ -1,0 +1,19 @@
+GX2024ToolkitAssyHeader.FastenerToolSpace.Title    = "紧固件工具空间校核" ;
+GX2024ToolkitAssyHeader.FastenerToolSpace.Help    = "紧固件工具空间校核" ;
+GX2024ToolkitAssyHeader.FastenerToolSpace.ShortHelp    = "紧固件工具空间校核" ;
+
+GX2024ToolkitAssyHeader.FastenerCheck.Title = "紧固件安装孔位检查";
+GX2024ToolkitAssyHeader.FastenerCheck.ShortHelp = "紧固件安装孔位检查";
+GX2024ToolkitAssyHeader.FastenerCheck.Help = "紧固件安装孔位检查";
+
+GX2024ToolkitAssyHeader.HoodReportAuto.Title = "BOM表自动创建";
+GX2024ToolkitAssyHeader.HoodReportAuto.ShortHelp = "BOM表自动创建";
+GX2024ToolkitAssyHeader.HoodReportAuto.Help = "BOM表自动创建";
+
+GX2024ToolkitAssyHeader.ExplodedViewReport.Title = "爆炸图导出";
+GX2024ToolkitAssyHeader.ExplodedViewReport.ShortHelp = "爆炸图导出";
+GX2024ToolkitAssyHeader.ExplodedViewReport.Help = "爆炸图导出";
+
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.Title = "静态间隙干涉检查";
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.ShortHelp = "静态间隙干涉检查";
+GX2024ToolkitAssyHeader.ChassisDMUStaticCheck.Help = "静态间隙干涉检查";

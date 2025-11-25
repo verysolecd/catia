@@ -1,0 +1,29 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+Title = "Spot Weld Creation";
+
+JointParts.Title = "Joint Parts";
+
+JointParts.MultiList.ColumnTitle1 = "No";
+JointParts.MultiList.ColumnTitle2 = "Partnumber";
+JointParts.MultiList.ColumnTitle3 = "Version";
+JointParts.MultiList.ColumnTitle4 = "Chinese Name";
+
+JointParts.MultiList.MultiListReferencePart.MultiListReferencePartReframeOn.Title = "Reframe On";
+JointParts.MultiList.MultiListReferencePart.MultiListReferencePartCenterGraph.Title = "Center Graph";
+JointParts.MultiList.MultiListReferencePart.MultiListClearSelection.Title = "Clear Selection";
+
+Frame2.ReferencePoint.Title = "Reference Point             ";
+Frame2.ReferencePointSelectorList.ReferencePoint.ReferencePointReframeOn.Title = "Reframe On";
+Frame2.ReferencePointSelectorList.ReferencePoint.ReferencePointCenterGraph.Title = "Center Graph";
+Frame2.ReferencePointSelectorList.ReferencePoint.CreatePoint.Title = "Creat Point";
+Frame2.ReferencePointSelectorList.ReferencePoint.ClearSelection.Title = "Clear Selection";
+
+Frame2.ReferenceSurface.Title = "Reference Surface             ";
+Frame2.WeldingDirection.Title = "Welding Direction             ";
+
+Frame2.Reverse.Title = "Reverse";
+
+BOK = "OK";
+BCancel = "Cancel";
+BHelp = "Preview";

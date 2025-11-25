@@ -1,0 +1,14 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+
+Title = "Connect Structure Instantiate";
+
+Definition.Title="Connect Structure Definition";
+Definition.InstallElement.Title="Install Options";
+Definition.Parameter.Title="Parameters";
+Definition.Doghouse.LabDoghouse.Title="Recommend Doghose";
+Definition.Doghouse.LabDogRestrict.Title="Affect Parameter";
+Definition.Doghouse.LabDogValue.Title="Value";
+
+Definition.PBRotation.Title="Rotation";
+Definition.PBReverse.Title="Connect Reverse";

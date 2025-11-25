@@ -1,0 +1,28 @@
+Title = "Create Harness Envelope";
+OK.Title = "Run";
+CANCEL.Title = "Close";
+
+FrameHarnessPrd.LabelHarnessPrd.Title = "Harness Product";
+FrameHarnessPrd.SelectorListHarnessPrd.MenuList1.PushItemCenterGraph.Title = "Center graph";
+FrameHarnessPrd.SelectorListHarnessPrd.MenuList1.PushItemRefromOn.Title = "Reframe On";
+FrameHarnessPrd.PushButtonAdd.Title = "Add";
+FrameHarnessPrd.PushButtonRemove.Title = "Remove";
+
+MultiListMain.ColumnTitle1 = "No";
+MultiListMain.ColumnTitle2 = "Reference Face";
+MultiListMain.ColumnTitle3 = "Start Angle";
+MultiListMain.ColumnTitle4 = "End Angle";
+MultiListMain.ColumnTitle5 = "Upper Tolerance(+)";
+MultiListMain.ColumnTitle6 = "Lower Tolerance(-)";
+
+FrameMultilist.MultiListMain.MenuList1.PushItemCenterGraph.Title = "Center graph";
+FrameMultilist.MultiListMain.MenuList1.PushItemRefromOn.Title = "Reframe On";
+
+DlgAdd.Title = "Harness Add";
+DlgAdd.LabelSurfaceAdd.Title = "Reference Face";
+DlgAdd.SelectorListSurfaceAdd.MenuList1.PushItemCenterGraph.Title = "Center graph";
+DlgAdd.SelectorListSurfaceAdd.MenuList1.PushItemRefromOn.Title = "Reframe On";
+DlgAdd.LabelStartAngle.Title = "Start Angle";
+DlgAdd.LabelEndAngle.Title = "End Angle";
+DlgAdd.LabelCmUp.Title = "Upper Tolerance(+)";
+DlgAdd.LabelCmLw.Title = "Lower Tolerance(-)";

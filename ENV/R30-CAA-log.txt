@@ -1,0 +1,21 @@
+### Info: This application is now HighDPI aware
+### Info: Windows HighDPI scaling factor 100% => 96 ppi
+[E] OSM-EDF: this attribute #offset must be less than $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=MustBeDeletedAtUpdate, offset=1 }
+[E] OSM-EDF: this attribute #offset must be equal to $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=NbTransfoStabilizer, offset=2 }
+CreateCommands
+CreateToolbars
+CreateCommands pack .
+CreateCommands
+CreateCommands pack .
+CreateCommands22
+ctor List To Process size = 684
+GX2DLMainWkbAddin::CreateCommands()
+ at G:\CXR30\BSF\PartDesignFeature\PRTBOOLEAN.m\src\CATPrtOperationExt.cpp:929
+ at G:\CXR30\BSF\PartDesignFeature\PRTBOOLEAN.m\src\CATPrtOperationExt.cpp:929
+
+ at :0
+ at :0
+
+ at G:\CXR30\BSF\PartDesignUI\PrtPrismUI.m\src\CATPrtModifyPrismCom.cpp:2034
+ at G:\CXR30\BSF\PartDesignUI\PrtPrismUI.m\src\CATPrtModifyPrismCom.cpp:2034
+

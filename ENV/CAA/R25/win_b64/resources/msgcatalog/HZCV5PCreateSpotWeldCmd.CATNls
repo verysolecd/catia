@@ -1,0 +1,14 @@
+HZCV5PCreateSpotWeldCmd.initialState.Message="Click anywhere in the viewer to exit";
+
+Tip.Title = "Tip";
+Warning.Title = "Warning";
+Error.Title = "Error";
+
+Msg.ErrorSelect = "Please select part!";
+Msg.ActiveProductErrorSelect = "Please select the product !";
+Msg.Errormessage = "Incomplete information selection, please select again";
+Msg.ErrorPointSame = "Point elements created under the geometry set cannot be selected, please select again";
+Msg.PartOnemessage = "Select at least two parts, please select again";
+Msg.ErrorReverse = "Please click preview before reversing";
+Msg.ErrorHaveSame = "The solder ball already exists at the solder joint, please select the reference point or reference surface again";
+

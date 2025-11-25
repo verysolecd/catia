@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+     <!--启动模板地址-->
+	 <StartmodelPath>
+	D:\catia\ENV\CAA\Conf\DrwingTemplate
+	 </StartmodelPath>
+	 <!---->
+	 <item Name="A0_ASSY">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>999,77.5</Potision1>
+			<Potision2>10,799</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+			<Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A0_PART">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>999,77.5</Potision1>
+			<Potision2>10,799</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	  <item Name="A0X3_ASSY">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>2308,66</Potision1>
+			<Potision2>0,1137</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,35,8,16,23,18,42</Width>
+		<!--title-->
+	 </item>
+	  <item Name="A0X3_PART">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>2308,66</Potision1>
+			<Potision2>0,1137</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A1_ASSY">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>651,77.5</Potision1>
+			<Potision2>10.14,552</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A1_PART">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>651,71</Potision1>
+			<Potision2>10.14,552</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A2_ASSY">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>404,77.5</Potision1>
+			<Potision2>10.14,378</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A2_ASSY Alu 20250423">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>404,77.5</Potision1>
+			<Potision2>10.14,378</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A2_PART">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>403,71</Potision1>
+			<Potision2>10.14,378</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A3_ASSY">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>235,72.5</Potision1>
+			<Potision2>5,260</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A3_PART">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>235,66</Potision1>
+			<Potision2>5,260</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	<item Name="A4_ASSY_LANDSCAPE">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>112,71.1</Potision1>
+			<Potision2>5,173</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A4_ASSY_PORTRAIT">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>25,71.1</Potision1>
+			<Potision2>5.11,173</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,9,15,18,18,42</Width>
+		<!--title-->	
+		</item>
+	<item Name="A4_PART_LANDSCAPE">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>112,66.1</Potision1>
+			<Potision2>5,173</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	 <item Name="A4_PART_PORTRAIT">
+	 <!--标题栏-->
+		<!--title-->
+			<!--明细栏位置-->
+			<Potision1>25,66</Potision1>
+			<Potision2>5.11,260</Potision2>
+			<!--字体大小-->
+			<Font>3</Font>
+			<!--行高-->
+			<Height>5</Height>
+		 <!--列宽-->
+		 <Width>8,30,40,8,15,19,18,42</Width>
+		<!--title-->
+	 </item>
+	
+	 
+			
+</Root>

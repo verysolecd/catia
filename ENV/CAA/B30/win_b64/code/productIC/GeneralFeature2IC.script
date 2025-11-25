@@ -1,0 +1,32 @@
+<I.C SCRIPT>  WINNT 1
+M8 1 "" ""
+M1 2 System,2
+M1 2 ObjectSpecsModeler,2
+M1 2 ApplicationFrame,2
+M1 2 InteractiveInterfaces,2
+M1 2 Dialog,2
+M1 2 DialogEngine,2
+M1 2 Mathematics,2
+M1 2 MechanicalModelerUI,2
+M1 2 ObjectModelerNavigator,2
+M1 2 Visualization,2
+M1 2 ObjectModelerBase,2
+M1 2 ObjectSpecsModeler,2
+M1 2 ApplicationFrame,2
+M1 2 GSMInterfaces,2
+M1 2 MeasureGeometryInterfaces,2
+M1 2 BasicTopologicalOpe,2
+M1 2 MecModInterfaces,2
+M1 2 ProductStructure,2
+M1 2 KnowledgeInterfaces,2
+M1 2 MechanicalModelerUI,2
+M1 2 VisualizationBase,2
+M1 2 GeneralFeatureInterfaces,2
+M1 2 GeneralFeature2Interfaces,2
+M1 2 CATGraphicProperties,1
+M1 2 SpaceAnalysisInterfaces,2
+M1 2 CATGraphicProperties,2
+M1 2 CATIAApplicationFrame,2
+M1 2 MechanicalModeler,2
+M1 2 GeometricObjects,2
+EOF

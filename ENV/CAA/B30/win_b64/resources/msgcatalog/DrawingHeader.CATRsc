@@ -1,0 +1,9 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+// END WIZARD REPLACEMENT ZONE
+DrawingHeader.NewDrawing.Icon.Normal = "InsertDrawingModel";
+DrawingHeader.Title.Icon.Normal = "TitleEditor";
+DrawingHeader.BOM.Icon.Normal = "BOMGeneration";
+DrawingHeader.TecRequire.Icon.Normal = "I_SequenceSigner";
+DrawingHeader.SpecialList.Icon.Normal = "I_GdtNonSemanticGDT";
+DrawingHeader.label.Icon.Normal = "I_DrwWeldingSymbol";
+DrawingHeader.CenterLine.Icon.Normal = "I_CenterLineSimple";

@@ -1,0 +1,10 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+// END WIZARD REPLACEMENT ZONE
+Title="Aluminum Sketch";
+MultiList1.Title1="No";
+MultiList1.Title2="Center Curve";
+MultiList1.Title3="Thickness 1(mm)";
+MultiList1.Title4="Thickness 2(mm)";
+
+MultiList1.Menu.MenuPushItem1.Title="Apply value to all";

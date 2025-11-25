@@ -1,0 +1,12 @@
+
+
+View.StartPoint = "起始点";
+View.EndPoint = "终止点";
+
+Error.Title = "错误";
+Information.Title = "提示";
+Warning.Title = "警告";
+
+Message.SelectIllegal = "请选择线束面.";
+Message.ParameterError = "参数有误";
+Message.UpdateError = "更新失败";

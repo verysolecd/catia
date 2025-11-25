@@ -1,0 +1,13 @@
+.\win_b64\code\bin\GXConnectionStructureModel.dll
+.\win_b64\code\bin\GXConnectionStructureModel.pdb
+.\win_b64\code\dictionary\GXConnectionStructureFeatures.dico
+.\win_b64\code\lib\GXConnectionStructureModel.exp
+.\win_b64\code\lib\GXConnectionStructureModel.lib
+.\win_b64\code\productIC\GXConnectionStructureFeaturesIC.required
+.\win_b64\code\productIC\GXConnectionStructureFeaturesIC.script
+.\win_b64\code\productIC\GXConnectionStructureFeaturesIC.xml
+.\win_b64\resources\graphic\icons\normal\I_GXConnectionStructureFastener.bmp
+.\win_b64\resources\graphic\icons\normal\I_GXConnectionStructureFolder.bmp
+.\win_b64\resources\graphic\icons\normal\I_SmartCAENewFld.bmp
+.\win_b64\resources\graphic\RPTConnStrDlgTreeNode.CATfct
+.\win_b64\control\GXConnectionStructureFeatures
