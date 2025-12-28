@@ -2381,7 +2381,7 @@
             <std:enumval name="YesNo">No</std:enumval>
           </std:node>
           <std:node name="Size">
-            <std:floatval>4.5</std:floatval>
+            <std:floatval>3.5</std:floatval>
           </std:node>
           <std:node name="Underline">
             <std:enumval name="YesNo">No</std:enumval>
@@ -3179,7 +3179,7 @@
           <std:enumval name="YesNo">Yes</std:enumval>
         </std:node>
         <std:node name="Type">
-          <std:enumval name="CalloutTypes">Corners ans arrows</std:enumval>
+          <std:enumval name="CalloutTypes">Lines, corners and arrows</std:enumval>
         </std:node>
         <std:node name="Profile">
           <std:node name="LineType">
@@ -3276,7 +3276,7 @@
           <std:enumval name="YesNo">Yes</std:enumval>
         </std:node>
         <std:node name="Type">
-          <std:enumval name="CalloutTypes">Corners ans arrows</std:enumval>
+          <std:enumval name="CalloutTypes">Lines, corners and arrows</std:enumval>
         </std:node>
         <std:node name="Profile">
           <std:node name="LineType">
@@ -3291,7 +3291,7 @@
             <std:intval>2</std:intval>
           </std:node>
           <std:node name="Length">
-            <std:floatval>3.5</std:floatval>
+            <std:floatval>12.</std:floatval>
           </std:node>
         </std:node>
         <std:node name="Attachment">
@@ -3299,7 +3299,7 @@
         </std:node>
         <std:node name="Arrows">
           <std:node name="Length">
-            <std:floatval>6.</std:floatval>
+            <std:floatval>20.</std:floatval>
           </std:node>
           <std:node name="Head">
             <std:node name="Angle">
@@ -3391,7 +3391,7 @@
         </std:node>
         <std:node name="Arrows">
           <std:node name="Length">
-            <std:floatval>6.</std:floatval>
+            <std:floatval>20.</std:floatval>
           </std:node>
           <std:node name="Head">
             <std:node name="Angle">
@@ -3625,8 +3625,8 @@
   </std:node>
   <std:node name="General">
     <std:node name="AllowedToleranceFormats">
-      <std:strval>ANS</std:strval>
-      <std:strval></std:strval>
+      <std:strval>TOL</std:strval>
+      <std:strval>ZF</std:strval>
       <std:strval></std:strval>
       <std:strval></std:strval>
       <std:strval></std:strval>
@@ -3730,7 +3730,7 @@
     </std:node>
     <std:node name="AllowedTextFonts">
       <std:strval>STFangsong (TrueType)</std:strval>
-      <std:strval></std:strval>
+      <std:strval>SICH</std:strval>
       <std:strval></std:strval>
       <std:strval></std:strval>
       <std:strval></std:strval>
@@ -3831,12 +3831,12 @@
       <std:strval></std:strval>
     </std:node>
     <std:node name="AllowedTextFontSizes">
+      <std:floatval>2.5</std:floatval>
       <std:floatval>3.</std:floatval>
       <std:floatval>3.5</std:floatval>
       <std:floatval>4.</std:floatval>
       <std:floatval>5.</std:floatval>
       <std:floatval>7.</std:floatval>
-      <std:floatval>0.</std:floatval>
       <std:floatval>0.</std:floatval>
       <std:floatval>0.</std:floatval>
       <std:floatval>0.</std:floatval>
@@ -3956,7 +3956,7 @@
           <std:colorval>207 207 230</std:colorval>
         </std:node>
         <std:node name="Graduated">
-          <std:enumval name="YesNo">No</std:enumval>
+          <std:enumval name="YesNo">Yes</std:enumval>
         </std:node>
       </std:node>
       <std:node name="Detail">
@@ -4008,7 +4008,7 @@
         <std:strval></std:strval>
         <std:strval></std:strval>
         <std:strval></std:strval>
-        <std:strval>+-0.10</std:strval>
+        <std:strval>+-0.20</std:strval>
       </std:node>
       <std:node name="AlphanumericalToleranceValues">
         <std:strval>H6</std:strval>
@@ -4967,17 +4967,6 @@
   </std:node>
   <std:node name="Frames">
     <std:typeval name="FrameDef">
-      <std:strval name="Name" >Rectangle</std:strval>
-      <std:intval name="Type" >1</std:intval>
-      <std:intval name="Behavior" >1</std:intval>
-      <std:floatval name="Length" >20.</std:floatval>
-      <std:floatval name="Height" >10.</std:floatval>
-      <std:floatval name="Radius" >0.</std:floatval>
-      <std:floatval name="Offset" >0.</std:floatval>
-      <std:floatval name="VerticalMargin" >0.</std:floatval>
-      <std:floatval name="HorizontalMargin" >0.</std:floatval>
-    </std:typeval>
-    <std:typeval name="FrameDef">
       <std:strval name="Name" >Square</std:strval>
       <std:intval name="Type" >2</std:intval>
       <std:intval name="Behavior" >0</std:intval>
@@ -5118,6 +5107,10 @@
       <std:floatval name="Length" >15.</std:floatval>
       <std:floatval name="Offset" >5.</std:floatval>
       <std:floatval name="Height" >15.</std:floatval>
+    </std:typeval>
+    <std:typeval name="FrameDef">
+    </std:typeval>
+    <std:typeval name="FrameDef">
     </std:typeval>
   </std:node>
   <std:node name="LineThickness">
@@ -5399,7 +5392,7 @@
   </std:node>
   <std:node name="Patterns">
     <std:node name="EditAvailability">
-      <std:enumval name="YesNo">No</std:enumval>
+      <std:enumval name="YesNo">Yes</std:enumval>
     </std:node>
     <std:node name="AngleList">
       <std:typeval name="AngleValue">
