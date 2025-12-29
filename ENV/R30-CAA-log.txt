@@ -1,6 +1,2 @@
 ### Info: This application is now HighDPI aware
-### Info: Windows HighDPI scaling factor 150% => 144 ppi
-GX2DLMainWkbAddin::CreateCommands()
-CATMarketSolutionRep::BecomeAvailableCB
-[E] OSM-EDF: this attribute #offset must be less than $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=MustBeDeletedAtUpdate, offset=1 }
-[E] OSM-EDF: this attribute #offset must be equal to $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=NbTransfoStabilizer, offset=2 }
+### Info: Windows HighDPI scaling factor 100% => 96 ppi
