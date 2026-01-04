@@ -1,0 +1,48 @@
+!----------------------------------------------------------
+!   DASSAULT SYSTEMES  -  V5 ENVIRONMENT FILE
+!----------------------------------------------------------
+! MODE : User
+! TYPE : CATIA_P3
+! TMSTMP : 1767505744
+! ARGS : -icon yes -menu yes -desktop no -cs CATIA_P3 -a user 
+!----------------------------------------------------------
+
+ENVPATH=D:\catia\ENV
+CAA30PATH=D:\catia\ENV\CAA\B30
+VSKnowledgeDataPath=D:\catia\ENV\CAA\Conf\
+cnextoutput=D:\catia\ENV\R30-CAA-log.txt
+!--------------------------------------------------------
+CATInstallPath=C:\Program Files\Dassault Systemes\B30\win_b64;%CAA30PATH%\win_b64
+CATDLLPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\bin;%CAA30PATH%\win_b64\code\bin
+CATICPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\productIC;%CAA30PATH%\win_b64\code\productIC
+CATCommandPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\command;%CAA30PATH%\win_b64\code\command
+CATDictionaryPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\dictionary;%CAA30PATH%\win_b64\code\dictionary
+CATDocView=C:\Program Files\Dassault Systemes\B30\win_b64\doc;%CAA30PATH%\win_b64\doc
+CATReffilesPath=C:\Program Files\Dassault Systemes\B30\win_b64\reffiles;%CAA30PATH%\win_b64\reffiles
+CATFontPath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\fonts;%CAA30PATH%\win_b64\resources\fonts
+CATGalaxyPath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\galaxy;%CAA30PATH%\win_b64\resources\galaxy
+CATGraphicPath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic;C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic\icons;C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic\figures;C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic\splashscreens;C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic\symbols;C:\Program Files\Dassault Systemes\B30\win_b64\resources\graphic\textures;%CAA30PATH%\win_b64\resources\graphic;%CAA30PATH%\win_b64\resources\graphic\icons;%CAA30PATH%\win_b64\resources\graphic\figures;%CAA30PATH%\win_b64\resources\graphic\splashscreens;%CAA30PATH%\win_b64\resources\graphic\symbols;%CAA30PATH%\win_b64\resources\graphic\textures
+CATMsgCatalogPath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\msgcatalog;%CAA30PATH%\win_b64\resources\msgcatalog
+CATFeatureCatalogPath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\featurecatalog;%CAA30PATH%\win_b64\resources\featurecatalog
+CATDefaultCollectionStandard=C:\Program Files\Dassault Systemes\B30\win_b64\resources\standard\
+CATKnowledgePath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\knowledge;%CAA30PATH%\win_b64\resources\knowledge
+CATStartupPath=C:\Program Files\Dassault Systemes\B30\win_b64\startup;%CAA30PATH%\win_b64\startup
+CATW3ResourcesPath=C:\Program Files\Dassault Systemes\B30\win_b64\docs;%CAA30PATH%\win_b64\docs
+CATReconcilePath=
+CATReferenceSettingPath=%ENVPATH%\Ref_settings
+CATUserSettingPath=%CAA30PATH%\settings
+CATCollectionStandard=%ENVPATH%\Standard
+CATTemp=CSIDL_LOCAL_APPDATA\DassaultSystemes\CATTemp
+CATMetasearchPath=DSKEY_TMPDIR
+CATW3PublishPath=DSKEY_TMPDIR
+CATSharedWorkbookPath=DSKEY_TMPDIR
+CATErrorLog=CSIDL_LOCAL_APPDATA\DassaultSystemes\CATTemp\error.log
+CATReport=CSIDL_LOCAL_APPDATA\DassaultSystemes\CAT Report
+CATDisciplinePath=
+USER_HOME=CSIDL_PERSONAL
+JAVA_HOME=%JAVA_HOME%
+CLASSPATH_JDBC=
+CLASSPATH=%CLASSPATH_JDBC%;%CLASSPATH%
+PATH=C:\Program Files\Dassault Systemes\B30\win_b64\code\bin;C:\Program Files\Dassault Systemes\B30\win_b64\code\command;%CAA30PATH%\win_b64\code\bin;%CAA30PATH%\win_b64\code\command;%JAVA_HOME%\bin;%PATH%
+TAILLE_MEMOIRE_CHOISIE=1
+CATNoStartDocument=YES

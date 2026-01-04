@@ -1,6 +1,8 @@
 ### Info: This application is now HighDPI aware
 ### Info: Windows HighDPI scaling factor 150% => 144 ppi
-GX2DLMainWkbAddin::CreateCommands()
-CATMarketSolutionRep::BecomeAvailableCB
-[E] OSM-EDF: this attribute #offset must be less than $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=MustBeDeletedAtUpdate, offset=1 }
-[E] OSM-EDF: this attribute #offset must be equal to $list #offset: { name=CATEarlyExternalDataEvol2 }: { late_key_name=NbTransfoStabilizer, offset=2 }
+Can't set 2 Tabs on the same component with the same alignment : Center
+Component name = SynchronizeButton
+First tab name = hori_5
+Secnd tab name = hori_4
+---------- Destructor ENOUPSIntegration ---------------
+ENOUPSReleaseApplicationIntegration - CATCallOnExit - cpt=0
