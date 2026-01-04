@@ -6,3 +6,4 @@ First tab name = hori_5
 Secnd tab name = hori_4
 ---------- Destructor ENOUPSIntegration ---------------
 ENOUPSReleaseApplicationIntegration - CATCallOnExit - cpt=0
+### Info: Windows HighDPI scaling factor 100% => 96 ppi
