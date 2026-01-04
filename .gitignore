@@ -9,5 +9,3 @@ catia test
 ENV\catia standard parts
 desktop.ini
 ENV\R30-CAA-log.txt
-
-*log.txt
