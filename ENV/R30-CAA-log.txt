@@ -1,9 +1,2 @@
 ### Info: This application is now HighDPI aware
-### Info: Windows HighDPI scaling factor 150% => 144 ppi
-Can't set 2 Tabs on the same component with the same alignment : Center
-Component name = SynchronizeButton
-First tab name = hori_5
-Secnd tab name = hori_4
----------- Destructor ENOUPSIntegration ---------------
-ENOUPSReleaseApplicationIntegration - CATCallOnExit - cpt=0
 ### Info: Windows HighDPI scaling factor 100% => 96 ppi
