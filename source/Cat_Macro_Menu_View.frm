@@ -4,7 +4,7 @@ Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} Cat_Macro_Menu_View
    ClientHeight    =   4035
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   7485
+   ClientWidth     =   7490
    OleObjectBlob   =   "Cat_Macro_Menu_View.frx":0000
    StartUpPosition =   1  'CenterOwner
 End
@@ -213,6 +213,8 @@ Private Sub toMP()
     End If
     On Error GoTo 0
 End Sub
+
+
 Private Sub UserForm_Click()
       toMP
 End Sub

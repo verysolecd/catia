@@ -73,7 +73,6 @@ Private Sub Execute()
     Dim clicked As String
     clicked = WD.Tag
     If clicked = "" Then clicked = "UserClosed"
-    
     mdict.Add "btn_clicked", clicked
     
     For Each ctl In WD.Controls
@@ -94,7 +93,7 @@ Public Property Get Res() As Object
    Execute
    Set Res = mdict
 End Property
-Public Property Get BtnClicked(ByVal key As String) As Variant
+Public Property Get BtnClicked(Optional key As String) As Variant
      Execute
      BtnClicked = Null
         Dim btnDic: Set btnDic = Nothing
@@ -105,10 +104,8 @@ Public Property Get BtnClicked(ByVal key As String) As Variant
         If btnDic.Exists("btn_clicked") = False Then
             BtnClicked = Null
         Else
-            Select Case btnDic("btn_clicked")
-                Case key: BtnClicked = True
-                Case Else: BtnClicked = False
-            End Select
+            BtnClicked = btnDic("btn_clicked")
+           If LCase(btnDic("btn_clicked")) = LCase(key) Then BtnClicked = True
         End If
 End Property
 
@@ -131,12 +128,9 @@ End Property
 
 Private Sub ControlBtn_Click()
     ParentFrm.Tag = ControlID  ' 1. 将点击的按钮 ID 存入窗体的 Tag 属性，作为返回值标识
-    ParentFrm.Hide   ' 2. 隐藏窗体（注意：不是 Unload），这样 getUIres 才能继续读取其他控件的值
+    ParentFrm.Hide   ' 2. 隐藏窗体（注意：不是 Unload），
 End Sub
 
-Function getUIres() 'imdl
- 
-End Function
 
 ' getiType 函数（字典驱动版）
 Function getiType(ctrltypename As String) As String
@@ -200,7 +194,7 @@ Private Function ParseCts(ByVal code As String) As Object
         .Pattern = "^\s*'\s*%UI\s+(\w+)\s+(\w+)\s+(.*)$"
     End With
     Dim lst: Set lst = InitLst
-    If regEx.TEST(code) Then
+    If regEx.test(code) Then
         Set matches = regEx.Execute(code)
         For Each match In matches
             Set Cls_property = KCL.InitDic
@@ -228,7 +222,7 @@ Private Function ParseTitle(ByVal code As String) As String
         .Pattern = "^\s*'\s*%Title\s+(.*)$"
     End With
     itl = "请配置你要如何执行"
-              If regEx.TEST(code) Then
+              If regEx.test(code) Then
                 Set matches = regEx.Execute(code)
                 For Each match In matches
                  itl = match.SubMatches(0)

@@ -29,23 +29,18 @@ Attribute VB_Name = "Drw_myframe2"
 '%lb   qianzi  ,  签字    ,  138 ,  36
 '%lb   riqi    ,  日期    ,  126 ,  36
 
-
 ' %UI Button btn_create 创建图框
 ' %UI Button btn_delete 删除图框
 ' %UI Button btn_resize 更改图框尺寸
 ' %UI Button btn_update 更新图框
 
-
-'该宏需要多少前缀类型？
-
+'-----------该图纸需要多少前缀类型？----------
 'frame_border_
 'frame_title_block_
 'title_block_std_
 'titleblock_text_
 'titleblock_Line_
 'titleblock_revision_Line_
-
-
 
 Public ActiveDoc, Fact, Selection
 Private Sheets, Sheet, targetSheet, Views, View, Texts, Text
@@ -66,26 +61,18 @@ Sub CATMain()
       Err.Clear: Name = "none"
     End If
   On Error GoTo 0
-  
     Dim oFrm: Set oFrm = New Cls_DynaFrm
-    
-    If oFrm.BtnClicked("btn_clicked") = Null Then
-        MsgBox "卧槽"
-             Exit Sub
-    End If
-        
-    If BtnClicked("btn_create") Then: If (Name = "none") Then CATDrw_Creation targetSheet
-    
-'
-'      Select Case frmDic("btn_clicked")
-'
-'        Case "btn_create":
-'        Case "btn_resize"
-'            If (Name <> "none") Then
-'             CATDrw_Resizing targetSheet
-'              CATDrw_Update targetSheet
-'            End If
-'          Case "btn_delete": If (Name <> "none") Then CATDrw_Deletion targetSheet
+    If oFrm.IsCancelled Then Exit Sub
+    Select Case oFrm.BtnClicked
+        Case "btn_create": If (Name = "none") Then CATDrw_Creation targetSheet
+        Case "btn_delete": If (Name <> "none") Then CATDrw_Deletion targetSheet
+        Case "btn_resize"
+            If (Name <> "none") Then
+             CATDrw_Resizing targetSheet
+              CATDrw_Update targetSheet
+            End If
+    End Select
+      
 '         Case Else
 '            MsgBox "未点击任何按钮，或按钮名称未匹配", vbExclamation
 '    End Select
@@ -98,8 +85,7 @@ m_NbOfRevision = 9
 m_RevRowHeight = 5
 m_checkRowHeight = 6
 m_RulerLength = 200
-s0X = Array(-180, -164, -148, -134, -120, -60)
-s0Y = Array(0, 6, 36, 61)
+
 
 s1X = Array(-180, -172)
 s1Y = Array(0, 36, 61)
@@ -599,7 +585,7 @@ Private Function ParseDec(ByVal code As String) As Object
     Dim lst, mdic
     Set lst = InitLst
 
-    If regEx.TEST(code) Then
+    If regEx.test(code) Then
         Set matches = regEx.Execute(code)
         For Each match In matches
                 Set mdic = InitDic
