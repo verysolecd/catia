@@ -58,10 +58,10 @@ On Error Resume Next
     Call HideNonBody(rootDoc)
     CATIA.RefreshDisplay = True
     CATIA.DisplayFileAlerts = False
-    With CATIA.Application
-      .Width = 1920 / 2
-      .Height = 1080 '.Width * 0.618
-    End With
+'    With CATIA.Application
+'      .Width = 1920 / 2
+'      .Height = 1080 '.Width * 0.618
+'    End With
     
     With CATIA.ActiveWindow
          .WindowState = 0  '   '0 catWindowStateMaximized 1   catWindowStateMinimized,2   catWindowStateNormal

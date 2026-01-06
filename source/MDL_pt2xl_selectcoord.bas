@@ -9,8 +9,7 @@ Attribute VB_Name = "MDL_pt2xl_selectcoord"
 
 Sub pt2xl()
 
-    If CATIA.Windows.count < 1 Then
-        MsgBox "没有打开的窗口"
+   If Not CanExecute("PartDocument") Then
         Exit Sub
     End If
     
@@ -18,13 +17,6 @@ Sub pt2xl()
     On Error Resume Next
         Set oDoc = CATIA.ActiveDocument
     On Error GoTo 0
-    Dim str
-    str = TypeName(oDoc)
-    If Not str = "PartDocument" Then
-    MsgBox "没有打开的part"
-    Exit Sub
-    End If
-    
     
     Dim HSF:  Set HSF = oDoc.part.HybridShapeFactory
     Dim HBS: Set HBS = oDoc.part.HybridBodies
@@ -35,17 +27,13 @@ Sub pt2xl()
     Dim imsg, filter(0)
     imsg = "请选择点所在的几何图形集"
     filter(0) = "HybridBody"
-    
-'    Set oHB = mysel(imsg, filter).value
     Set oHB = KCL.SelectItem(imsg, filter)
-    
     Dim oAxi
     imsg = "请再选择坐标系"
     filter(0) = "AxisSystem"
-    
-'    Set oAxi = mysel(imsg, filter).value
+
      Set oAxi = KCL.SelectItem(imsg, filter)
-    
+    Dim str
      
      If Not oHB Is Nothing Then
         Dim i, irow, ct

@@ -4,7 +4,7 @@ Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} Cat_Macro_Menu_View
    ClientHeight    =   4035
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   7490
+   ClientWidth     =   7485
    OleObjectBlob   =   "Cat_Macro_Menu_View.frx":0000
    StartUpPosition =   1  'CenterOwner
 End
@@ -53,7 +53,7 @@ Sub Set_FormInfo(ByVal InfoLst As Object, _
                  ByVal CloseType As Boolean)
     Set prdObserver = pdm  ' 连接到全局产品观察器
     FrmMargin = Array(2, 2, 2, 2) ' 上, 右, 下, 左 窗体边距调整值
-    Set MPgs = Me.controls.Add("Forms.MultiPage.1", "MPgs", True) ' 创建多页控件
+    Set MPgs = Me.Controls.Add("Forms.MultiPage.1", "MPgs", True) ' 创建多页控件
     Dim Pgs As Pages
      Set Pgs = MPgs.Pages: Pgs.Clear
     Dim key As Long, KeyStr As Variant, Pg As Page, pName As String
@@ -68,7 +68,7 @@ Sub Set_FormInfo(ByVal InfoLst As Object, _
         Set Pg = Get_Page(Pgs, pName)
         Set BtnInfos = InfoLst(KeyStr)
         For Each info In BtnInfos
-            Set btn = Init_Button(Pg.controls, key, info)
+            Set btn = Init_Button(Pg.Controls, key, info)
             Set BtnEvt = New Cls_btEVT
             Call BtnEvt.set_ButtonEvent(btn, info, Me, CloseType)
             Btns.Add BtnEvt
@@ -87,7 +87,7 @@ End Sub
 Private Sub Set_Form(ByVal MPgs As MultiPage, ByVal cap As String)
     With Me
         Dim requiredInsideHeight
-        requiredInsideHeight = MPgs.top + MPgs.Height + ADJUST_F_H + lb_H  '+ FrmMargin(2)
+        requiredInsideHeight = MPgs.Top + MPgs.Height + ADJUST_F_H + lb_H  '+ FrmMargin(2)
         .Height = requiredInsideHeight + (Me.Height - Me.InsideHeight)
         .Width = MPgs.Width + 2 * ADJUST_F_W + 2 * FrmMargin(2)
         .Caption = cap
@@ -97,7 +97,7 @@ End Sub
 Private Sub Set_MPage(ByVal MPgs As MultiPage)
     MPgs.Width = Tab_W + Btn_W + FrmMargin(3) + ADJUST_M_W
     With MPgs
-        .top = lb_H + FrmMargin(1) + 1
+        .Top = lb_H + FrmMargin(1) + 1
         .Left = FrmMargin(0)
         .TabFixedHeight = Tab_H  ' 标签高度（单位：磅）
         .TabFixedWidth = Tab_W ' 标签宽度
@@ -111,14 +111,14 @@ Private Sub Set_MPage(ByVal MPgs As MultiPage)
     Dim MaxBtnCnt As Long: MaxBtnCnt = 0
     Dim BtnCnt As Long
     For Each Pg In MPgs.Pages
-        BtnCnt = Pg.controls.count
+        BtnCnt = Pg.Controls.count
         MaxBtnCnt = IIf(BtnCnt > MaxBtnCnt, BtnCnt, MaxBtnCnt)
     Next
     MPgs.Height = FrmMargin(0) + (BTN_H * MaxBtnCnt * 1) + FrmMargin(2) + ADJUST_M_H
     ' 设置多页控件背景颜色
 End Sub
 ' 初始化按钮
-Private Function Init_Button(ByVal Ctls As controls, _
+Private Function Init_Button(ByVal Ctls As Controls, _
                              ByVal idx As Long, _
                              ByVal BtnInfo As Variant) As MSForms.CommandButton
     Dim btn As MSForms.CommandButton
@@ -129,7 +129,7 @@ Private Function Init_Button(ByVal Ctls As controls, _
         Call Try_SetProperty(btn, Pty, BtnInfo.item(Pty))
     Next
     With btn
-        .top = (Ctls.count - 1) * BTN_H - 1 '+ (Ctls.Count - 1)+ FrmMargin(0) +
+        .Top = (Ctls.count - 1) * BTN_H - 1 '+ (Ctls.Count - 1)+ FrmMargin(0) +
         .Left = FrmMargin(2)
         .Height = BTN_H
         .Width = Btn_W
@@ -231,10 +231,10 @@ End Sub
 
 Private Function getNewLbl(mFrm)
     Dim mLbl
-    Set mLbl = mFrm.controls.Add("Forms.Label.1", "lblProductInfo", True)
+    Set mLbl = mFrm.Controls.Add("Forms.Label.1", "lblProductInfo", True)
         With mLbl
              .Caption = "操作产品待选择"
-             .top = FrmMargin(0): .Height = lb_H
+             .Top = FrmMargin(0): .Height = lb_H
              .Left = 2: .Width = mFrm.Width - 16
              .Font.Size = lb_frontsize
              .BackColor = vbGreen
@@ -248,10 +248,10 @@ End Function
 
 Private Function getMeinfo(mFrm)
     Dim mLbl
-    Set mLbl = mFrm.controls.Add("Forms.Label.1", "lblAuthor", True)
+    Set mLbl = mFrm.Controls.Add("Forms.Label.1", "lblAuthor", True)
         With mLbl
             .Caption = itl ' 使用常量显示作者信息
-            .top = MPgs.top + MPgs.Height + FrmMargin(1) + 2 ' 放置在多页控件下方
+            .Top = MPgs.Top + MPgs.Height + FrmMargin(1) + 2 ' 放置在多页控件下方
             .Left = lblProductInfo.Left + 5 ' 与顶部信息栏左对齐
             .Width = lblProductInfo.Width ' 与顶部信息栏同宽
             .Height = lb_H

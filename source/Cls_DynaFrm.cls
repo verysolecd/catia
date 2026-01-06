@@ -14,44 +14,45 @@ Option Explicit
 ' 声明带事件的按钮对象
 Public WithEvents ControlBtn As MSForms.CommandButton
 Attribute ControlBtn.VB_VarHelpID = -1
+
 Public ParentFrm As Object ' 指向当前的 UserForm
 Public ControlID As String ' 用于识别是哪个按钮（如 "btnOK" 或 "btnCancel"）
-Private mRes As Object   '参数本身
+Private mdict
+Private mExecuted As Boolean
+
 Private Sub Class_Initialize()
-
-
-End Sub
-Public Property Get Res()
-   Set Res = getUIres
-End Property
-Private Sub ControlBtn_Click()
-    ParentFrm.Tag = ControlID  ' 1. 将点击的按钮 ID 存入窗体的 Tag 属性，作为返回值标识
-    ParentFrm.Hide   ' 2. 隐藏窗体（注意：不是 Unload），这样 getUIres 才能继续读取其他控件的值
+    ' Initialization is now lazy to prevent recursion
 End Sub
 
-Function getUIres() 'imdl
-     Dim DecCnt, DecCode
-     Dim Apc As Object: Set Apc = KCL.GetApc()
-         Dim ExecPjt As Object: Set ExecPjt = Apc.ExecutingProject
-         On Error Resume Next
-          Dim mdl: Set mdl = ExecPjt.VBProject.VBE.Activecodepane.codemodule
-             Error.Clear
-         On Error GoTo 0
-    If mdl Is Nothing Then Exit Function
-        DecCnt = mdl.CountOfDeclarationLines ' 获取声明行数
-    If DecCnt < 1 Then Exit Function
-        DecCode = mdl.Lines(1, DecCnt) ' 获取声明代码
+Private Sub Execute()
+    If mExecuted Then Exit Sub
+    mExecuted = True
+    
+    Dim DecCnt, DecCode
+    Dim Apc As Object: Set Apc = KCL.GetApc()
+    Dim ExecPjt As Object: Set ExecPjt = Apc.ExecutingProject
+    Dim mdl As Object
+    On Error Resume Next
+    Set mdl = ExecPjt.VBProject.VBE.Activecodepane.codemodule
+    On Error GoTo 0
+    
+    If mdl Is Nothing Then Exit Sub
+    DecCnt = mdl.CountOfDeclarationLines
+    If DecCnt < 1 Then Exit Sub
+    DecCode = mdl.Lines(1, DecCnt)
     
     Dim clscfg: Set clscfg = ParseCts(DecCode)
     Dim ttl: ttl = ParseTitle(DecCode)
-    Load WD
+    Dim WD As springWD
+    Set WD = New springWD
     WD.Tag = ""
     Call WD.setFrm(ttl, clscfg)
-' --- 3. 绑定按钮事件 ---
-    Dim eventCol As New collection ' 必须保持这个集合存活，否则事件对象会被销毁
+    
+    ' --- 3. 绑定按钮事件 ---
+    Dim eventCol As New collection
     Dim ctl As Control
-    Dim evtHandler
-    For Each ctl In WD.controls
+    Dim evtHandler As Cls_DynaFrm
+    For Each ctl In WD.Controls
         If TypeName(ctl) = "CommandButton" Then
             Set evtHandler = New Cls_DynaFrm
             Set evtHandler.ControlBtn = ctl
@@ -60,29 +61,81 @@ Function getUIres() 'imdl
             eventCol.Add evtHandler
         End If
     Next
-      ' --- 4. 显示窗体 (模态) ---
-    WD.Show vbModal     ' 代码会在这里暂停，直到窗体被 Hide
-     ' --- 5. 收集返回值 ---
-    Dim Res As Object
-    Set Res = CreateObject("Scripting.Dictionary")
-    ' 记录点击了哪个按钮 (通过 Tag 传递)
-    Res.Add "btn_clicked", WD.Tag
     
+    ' --- 4. 显示 (模态) ---
+    WD.Show vbModal
     
+    ' --- 5. 处理结果 ---
+    Set mdict = CreateObject("Scripting.Dictionary")
     
-    ' 遍历所有控件获取值
-    For Each ctl In WD.controls
-        On Error Resume Next ' 防止某些控件没有 Value 或 Text 属性
+    ' 如果 WD.Tag 为空（即不是通过点击按钮关闭，也不是由 QueryClose 显式设置），
+    ' 则可能是用户关闭了窗体。虽然 springWD 已经处理了 QueryClose，但这里做个保底。
+    Dim clicked As String
+    clicked = WD.Tag
+    If clicked = "" Then clicked = "UserClosed"
+    
+    mdict.Add "btn_clicked", clicked
+    
+    For Each ctl In WD.Controls
+        On Error Resume Next
         If TypeName(ctl) = "CheckBox" Then
-            Res.Add ctl.Name, ctl.value
+             mdict.Add ctl.Name, ctl.value
         ElseIf TypeName(ctl) = "TextBox" Then
-            Res.Add ctl.Name, ctl.Text
+             mdict.Add ctl.Name, ctl.Text
         End If
         On Error GoTo 0
     Next
-    ' --- 6. 清理 ---
+    
+    ' --- 6. 卸载 ---
     Unload WD
-    Set getUIres = Res
+End Sub
+
+Public Property Get Res() As Object
+   Execute
+   Set Res = mdict
+End Property
+Public Property Get BtnClicked(ByVal key As String) As Variant
+     Execute
+     BtnClicked = Null
+        Dim btnDic: Set btnDic = Nothing
+       On Error Resume Next
+            Set btnDic = mdict
+       On Error GoTo 0
+       If btnDic Is Nothing Then Exit Property ' Return Null if not executed/failed
+        If btnDic.Exists("btn_clicked") = False Then
+            BtnClicked = Null
+        Else
+            Select Case btnDic("btn_clicked")
+                Case key: BtnClicked = True
+                Case Else: BtnClicked = False
+            End Select
+        End If
+End Property
+
+Public Property Get IsCancelled() As Boolean
+    Execute
+    If mdict Is Nothing Then
+        IsCancelled = True
+        Exit Property
+    End If
+    If mdict.Exists("btn_clicked") Then
+        If mdict("btn_clicked") = "UserClosed" Then
+            IsCancelled = True
+        Else
+            IsCancelled = False
+        End If
+    Else
+        IsCancelled = True
+    End If
+End Property
+
+Private Sub ControlBtn_Click()
+    ParentFrm.Tag = ControlID  ' 1. 将点击的按钮 ID 存入窗体的 Tag 属性，作为返回值标识
+    ParentFrm.Hide   ' 2. 隐藏窗体（注意：不是 Unload），这样 getUIres 才能继续读取其他控件的值
+End Sub
+
+Function getUIres() 'imdl
+ 
 End Function
 
 ' getiType 函数（字典驱动版）
@@ -183,4 +236,8 @@ Private Function ParseTitle(ByVal code As String) As String
               End If
     ParseTitle = itl
 End Function
+
+
+
+
 

@@ -49,14 +49,12 @@ Function CanExecute(ByVal docTypes As Variant) As Boolean
     ErrMsg = "不支持当前活动文档类型。" + vbNewLine + "(" + Join(docTypes, ",") + " 类型除外)"
     CanExecute = checkDocType(docTypes)
     If Not CanExecute Then MsgBox ErrMsg, vbExclamation + vbOKOnly
-    
-    
 End Function
 Function checkDocType(ByVal docTypes As Variant)
     checkDocType = False
     If VarType(docTypes) = vbString Then
          docTypes = VBA.LCase(docTypes)
-        docTypes = Split(docTypes, ",") '过滤器转数组
+        docTypes = VBA.Split(docTypes, ",") '过滤器转数组
     End If
     If Not checkFilterType(docTypes) Then Exit Function '过滤器检查，非数组则退出
     
@@ -841,8 +839,27 @@ Function getFrmDic()
     Set oFrm = Nothing
 End Function
 
-Public Function setASM(ByVal higheff As Boolean)
+Function BtnClicked(key)
+    BtnClicked = False
+    Dim btnDic: Set btnDic = Nothing
+  
+   On Error Resume Next
+        Dim oFrm: Set oFrm = New Cls_DynaFrm
+        Set btnDic = oFrm.Res
+   On Error GoTo 0
+   If btnDic Is Nothing Then BtnClicked = Null: Exit Function
+    
+    If btnDic.Exists("btn_clicked") = False Then
+        BtnClicked = Null
+    Else
+        Select Case btnDic("btn_clicked")
+            Case key: BtnClicked = True
+            Case Else:
+        End Select
+    End If
+End Function
 
+Public Function setASM(ByVal higheff As Boolean)
   Dim setcls:  Set setcls = CATIA.SettingControllers
    Dim Asmg: Set Asmg = setcls.item("CATAsmGeneralSettingCtrl")
    Dim Vismg: Set Vismg = setcls.item("CATVizVisualizationSettingCtrl")
@@ -852,11 +869,9 @@ Public Function setASM(ByVal higheff As Boolean)
         '.EnableNewUndoRedoTransaction
          .RefreshDisplay = False
         End With
-      
       Asmg.AutoUpdateMode = 0 '0: catManualUpdate
       Vismg.Viz3DFixedAccuracy = 1
     Else
-    
         With CATIA
         '.DisableNewUndoRedoTransaction
         '.EnableNewUndoRedoTransaction

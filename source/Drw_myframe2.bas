@@ -60,26 +60,35 @@ Private Nb_check, Nb_rv, m_NbOfRevision As Integer
 Private m_Col, m_Row, m_ColRev As Variant
 Sub CATMain()
   If Not CATInit() Then Exit Sub
-
   On Error Resume Next
       Name = Texts.getItem("Reference_" + m_MacroID).Name
     If Err.Number <> 0 Then
       Err.Clear: Name = "none"
     End If
   On Error GoTo 0
-        Dim frmDic: Set frmDic = KCL.getFrmDic ' oFrm.Res
-      Select Case frmDic("btn_clicked")
-      
-        Case "btn_create": If (Name = "none") Then CATDrw_Creation targetSheet
-        Case "btn_resize"
-            If (Name <> "none") Then
-             CATDrw_Resizing targetSheet
-              CATDrw_Update targetSheet
-            End If
-          Case "btn_delete": If (Name <> "none") Then CATDrw_Deletion targetSheet
-         Case Else
-            MsgBox "未点击任何按钮，或按钮名称未匹配", vbExclamation
-    End Select
+  
+    Dim oFrm: Set oFrm = New Cls_DynaFrm
+    
+    If oFrm.BtnClicked("btn_clicked") = Null Then
+        MsgBox "卧槽"
+             Exit Sub
+    End If
+        
+    If BtnClicked("btn_create") Then: If (Name = "none") Then CATDrw_Creation targetSheet
+    
+'
+'      Select Case frmDic("btn_clicked")
+'
+'        Case "btn_create":
+'        Case "btn_resize"
+'            If (Name <> "none") Then
+'             CATDrw_Resizing targetSheet
+'              CATDrw_Update targetSheet
+'            End If
+'          Case "btn_delete": If (Name <> "none") Then CATDrw_Deletion targetSheet
+'         Case Else
+'            MsgBox "未点击任何按钮，或按钮名称未匹配", vbExclamation
+'    End Select
     CATExit targetSheet
 End Sub
 Sub CATCreateTitleBlockFrame()
@@ -155,10 +164,7 @@ vtop = 61
      'Rev区域 列
         newLineV -172 + X0, 36 + Y0, tb_Y(6) + Y0, "RevisionBlock_Line_Col_1"
 
-
-
 End Sub
-
 Sub CATDrw_Creation(targetSheet)
   If Not CATInit() Then Exit Sub
   If CATCheckRef(1) Then Exit Sub 'To check whether a FTB exists already in the sheet
@@ -179,7 +185,6 @@ Sub CATDrw_Deletion(targetSheet)
     DeleteAll "..Name=Reference_*"
     CATExit targetSheet
 End Sub
-
 Sub CATDrw_Update(targetSheet)
   If Not CATInit() Then Exit Sub
   If CATCheckRef(0) Then Exit Sub
@@ -189,9 +194,6 @@ Sub CATDrw_Update(targetSheet)
   CATColorGeometry
   CATExit targetSheet
 End Sub
-
-
-
 Function CATCheckRev()
   SelectAll "CATDrwSearch.DrwText.Name=RevisionBlock_Text_Rev_*"
   CATCheckRev = Selection.Count2

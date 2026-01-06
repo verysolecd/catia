@@ -9,7 +9,7 @@ Attribute VB_Name = "ASM_ex2stp"
 
 '------窗体标题-------------------------------------------------
 '标题格式为 %Title <Caption/Text>
-' %%Title 现在要导出stp呢那请问你?
+'%Title 现在要导出stp,那请问你?
 
 '------控件清单--------------------------------------------------
 
@@ -18,7 +18,7 @@ Attribute VB_Name = "ASM_ex2stp"
 ' %UI CheckBox chk_path  是否导出到当前路径
 ' %UI CheckBox  chk_tm  是否更新时间戳到CATIA零件号？
 ' %UI CheckBox chk_log  是否更新本次导出日志？
-' %UI TextBox   txt_log  请输入更新内容(不必输入时间)
+' %UI TextBox   txt_log  请输入更新内容信息,不必输入日期
 ' %UI Button btnOK  确定
 ' %UI Button btncancel  取消
 '------------------------------------------------

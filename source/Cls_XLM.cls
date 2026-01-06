@@ -281,11 +281,11 @@ Sub inject_pic(ipath, pncol, Piccol)
                     imgRatio = .Width / .Height
                     If imgRatio > cellRatio Then  '图片较宽，以单元格宽度为准
                         .Width = rng.Width * 0.9
-                        .top = rng.top + (rng.Height - .Height) / 2 '垂直居中
+                        .Top = rng.Top + (rng.Height - .Height) / 2 '垂直居中
                         .Left = rng.Left
                     Else '图片较高，以单元格高度为准
                         .Height = rng.Height * 0.8
-                        .top = rng.top + (rng.Height - .Height) / 2
+                        .Top = rng.Top + (rng.Height - .Height) / 2
                         .Left = rng.Left + (rng.Width - .Width) / 2 '水平居中
                     End If
                     .Placement = xlMoveAndSize
