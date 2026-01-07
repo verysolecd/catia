@@ -4,7 +4,7 @@ catiaZIPS\install
 desktop.ini
 catiaZIPS\test
 *log.txt
-Macro_menu\
+
 .temp\
 ENV\.temp\
 .vscode

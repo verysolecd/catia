@@ -1,3 +1,4 @@
 [submodule "Macro_menu"]
 	path = Macro_menu
 	url = https://github.com/verysolecd/Macro_menu.git
+	ignore = all
