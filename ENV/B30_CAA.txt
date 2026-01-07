@@ -3,14 +3,14 @@
 !----------------------------------------------------------
 ! MODE : User
 ! TYPE : CATIA_P3
-! TMSTMP : 1767699124
+! TMSTMP : 1767765314
 ! ARGS : -icon yes -menu yes -desktop no -cs CATIA_P3 -a user 
 !----------------------------------------------------------
 
 ENVPATH=D:\catia\ENV
 CAA30PATH=D:\catia\ENV\CAA\B30
-VSKnowledgeDataPath=D:\catia\ENV\CAA\Conf\
-cnextoutput=D:\catia\ENV\R30-CAA-log.txt
+VSKnowledgeDataPath=%ENVPATH%\CAA\Conf\
+cnextoutput=%ENVPATH%\R30-CAA-log.txt
 !--------------------------------------------------------
 CATInstallPath=C:\Program Files\Dassault Systemes\B30\win_b64;%CAA30PATH%\win_b64
 CATDLLPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\bin;%CAA30PATH%\win_b64\code\bin
@@ -29,7 +29,7 @@ CATKnowledgePath=C:\Program Files\Dassault Systemes\B30\win_b64\resources\knowle
 CATStartupPath=C:\Program Files\Dassault Systemes\B30\win_b64\startup;%CAA30PATH%\win_b64\startup
 CATW3ResourcesPath=C:\Program Files\Dassault Systemes\B30\win_b64\docs;%CAA30PATH%\win_b64\docs
 CATReconcilePath=
-CATReferenceSettingPath=%ENVPATH%\Ref_settings
+CATReferenceSettingPath=
 CATUserSettingPath=%CAA30PATH%\settings
 CATCollectionStandard=%ENVPATH%\Standard
 CATTemp=CSIDL_LOCAL_APPDATA\DassaultSystemes\CATTemp

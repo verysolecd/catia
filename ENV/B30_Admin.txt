@@ -1,16 +1,16 @@
 !----------------------------------------------------------
 !   DASSAULT SYSTEMES  -  V5 ENVIRONMENT FILE
 !----------------------------------------------------------
-! MODE : User
+! MODE : Global
 ! TYPE : CATIA_P3
-! TMSTMP : 1752628685
-! ARGS : -icon yes -menu yes -desktop no -cs CATIA_P3 -a user 
+! TMSTMP : 1767765371
+! ARGS : -icon yes -menu yes -desktop no -cs CATIA_P3 -a global 
 !----------------------------------------------------------
 
 ENVPATH=D:\catia\ENV
 CAA30PATH=D:\catia\ENV\CAA\B30
-VSKnowledgeDataPath=D:\catia\ENV\CAA\Conf\
-cnextoutput=D:\catia\ENV\R30-CAA-log.txt
+VSKnowledgeDataPath=%ENVPATH%\CAA\Conf\
+cnextoutput=%ENVPATH%\R30-CAA-log.txt
 !--------------------------------------------------------
 CATInstallPath=C:\Program Files\Dassault Systemes\B30\win_b64;%CAA30PATH%\win_b64
 CATDLLPath=C:\Program Files\Dassault Systemes\B30\win_b64\code\bin;%CAA30PATH%\win_b64\code\bin

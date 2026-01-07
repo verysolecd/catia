@@ -1,15 +1,17 @@
-Codes
-help
-hsptemp
 catia standard parts
 GXtools
 Simplified_Chinese
 install
+catiaZIPS\
 catia test
 ENV\catia standard parts
 desktop.ini
 test\
-R30-CAA-log.txt
 \ENV\R30-CAA-log.txt
 *log.txt
 ENV\R30-CAA-log.txt
+oTemp\
+Macro_menu\
+temp\
+.temp\
+ENV\.temp\
