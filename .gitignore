@@ -1,17 +1,10 @@
-catia standard parts
-GXtools
-Simplified_Chinese
-install
-catiaZIPS\
-catia test
-ENV\catia standard parts
+catiaZIPS
+catiaZIPS\catia standard parts
+catiaZIPS\install
 desktop.ini
-test\
-\ENV\R30-CAA-log.txt
+catiaZIPS\test
 *log.txt
-ENV\R30-CAA-log.txt
-oTemp\
 Macro_menu\
-temp\
 .temp\
 ENV\.temp\
+.vscode
