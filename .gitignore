@@ -9,3 +9,27 @@ catiaZIPS\test
 ENV\.temp\
 .vscode
 ENV\catia standard parts
+
+# CATIA Disposable Settings (Cache, Window Positions, History)
+DialogPosition.CATSettings
+DialogEditStack.CATSettings
+CATIAV5Cache.CATSettings
+WarmStart.CATSettings
+CATAutoLogoff.CATSettings
+MRU.CATSettings
+SearchMRUQueries*
+Licensing.CATSettings
+SettingsDialog.CATSettings
+Tree.CATSettings
+ApplicationFrame.CATSettings
+SelectSettings.CATSettings
+CATEnoviaLCAInterop.CATSettings
+CATReconcileSettings.CATSettings
+SmarTeamCAI.CATSettings
+SmarTeamCIX.CATSettings
+SmarTeamScripts.CATSettings
+VPMPSSBlackBox.CATSettings
+CATIColCollabDesign.CATSettings
+CATIColCollabNetwork.CATSettings
+CATIColConnectivity.CATSettings
+CATICollabIdentification.CATSettings
