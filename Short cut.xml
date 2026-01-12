@@ -9,15 +9,15 @@
   <Author>f f</Author>
   <LastAuthor>f f</LastAuthor>
   <Created>2026-01-11T13:00:26Z</Created>
-  <LastSaved>2026-01-11T14:03:44Z</LastSaved>
+  <LastSaved>2026-01-12T03:01:19Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>17590</WindowHeight>
-  <WindowWidth>32767</WindowWidth>
+  <WindowHeight>11805</WindowHeight>
+  <WindowWidth>24720</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -37,27 +37,39 @@
    <Interior ss:Color="#BEBEBE" ss:Pattern="Solid"/>
   </Style>
   <Style ss:ID="s63">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
    <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"
     ss:Italic="1"/>
   </Style>
-  <Style ss:ID="s64">
+  <Style ss:ID="s65">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
    <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
   </Style>
  </Styles>
- <Worksheet ss:Name="bom">
-  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="27" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="14">
-   <Column ss:AutoFitWidth="0" ss:Width="44"/>
-   <Column ss:AutoFitWidth="0" ss:Width="30"/>
-   <Column ss:AutoFitWidth="0" ss:Width="65"/>
-   <Column ss:AutoFitWidth="0" ss:Width="26"/>
-   <Column ss:AutoFitWidth="0" ss:Width="141.5"/>
-   <Row>
+ <Worksheet ss:Name="快捷键盘">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="14.0625">
+   <Column ss:Width="73.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:Width="103.5"/>
+   <Column ss:Width="104.25"/>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">快捷键</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">全局</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SKT</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">GSD/PDG</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">ASM</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">SKT</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
@@ -66,99 +78,127 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alt+F1</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell><Data ss:Type="String">插入为新body</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+1</Data></Cell>
-    <Cell><Data ss:Type="String">更新</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">方形</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">方形</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">更新</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">更新</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+2</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">圆形</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">圆形</Data></Cell>
+    <Cell><Data ss:Type="String">装配到body</Data></Cell>
+    <Cell><Data ss:Type="String">插入新part</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+3</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">竖直</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">竖直约束</Data></Cell>
+    <Cell><Data ss:Type="String">移除body</Data></Cell>
+    <Cell><Data ss:Type="String">插入新component</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+4</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">水平</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">水平约束</Data></Cell>
+    <Cell><Data ss:Type="String">更改为移除</Data></Cell>
    </Row>
-   <Row ss:Index="7" ss:AutoFitHeight="0">
+   <Row ss:Index="9" ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+Q</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">profile</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">profile</Data></Cell>
+    <Cell><Data ss:Type="String">面圆角</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+W</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">直线</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">直线</Data></Cell>
+    <Cell><Data ss:Type="String">插入平面</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+E</Data></Cell>
-    <Cell ss:Index="3" ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">退出草图工作台</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">退出草图工作台</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">编辑输入</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+R</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">圆角</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">圆角</Data></Cell>
+    <Cell><Data ss:Type="String">线圆角</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+A</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">移动到几何图形集</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">尺寸标注</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">尺寸标注</Data></Cell>
+    <Cell><Data ss:Type="String">移动到几何图形集</Data></Cell>
+    <Cell><Data ss:Type="String">激活几何显示</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+S</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">扫掠面</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">对称元素</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">对称元素</Data></Cell>
+    <Cell><Data ss:Type="String">扫掠面</Data></Cell>
+    <Cell><Data ss:Type="String">捕捉</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+D</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">定位草图</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">点</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">点</Data></Cell>
+    <Cell><Data ss:Type="String">定位草图</Data></Cell>
+    <Cell><Data ss:Type="String">移动或旋转</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+F</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">填充</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">自动搜索</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">自动搜索</Data></Cell>
+    <Cell><Data ss:Type="String">填充</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Alt+Z</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">扫掠包络体</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">切换contruct/standard</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">切换contruct/standard</Data></Cell>
+    <Cell><Data ss:Type="String">扫掠包络体</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Alt+X</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">约束</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alt+X</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">约束</Data></Cell>
+    <Cell><Data ss:Type="String">拉伸面</Data></Cell>
+    <Cell><Data ss:Type="String">section截面</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s67">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Alt+C</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">测量</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">测量</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">测量</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Alt+C</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">测量</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Alt+N</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="5"><Data ss:Type="String">插入模板part</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"/>
-    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">快捷键</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">全局</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SKT</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">GSD/PDG</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">ASM</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">SKT</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ctrl+1</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">插入body</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">usual</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">usual</Data></Cell>
+    <Cell><Data ss:Type="String">插入body</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ctrl+2</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">插入geoset</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">仅草图</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">仅草图</Data></Cell>
+    <Cell><Data ss:Type="String">插入geoset</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ctrl+3</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">低光</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">低光</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ctrl+4</Data></Cell>
@@ -166,13 +206,56 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ctrl+5</Data></Cell>
    </Row>
-   <Row ss:Index="26" ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Ctrl+Q</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">修剪</Data></Cell>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+Q</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">修剪</Data></Cell>
+    <Cell><Data ss:Type="String">快速选择</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Ctrl+W</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">快速修剪</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+W</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">快速修剪</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+a</Data></Cell>
+    <Cell><Data ss:Type="String">适应窗口</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s67">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ctrl+S</Data></Cell>
+    <Cell><Data ss:Type="String">保存</Data></Cell>
+    <Cell><Data ss:Type="String">保存</Data></Cell>
+    <Cell><Data ss:Type="String">保存</Data></Cell>
+    <Cell><Data ss:Type="String">保存</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+D</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+Z</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+X</Data></Cell>
+    <Cell><Data ss:Type="String">剪切</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ctrl+C</Data></Cell>
+    <Cell><Data ss:Type="String">复制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ctrl+V</Data></Cell>
+    <Cell><Data ss:Type="String">黏贴</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ctrl+shift+Q</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">发布</Data></Cell>
+    <Cell><Data ss:Type="String">发布</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ctrl+O</Data></Cell>
+    <Cell><Data ss:Type="String">打开</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ctrl+P</Data></Cell>
+    <Cell><Data ss:Type="String">打印</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -188,13 +271,13 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Zoom>160</Zoom>
+   <Zoom>85</Zoom>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>21</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
