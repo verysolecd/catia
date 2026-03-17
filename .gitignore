@@ -5,11 +5,12 @@ desktop.ini
 catiaZIPS\test
 *log.txt
 Catryx\
-
 .temp\
 ENV\.temp\
 .vscode
 ENV\catia standard parts
+
+
 
 # CATIA Disposable Settings (Cache, Window Positions, History)
 DialogPosition.CATSettings
