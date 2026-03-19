@@ -9,6 +9,7 @@ Catryx\
 ENV\.temp\
 .vscode
 ENV\catia standard parts
+Nysettings\
 
 
 
