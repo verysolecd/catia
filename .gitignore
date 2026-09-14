@@ -9,7 +9,6 @@ Catryx\
 ENV\.temp\
 .vscode
 ENV\catia standard parts
-Nysettings\
 
 
 
@@ -22,9 +21,6 @@ CATAutoLogoff.CATSettings
 MRU.CATSettings
 SearchMRUQueries*
 Licensing.CATSettings
-SettingsDialog.CATSettings
-Tree.CATSettings
-ApplicationFrame.CATSettings
 SelectSettings.CATSettings
 CATEnoviaLCAInterop.CATSettings
 CATReconcileSettings.CATSettings
