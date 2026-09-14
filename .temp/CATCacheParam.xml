@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Format [
+<!ELEMENT Format (Version,TimeStampFormat,Size)>
+<!ELEMENT Version (#PCDATA)>
+<!ELEMENT TimeStampFormat (EMPTY)>
+<!ATTLIST  TimeStampFormat Format (Local|GMT) "Local">
+<!ELEMENT Size (#PCDATA)>]>
+<Format>
+<Version>5</Version>
+<TimeStampFormat Format="Local"/>
+<Size>286953830</Size>
+</Format>
